@@ -35,7 +35,7 @@ My work has been published at venues including **ACL 2023**, **ACL 2025**, and *
 
 <!-- <hr style="border: 2px solid #ccc; margin: 2em 0;"> -->
 
-# 📝 Published Papers
+# 📝 Selected Papers
 
 - **Yuanjian Xu** and Guang Zhang*. *FinRipple: Aligning Large Language Models with Financial Market for Event Ripple Effect Awareness* [<a href="#" style="color: #1976d2;"><i class="fas fa-file-pdf"></i> Paper</a>] [<a href="#" style="color: #1976d2;"><i class="fab fa-github"></i> Code</a>]. **ACL 2025** <span style="color: #d32f2f; font-weight: bold;">[CCF A, CORE A*]</span>  
   <div style="background-color: #f8f9fa; border-left: 3px solid #388e3c; padding: 0.8em 1em; margin: 0.5em 0 1em 1.5em; font-size: 0.85em; color: #555; line-height: 1.5;">
@@ -145,7 +145,7 @@ I have conducted research at leading academic institutions, including **Microsof
 
 ## 💼 Industry Research
 
-At **OpenCSG**, a startup company focusing on open-source AI community development, I led an algorithm team consisting of **2 Ph.D. students** (<span style="font-family: 'Courier New', monospace; color: #1976d2;">@Jianing Hao</span> from HKUST(GZ), <span style="font-family: 'Courier New', monospace; color: #1976d2;">@Tianze Sun</span> from HIT) and **2 master students** (<span style="font-family: 'Georgia', serif; color: #7b1fa2;">@Changwei Xu</span> from HKU, <span style="font-family: 'Georgia', serif; color: #7b1fa2;">@Han Ding</span> from Beihang University). I have also gained research experience at **HuaTai Securities**, where I worked as a research intern and participated in quantitative research.
+At **OpenCSG**, a startup company focusing on open-source AI community development, I led an algorithm team consisting of **2 Ph.D. students** (<span style="font-family: 'Courier New', monospace; color: #1976d2;">@Jianing Hao</span> from HKUST(GZ), <span style="font-family: 'Courier New', monospace; color: #1976d2;">@Tianze Sun</span> from HIT) and **2 Master's students** (<span style="font-family: 'Georgia', serif; color: #7b1fa2;">@Changwei Xu</span> from HKU, <span style="font-family: 'Georgia', serif; color: #7b1fa2;">@Han Ding</span> from Beihang University). I have also gained research experience at **HuaTai Securities**, where I worked as a research intern and participated in quantitative research.
 
 ---
 

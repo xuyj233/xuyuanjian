@@ -15,9 +15,6 @@ author:
   location: "Guangzhou, China"
   email: "xuyuanjian233@gmail.com"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:xuyuanjian233@gmail.com"
     - label: "Google Scholar"
       icon: "fas fa-fw fa-graduation-cap"
       url: "https://scholar.google.com/citations?user=RyaJnbwAAAAJ&hl=en&oi=sra"

@@ -15,8 +15,10 @@ redirect_from:
 {% endif %}
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
-<div id="about-me" class="content-section active" markdown="1">
+<div id="about-me" class="content-section active">
 <span class='anchor' id='about-me'></span>
+
+<div markdown="1">
 
 # 👋 A Brief Introduction
 
@@ -69,8 +71,11 @@ My work has been published at venues including **ACL 2023**, **ACL 2025**, and *
 > <span style="color: #2e7d32; font-weight: bold;">📌 Note:</span> Papers with <span style="background-color: #c8e6c9; color: #2e7d32; padding: 2px 8px; border-radius: 4px; font-weight: bold;">✓ All Positive Reviews</span> badges are currently under review and have received positive feedback from all reviewers, indicating a high likelihood of acceptance.
 
 </div>
+</div>
 
-<div id="publications" class="content-section" markdown="1">
+<div id="publications" class="content-section">
+
+<div markdown="1">
 <span class='anchor' id='-publications'></span>
 
 
@@ -115,9 +120,13 @@ My work has been published at venues including **ACL 2023**, **ACL 2025**, and *
 - **Yuanjian Xu**, et al. *A Comprehensive Survey on Data Curriculum and Scheduling Strategies in Deep Learning*. <span style="color: #888;">Target:</span> **IJCAI Survey** <span style="color: #d32f2f; font-weight: bold;">[CCF A]</span>
 
 - **Yuanjian Xu**, et al. *A Systematic Survey of Multi-Agent Learning, Collaboration, and Decision-Making*. <span style="color: #888;">Target:</span> **IJCAI Survey** <span style="color: #d32f2f; font-weight: bold;">[CCF A]</span>
+
+</div>
 </div>
 
-<div id="experience" class="content-section" markdown="1">
+<div id="experience" class="content-section">
+
+<div markdown="1">
 <span class='anchor' id='experience'></span>
 
 
@@ -144,4 +153,6 @@ At **OpenCSG**, a startup company focusing on open-source AI community developme
 - *2023--Present* Full Ph.D. Scholarship, Hong Kong University of Science and Technology
 - *2021* Award for Excellent Academic Excellence, Peking University (Certificate No.: H2021000170320)
 - *2021* Air Star Plan, Tsinghua University, Institute for AI Industry Research (AIR)
+
+</div>
 </div>

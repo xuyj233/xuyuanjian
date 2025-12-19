@@ -1,0 +1,8 @@
+---
+layout: single
+title: "Yuanjian Xu"
+author_profile: true
+---
+
+{% assign about_page = site.pages | where: "path", "_pages/about.md" | first %}
+{{ about_page.content }}

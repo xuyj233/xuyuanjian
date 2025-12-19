@@ -145,3 +145,81 @@ At **OpenCSG**, a startup company focusing on open-source AI community developme
 - *2021* Award for Excellent Academic Excellence, Peking University (Certificate No.: H2021000170320)
 - *2021* Air Star Plan, Tsinghua University, Institute for AI Industry Research (AIR)
 </div>
+
+  <strong style="color: #1976d2;">🔑 Key Idea:</strong> We provide a theoretical characterization of steady-state properties in LLM annealing and formulate sample selection as an optimization problem, achieving SOTA results across multiple model scales.
+  </div>
+
+- **Yuanjian Xu**, et al. *A Unified Framework for Time-Series Foundation Model Pretraining*. <span style="color: #888;">Target:</span> **JMLR** <span style="color: #d32f2f; font-weight: bold;">[CCF A]</span>
+
+- **Yuanjian Xu**, et al. *A Comprehensive Survey on Data Curriculum and Scheduling Strategies in Deep Learning*. <span style="color: #888;">Target:</span> **IJCAI Survey** <span style="color: #d32f2f; font-weight: bold;">[CCF A]</span>
+
+- **Yuanjian Xu**, et al. *A Systematic Survey of Multi-Agent Learning, Collaboration, and Decision-Making*. <span style="color: #888;">Target:</span> **IJCAI Survey** <span style="color: #d32f2f; font-weight: bold;">[CCF A]</span>
+</div>
+
+<div id="experience" class="content-section" markdown="1">
+<span class='anchor' id='experience'></span>
+
+
+
+## 🎓 Education
+
+I am currently pursuing a Ph.D. in Fintech at the **Hong Kong University of Science and Technology**. I received my Master's degree in Computer Science from **Peking University**, and my Bachelor's degree in Computer Science from **Nankai University**.
+
+---
+
+## 🎓 Academic Research
+
+I have conducted research at leading academic institutions, including **Microsoft Research Asia (MSRA)**, **Tsinghua University's Institute for AI Industry Research (AIR)**, and **Hong Kong University of Science and Technology**.
+
+---
+
+## 💼 Industry Research
+
+At **OpenCSG**, a startup company focusing on open-source AI community development, I led an algorithm team consisting of **2 Ph.D. students** (<span style="font-family: 'Courier New', monospace; color: #1976d2;">@Jianing Hao</span> from HKUST(GZ), <span style="font-family: 'Courier New', monospace; color: #1976d2;">@Tianze Sun</span> from HIT) and **2 master students** (<span style="font-family: 'Georgia', serif; color: #7b1fa2;">@Changwei Xu</span> from HKU, <span style="font-family: 'Georgia', serif; color: #7b1fa2;">@Han Ding</span> from Beihang University). I have also gained research experience at **HuaTai Securities**, where I worked as a research intern and participated in quantitative research.
+
+---
+
+## 🏆 Honors and Awards
+- *2023--Present* Full Ph.D. Scholarship, Hong Kong University of Science and Technology
+- *2021* Award for Excellent Academic Excellence, Peking University (Certificate No.: H2021000170320)
+- *2021* Air Star Plan, Tsinghua University, Institute for AI Industry Research (AIR)
+</div>
+
+  <strong style="color: #1976d2;">🔑 Key Idea:</strong> We provide a theoretical characterization of steady-state properties in LLM annealing and formulate sample selection as an optimization problem, achieving SOTA results across multiple model scales.
+  </div>
+
+- **Yuanjian Xu**, et al. *A Unified Framework for Time-Series Foundation Model Pretraining*. <span style="color: #888;">Target:</span> **JMLR** <span style="color: #d32f2f; font-weight: bold;">[CCF A]</span>
+
+- **Yuanjian Xu**, et al. *A Comprehensive Survey on Data Curriculum and Scheduling Strategies in Deep Learning*. <span style="color: #888;">Target:</span> **IJCAI Survey** <span style="color: #d32f2f; font-weight: bold;">[CCF A]</span>
+
+- **Yuanjian Xu**, et al. *A Systematic Survey of Multi-Agent Learning, Collaboration, and Decision-Making*. <span style="color: #888;">Target:</span> **IJCAI Survey** <span style="color: #d32f2f; font-weight: bold;">[CCF A]</span>
+</div>
+
+<div id="experience" class="content-section" markdown="1">
+<span class='anchor' id='experience'></span>
+
+
+
+## 🎓 Education
+
+I am currently pursuing a Ph.D. in Fintech at the **Hong Kong University of Science and Technology**. I received my Master's degree in Computer Science from **Peking University**, and my Bachelor's degree in Computer Science from **Nankai University**.
+
+---
+
+## 🎓 Academic Research
+
+I have conducted research at leading academic institutions, including **Microsoft Research Asia (MSRA)**, **Tsinghua University's Institute for AI Industry Research (AIR)**, and **Hong Kong University of Science and Technology**.
+
+---
+
+## 💼 Industry Research
+
+At **OpenCSG**, a startup company focusing on open-source AI community development, I led an algorithm team consisting of **2 Ph.D. students** (<span style="font-family: 'Courier New', monospace; color: #1976d2;">@Jianing Hao</span> from HKUST(GZ), <span style="font-family: 'Courier New', monospace; color: #1976d2;">@Tianze Sun</span> from HIT) and **2 master students** (<span style="font-family: 'Georgia', serif; color: #7b1fa2;">@Changwei Xu</span> from HKU, <span style="font-family: 'Georgia', serif; color: #7b1fa2;">@Han Ding</span> from Beihang University). I have also gained research experience at **HuaTai Securities**, where I worked as a research intern and participated in quantitative research.
+
+---
+
+## 🏆 Honors and Awards
+- *2023--Present* Full Ph.D. Scholarship, Hong Kong University of Science and Technology
+- *2021* Award for Excellent Academic Excellence, Peking University (Certificate No.: H2021000170320)
+- *2021* Air Star Plan, Tsinghua University, Institute for AI Industry Research (AIR)
+</div>

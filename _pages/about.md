@@ -141,6 +141,9 @@ I am currently pursuing a Ph.D. in Fintech at the **Hong Kong University of Scie
 
 I have conducted research at leading academic institutions, including **Microsoft Research Asia (MSRA)**, **Tsinghua University's Institute for AI Industry Research (AIR)**, and **Hong Kong University of Science and Technology**.
 
+**Teaching:**
+- Teaching Assistant for **Advanced Statistics** (FTEC 5030), Hong Kong University of Science and Technology
+
 ---
 
 ## 💼 Industry Research

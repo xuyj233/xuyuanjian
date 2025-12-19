@@ -1,0 +1,111 @@
+# Site Settings
+title: "Yuanjian Xu"
+name: "Yuanjian Xu"
+description: "Ph.D. candidate studying large language models, generative model theory, and Fintech applications."
+url: "https://xuyj233.github.io"
+baseurl: "/xuyuanjian"
+repository: "xuyj233/xuyuanjian"
+
+# Author Profile
+author:
+  name: "Yuanjian Xu"
+  name_cn: "徐元健"
+  avatar: "/static/picture.jpeg"
+  bio: "Ph.D. candidate @ HKUST | Generative Model Theory · Data-Centric AI"
+  location: "Guangzhou, China"
+  email: "xuyuanjian233@gmail.com"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:xuyuanjian233@gmail.com"
+    - label: "Google Scholar"
+      icon: "fas fa-fw fa-graduation-cap"
+      url: "https://scholar.google.com/citations?user=RyaJnbwAAAAJ&hl=en&oi=sra"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/xuyj233"
+
+# Reading Files
+include:
+  - _pages
+  - .htaccess
+
+exclude:
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - vendor
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - assets/js/plugins
+  - assets/js/_main.js
+  - assets/js/vendor
+  - Capfile
+  - CHANGELOG
+  - config
+  - Gemfile
+  - Gruntfile.js
+  - gulpfile.js
+  - LICENSE
+  - log
+  - node_modules
+  - package.json
+  - Rakefile
+  - README
+  - tmp
+  - /docs
+  - /test
+  - /themes
+  - /content
+  - /layouts
+  - /archetypes
+  - /data
+  - config.yml
+  - go.mod
+
+# Defaults
+defaults:
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Conversion
+markdown: kramdown
+highlighter: rouge
+
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
+# Site Settings
+timezone: Asia/Hong_Kong
+locale: "en-US"
+
+# SEO Related
+google_site_verification: ""
+bing_site_verification: ""
+
+# Analytics
+analytics:
+  provider: false
+
+# Google Scholar Stats
+google_scholar_stats_use_cdn: false
+

@@ -115,6 +115,5 @@ This repository is licensed under the [MIT License](LICENSE.md).
 + [Bo Wang's website](https://bowang.finance)
 
 ## Related resources
-
 + [latex-cv](https://github.com/pmichaillat/latex-cv) - This LaTeX template produces a minimalist academic CV, which you can post on your website. The CV should be named `cv.pdf` and placed in the `static` folder. It will be accessible from the homepage via a social icon.
 + [latex-paper](https://github.com/pmichaillat/latex-paper) - This LaTeX template produces a minimalist research paper, which you can post on your website. This is the template used to produce the mock papers on the illustrative website: [here](https://pascalmichaillat.org/hugo-website/papers/paper3/paper3.pdf), [here](https://pascalmichaillat.org/hugo-website/papers/paper1/paper1.pdf), and [here](https://pascalmichaillat.org/hugo-website/papers/paper2/paper2.pdf).

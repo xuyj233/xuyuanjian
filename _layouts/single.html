@@ -1,0 +1,73 @@
+---
+layout: default
+---
+
+<div class="page-wrapper">
+  {% if page.author_profile %}
+  <div class="sidebar">
+    <div class="author-profile">
+      {% if site.author.avatar %}
+      <img src="{{ site.author.avatar | relative_url }}" alt="{{ site.author.name }}" class="author-avatar">
+      {% endif %}
+      
+      <div class="author-info">
+        <h2 class="author-name">
+          {{ site.author.name }}
+          {% if site.author.name_cn %}
+          <span style="color: #666; font-size: 0.85em; font-weight: normal;">({{ site.author.name_cn }})</span>
+          {% endif %}
+        </h2>
+        {% if site.author.bio %}
+        <p class="author-bio">{{ site.author.bio }}</p>
+        {% endif %}
+        
+        {% if site.author.email %}
+        <p class="author-email">
+          <i class="fas fa-envelope"></i> <a href="mailto:{{ site.author.email }}" style="color: #1976d2;">{{ site.author.email }}</a>
+        </p>
+        {% endif %}
+        
+        {% if site.author.location %}
+        <p class="author-location">
+          <i class="fas fa-map-marker-alt"></i> {{ site.author.location }}
+        </p>
+        {% endif %}
+        
+        {% if site.author.links %}
+        <ul class="author-links">
+          {% for link in site.author.links %}
+          <li>
+            <a href="{{ link.url }}" target="_blank" rel="noopener">
+              <i class="{{ link.icon }}"></i> {{ link.label }}
+            </a>
+          </li>
+          {% endfor %}
+        </ul>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+  {% endif %}
+  
+  <div class="main-content {% unless page.author_profile %}full-width{% endunless %}">
+    <article class="page">
+      {% if page.title and page.title != "" %}
+      <header class="page-header">
+        <h1 class="page-title">{{ page.title }}</h1>
+      </header>
+      {% endif %}
+      
+      <!-- Tab Navigation -->
+      <div class="tab-navigation">
+        <button class="tab-button active" data-target="about-me">About Me</button>
+        <button class="tab-button" data-target="publications">Ongoing Papers</button>
+        <button class="tab-button" data-target="experience">Experience</button>
+      </div>
+      
+      <div class="page-content">
+        {{ content }}
+      </div>
+    </article>
+  </div>
+</div>
+

@@ -1,0 +1,156 @@
+% !TeX encoding = UTF-8
+% !TeX program = xelatex
+% !TeX spellcheck = en_US
+
+\documentclass{resume}
+
+\usepackage{zh_CN-Adobefonts_external}
+\usepackage{linespacing_fix}
+\usepackage{cite}
+\usepackage{comment}
+\usepackage[colorlinks,linkcolor=blue]{hyperref}
+\usepackage[Chinese]{languageSelection}
+\usepackage[color=blue]{notePlus}
+
+\begin{document}
+
+\pagenumbering{gobble}
+
+% 姓名
+\CN{
+  \name{Xu Yuanjian(徐元健)}
+}
+\EN{
+  \name{Jianhong Fang}
+}
+
+% 联系方式 (必须写四个参数，即使为空)
+\CN{
+  \info{phone: (+86) 17637303503}{email: xuyuanjian233@gmail.com}{}{}
+}
+\EN{
+  \info{mobile: (+86) 1234567890}{email: test@test.test}{}{}
+  \info{Gender: Male}{Hometown: South China}{}{}
+  \info{Origin: Fortress Besieged}{}{}{}
+}
+
+% 照片 (可选)
+\yourphoto{0.1}
+
+% 教育背景
+\section{EDUCATION}
+\datedsubsection{\textbf{Hong Kong University of Science and Technology}, Ph.D. in Fintech (Candidate)}{2023.09–Present}
+\datedsubsection{\textbf{Peking University}, Master in Computer Science}{2020.09–2023.06}
+\datedsubsection{\textbf{Nankai University}, Bachelor in Computer Science}{2014.09–2018.06}
+
+% 简介
+\section{A Brief Introduction}
+I am a Ph.D. candidate in Computer Science at the Hong Kong University of Science and Technology, Guangzhou campus.
+My research focuses on \textbf{Artificial Intelligence}, particularly on understanding the mechanisms of \textbf{large language models (LLMs)} and exploring their applications in domains such as finance.
+
+I have published at venues including \textbf{ACL 2023}, \textbf{ACL 2025}, and \textbf{ICAIF}, with additional manuscripts under review at \textbf{ICLR}, \textbf{ACL Rolling Review (ARR)}, and \textbf{ICASSP}.
+I also serve as a reviewer for leading conferences such as \textbf{NeurIPS}, \textbf{ICLR}, and \textbf{AAAI}.
+
+% 已发表论文
+\CN{
+\section{Published Papers}
+\begin{itemize}\setlength\itemsep{0.8em}
+    \item \myemph{Yuanjian Xu}, Jianing Hao, and Guang Zhang.
+    ``FinRipple: Aligning Large Language Models with Financial Market for Event Ripple Effect Awareness''.
+    In \textbf{Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (ACL 2025)}.
+
+    \item \myemph{Yuanjian Xu}, Qi An, and Zaiqing Nie.
+    ``Hard Sample Aware Prompt-Tuning''.
+    In \textbf{Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (ACL 2023)}.
+
+    \item \myemph{Yuanjian Xu}, Jianing Hao, and Guang Zhang.
+    ``LENS: Large Pre-trained Transformer for Exploring Financial Time Series Regularities''.
+    In \textbf{Proceedings of the ACM International Conference on AI in Finance (ICAIF 2025)}.
+\end{itemize}
+
+% 在投论文
+\section{Ongoing Papers}
+\begin{itemize}[parsep=0.5ex, itemsep=0.6ex]
+    \item \textbf{Yuanjian Xu}, Jianing Hao, Guang Zhang.
+    ``State Aware Neural Stochastic Differential Equations for Multi-Modal Dynamics.'' 
+    \textbf{Under review at ICLR 2026}.
+
+    \item \textbf{Yuanjian Xu}, Jianing Hao, Guang Zhang.
+    ``Mitigating Discretization Bias in Neural Stochastic Differential Equations via Inference-Time Dropout.''
+    \textbf{Under review at ICLR 2026}.
+
+    \item \textbf{Yuanjian Xu}, Yuan Shuai, Guang Zhang.
+    ``Hermite Discriminator for Neural SDEs.''
+    \textbf{Under review at ICASSP 2026}.
+
+    \item Jianing Hao, \textbf{Yuanjian Xu}, Guang Zhang.
+    ``Latent Diffusion for Event Driven Asset Pricing.''
+    \textbf{Under review at ICASSP 2026}.
+
+    \item Jianing Hao, Yuhe Wu, \textbf{Yuanjian Xu}, Guang Zhang.
+    ``BizCompass: Benchmarking the Reasoning Capabilities of LLMs in Business Knowledge and Applications.''
+    \textbf{In preparation for submission to ACL Rolling Review (October 2025 cycle)}.
+
+    \item \textbf{Yuanjian Xu}, Jianing Hao, Guang Zhang,
+    ``DoGraph: Towards Domain-Aware LLM Training with Graph-Guided Weighting.''
+    \textbf{In preparation for submission to ACL Rolling Review (October 2025 cycle)}.
+\end{itemize}
+}
+
+% 科研经历
+\section{Research Experience}
+\datedsubsection{\textbf{Hong Kong University of Science and Technology, Society Hub,} Research Assistant}{2023.04--2023.09}
+\begin{itemize}[parsep=0.5ex]
+  \item Developed asset pricing models based on large-scale patent data.
+\end{itemize}
+
+\datedsubsection{\textbf{Tsinghua University, Institute for AI Industry Research (AIR),} Visiting Student}{2021.04--2022.06}
+\begin{itemize}[parsep=0.5ex]
+  \item Built the large-scale medical knowledge graph \textbf{NutritionKG} with \textbf{Meituan} and \textbf{Zhiyuan}; publicly released in \textnormal{May 2022} at \href{http://health.baai.ac.cn/thudair/}{health.baai.ac.cn/thudair}.
+\end{itemize}
+
+\datedsubsection{\textbf{Peking University}, Supervised by Prof. Xuanming Ni}{2020.09--2021.04}
+\begin{itemize}[parsep=0.5ex]
+  \item Studied probability of informed trading (PIN) and VPIN in collaboration with Huatai Securities.
+  \item Modeled high-frequency financial time series using deep sequential learning models.
+\end{itemize}
+
+\datedsubsection{\textbf{Nankai University}, Supervised by Prof. Jie Liu}{2017.10--2018.06}
+\begin{itemize}[parsep=0.5ex]
+  \item Built a complete object detection system from image annotation to model implementation.
+  \item Graduation thesis received the highest score in cohort.
+\end{itemize}
+
+% 实习经历
+\CN{
+  \section{INTERNSHIP EXPERIENCE}
+  \datedsubsection{\textbf{HuaTai Securities}, Finance Engineering Department}{2021.1-2022.3}
+}
+
+% 技能
+\CN{
+\section{Interests and Skills}
+   \begin{itemize}
+        \item[--] \textit{Machine Learning:} Deep Learning, Reinforcement Learning, Contrastive Learning
+        \item[--] \textit{Models:} CNNs, RNNs, LLMs, Diffusion Models
+        \item[--] \textit{Applications:} Quantitative Investment
+        \item[--] \textit{Programming:} Python (NumPy, Pandas, PyTorch)
+        \item[--] \textit{Languages:} English (TOEFL 103, CET-6)
+    \end{itemize}
+}
+
+% 奖项
+\CN{
+\section{Honors \& Awards}
+\begin{itemize}[parsep=0.5ex, itemsep=0.6ex]
+  \item Award for Excellent Academic Excellence, Peking University \hfill 2021
+        Certificate No.: H2021000170320
+
+  \item Air Star Plan, Tsinghua University, Institute for AI Industry Research (AIR) \hfill 2021
+
+  \item Full Ph.D. Scholarship, Hong Kong University of Science and Technology \hfill 2023--Present
+\end{itemize}
+}
+
+\end{document}
+

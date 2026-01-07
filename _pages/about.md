@@ -150,7 +150,7 @@ I am currently pursuing a Ph.D. in Fintech at the **Hong Kong University of Scie
 
 ## 💼 Industry Research
 
-At **OpenCSG**, a startup company focusing on open-source AI community development, I led an algorithm team consisting of **2 Ph.D. students** (<span style="font-family: 'Courier New', monospace; color: #1976d2;">@Jianing Hao</span> from HKUST(GZ), <span style="font-family: 'Courier New', monospace; color: #1976d2;">@Tianze Sun</span> from HIT) and **2 master's degree students** (<span style="font-family: 'Georgia', serif; color: #7b1fa2;">@Changwei Xu</span> from HKU, <span style="font-family: 'Georgia', serif; color: #7b1fa2;">@Han Ding</span> from Beihang University). I have also gained research experience at **HuaTai Securities**, where I worked as a research intern and participated in quantitative research.
+During my Ph.D., I led an algorithm team at **OpenCSG**, a startup company focusing on open-source AI community development. The team consisted of **2 Ph.D. students** (<span style="font-family: 'Courier New', monospace; color: #1976d2;">@Jianing Hao</span> from HKUST(GZ), <span style="font-family: 'Courier New', monospace; color: #1976d2;">@Tianze Sun</span> from HIT) and **2 students** (<span style="font-family: 'Georgia', serif; color: #7b1fa2;">@Changwei Xu</span> from HKU, <span style="font-family: 'Georgia', serif; color: #7b1fa2;">@Han Ding</span> from Beihang University). I have also gained research experience at financial institutions including **Amber** and **HuaTai Securities**, where I worked as a research intern and participated in quantitative research.
 
 ---
 

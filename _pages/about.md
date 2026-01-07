@@ -82,6 +82,11 @@ My work has been published at venues including **ACL 2023**, **ACL 2025**, and *
 
 ## Under Review
 
+- **Yuanjian Xu**, et al. *A$^{4}$: Tree-Based Action Advantage Attribution for LLM Agent Evolution*. <span style="background-color: #e3f2fd; color: #1976d2; padding: 2px 8px; border-radius: 4px; font-weight: bold;">Target: ACL</span> <span style="color: #d32f2f; font-weight: bold;">[CCF A]</span>  
+  <div style="background-color: #f8f9fa; border-left: 3px solid #1976d2; padding: 0.8em 1em; margin: 0.5em 0 1em 1.5em; font-size: 0.85em; color: #555; line-height: 1.5;">
+  <strong style="color: #1976d2;">🔑 Key Idea:</strong> We propose a tree-structured approach to decompose agent component contributions and reduce estimation bias by adaptively adjusting sampling frequency, achieving improved convergence in multi-agent systems.
+  </div>
+
 - **Yuanjian Xu** and Guang Zhang*. *State Aware Neural Stochastic Differential Equations for Multi-Modal Dynamics*. <span style="background-color: #e3f2fd; color: #1976d2; padding: 2px 8px; border-radius: 4px; font-weight: bold;">ICLR 2026</span>
 
 - **Yuanjian Xu** and Guang Zhang*. *Mitigating Discretization Bias in Neural Stochastic Differential Equations via Inference-Time Dropout*. <span style="background-color: #e3f2fd; color: #1976d2; padding: 2px 8px; border-radius: 4px; font-weight: bold;">ICLR 2026</span>
@@ -89,11 +94,6 @@ My work has been published at venues including **ACL 2023**, **ACL 2025**, and *
 ---
 
 ## In Preparation
-
-- **Yuanjian Xu**, et al. *LLM Agents Evolution with Advantage Tree Guidance*. <span style="color: #888;">Target:</span> **ACL** <span style="color: #d32f2f; font-weight: bold;">[CCF A]</span>  
-  <div style="background-color: #f8f9fa; border-left: 3px solid #1976d2; padding: 0.8em 1em; margin: 0.5em 0 1em 1.5em; font-size: 0.85em; color: #555; line-height: 1.5;">
-  <strong style="color: #1976d2;">🔑 Key Idea:</strong> We propose a tree-structured approach to decompose agent component contributions and reduce estimation bias by adaptively adjusting sampling frequency, achieving improved convergence in multi-agent systems.
-  </div>
 
 - **Yuanjian Xu**, et al. *Neural Causal Process*. <span style="color: #888;">Target:</span> **ICML** <span style="color: #d32f2f; font-weight: bold;">[CCF A]</span>  
   <div style="background-color: #f8f9fa; border-left: 3px solid #1976d2; padding: 0.8em 1em; margin: 0.5em 0 1em 1.5em; font-size: 0.85em; color: #555; line-height: 1.5;">

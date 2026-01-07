@@ -22,7 +22,7 @@ redirect_from:
 
 # 👋 A Brief Introduction
 
-I am currently pursuing a Ph.D. degree at the Hong Kong University of Science and Technology (HKUST), now in my third year, supervised by <span style="color: #1976d2;">@Prof. Guang Zhang</span> from HKUST-GZ and <span style="color: #1976d2;">@Dr. Li Zhong</span> from Microsoft Research Asia (MSRA).
+I am currently pursuing a Ph.D. degree at the Hong Kong University of Science and Technology (HKUST), now in my third year, supervised by <span style="color: #1976d2;">@Prof. Guang Zhang</span> from HKUST-GZ and <span style="color: #1976d2;">@Dr. Zhong Li</span> from Microsoft Research Asia (MSRA).
 
 My research interests focus on **Data-Centric AI**, **generative model theory**, and **interpretability**. I am also interested in applied research that can generate practical value, such as **Fintech** and other domains.
 
@@ -140,7 +140,7 @@ I am currently pursuing a Ph.D. in Fintech at the **Hong Kong University of Scie
 ## 🔬 Academic Activities
 
 **Research Experience:**
-- Microsoft Research Asia (MSRA), supervised by <span style="color: #1976d2;">@Dr. Li Zhong</span>
+- Microsoft Research Asia (MSRA), supervised by <span style="color: #1976d2;">@Dr. Zhong Li</span>
 - Tsinghua University's Institute for AI Industry Research (AIR), supervised by <span style="color: #1976d2;">@Prof. Zaiqing Nie</span>
 
 **Teaching Experience:**

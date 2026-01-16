@@ -26,9 +26,10 @@ I am currently pursuing a Ph.D. degree at the Hong Kong University of Science an
 
 My research interests focus on **Data-Centric AI**, **generative model theory**, and **interpretability**. I am also interested in applied research that can generate practical value, such as **Fintech** and other domains.
 
-My work has been published at venues including **ACL 2023**, **ACL 2025**, and **ICAIF**, with additional manuscripts under review at **ICLR**, **ACL Rolling Review (ARR)**, and **ICASSP**. I also serve as a reviewer for leading conferences such as **NeurIPS**, **ICLR**, and **AAAI**.
+My work has been published at venues including **ACL 2023**, **ACL 2025**, **ICAIF**, and **ICASSP 2026**, with additional manuscripts under review at **ICLR** and **ACL Rolling Review (ARR)**. I also serve as a reviewer for leading conferences such as **NeurIPS**, **ICLR**, and **AAAI**.
 
 # 🔥 News
+- *2026.01*: &nbsp;🎉 Paper accepted at **ICASSP 2026**!
 - *2025.10*: &nbsp;😊 Two papers received **all positive reviews** in the October  **ACL ARR** cycle!
 - *2025*: &nbsp;🎉🎉 Two papers accepted at **ACL 2025** and **ICAIF 2025**!
 - *2023*: &nbsp;🎉🎉 Paper accepted at **ACL 2023**!
@@ -63,9 +64,9 @@ My work has been published at venues including **ACL 2023**, **ACL 2025**, and *
   <strong style="color: #1976d2;">🔑 Key Idea:</strong> We establish formal connections between gradient dynamics and domain distributions, and introduce DoGraph, a graph-constrained optimization framework for data mixing that clarifies how domain weighting influences LLM generalization.
   </div>
 
-- **Yuanjian Xu** and Guang Zhang*. *HGAN-SDEs: Learning Neural Stochastic Differential Equations with Hermite-Guided Adversarial Training*. <span style="background-color: #e3f2fd; color: #1976d2; padding: 2px 8px; border-radius: 4px; font-weight: bold;">ICASSP 2026</span> <span style="color: #d32f2f; font-weight: bold;">[CCF B, CORE A]</span> <span style="background-color: #c8e6c9; color: #2e7d32; padding: 2px 8px; border-radius: 4px; font-weight: bold;">✓ All Positive Reviews</span>  
-  <div style="background-color: #f8f9fa; border-left: 3px solid #1976d2; padding: 0.8em 1em; margin: 0.5em 0 1em 1.5em; font-size: 0.85em; color: #555; line-height: 1.5;">
-  <strong style="color: #1976d2;">🔑 Key Idea:</strong> We introduce HGAN-SDEs, leveraging Neural Hermite functions to construct an expressive yet lightweight discriminator for Neural SDEs, achieving reduced computational complexity and improved training stability with theoretical guarantees.
+- **Yuanjian Xu** and Guang Zhang*. *HGAN-SDEs: Learning Neural Stochastic Differential Equations with Hermite-Guided Adversarial Training* [<a href="#" style="color: #1976d2;"><i class="fas fa-file-pdf"></i> Paper</a>] [<a href="#" style="color: #1976d2;"><i class="fab fa-github"></i> Code</a>]. **ICASSP 2026** <span style="color: #d32f2f; font-weight: bold;">[CCF B, CORE A]</span>  
+  <div style="background-color: #f8f9fa; border-left: 3px solid #388e3c; padding: 0.8em 1em; margin: 0.5em 0 1em 1.5em; font-size: 0.85em; color: #555; line-height: 1.5;">
+  <strong style="color: #388e3c;">✓ Key Contribution:</strong> We introduce HGAN-SDEs, leveraging Neural Hermite functions to construct an expressive yet lightweight discriminator for Neural SDEs, achieving reduced computational complexity and improved training stability with theoretical guarantees.
   </div>
 
 > <span style="color: #2e7d32; font-weight: bold;">📌 Note:</span> Papers with <span style="background-color: #c8e6c9; color: #2e7d32; padding: 2px 8px; border-radius: 4px; font-weight: bold;">✓ All Positive Reviews</span> badges are currently under review and have received positive feedback from all reviewers, indicating a high likelihood of acceptance.

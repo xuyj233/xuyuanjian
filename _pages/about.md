@@ -38,19 +38,24 @@ My work has been published at venues including **ACL 2023**, **ACL 2025**, **ICA
 
 # 📝 Selected Papers
 
+- **Yuanjian Xu** and Guang Zhang*. *HGAN-SDEs: Learning Neural Stochastic Differential Equations with Hermite-Guided Adversarial Training* [<a href="#" style="color: #1976d2;"><i class="fas fa-file-pdf"></i> Paper</a>] [<a href="#" style="color: #1976d2;"><i class="fab fa-github"></i> Code</a>]. **ICASSP 2026** <span style="color: #d32f2f; font-weight: bold;">[CCF B, CORE A]</span>  
+  <div style="background-color: #f8f9fa; border-left: 3px solid #388e3c; padding: 0.8em 1em; margin: 0.5em 0 1em 1.5em; font-size: 0.85em; color: #555; line-height: 1.5;">
+  <strong style="color: #388e3c;">✓ Key Contribution:</strong> We introduce HGAN-SDEs, leveraging Neural Hermite functions to construct an expressive yet lightweight discriminator for Neural SDEs, achieving reduced computational complexity and improved training stability with theoretical guarantees.
+  </div>
+
 - **Yuanjian Xu** and Guang Zhang*. *FinRipple: Aligning Large Language Models with Financial Market for Event Ripple Effect Awareness* [<a href="#" style="color: #1976d2;"><i class="fas fa-file-pdf"></i> Paper</a>] [<a href="#" style="color: #1976d2;"><i class="fab fa-github"></i> Code</a>]. **ACL 2025** <span style="color: #d32f2f; font-weight: bold;">[CCF A, CORE A*]</span>  
   <div style="background-color: #f8f9fa; border-left: 3px solid #388e3c; padding: 0.8em 1em; margin: 0.5em 0 1em 1.5em; font-size: 0.85em; color: #555; line-height: 1.5;">
   <strong style="color: #388e3c;">✓ Key Contribution:</strong> We propose FinRipple to align LLMs with financial markets by modeling event ripple effects, enabling better understanding of how financial events propagate and impact market dynamics.
   </div>
 
-- **Yuanjian Xu** and Zaiqing Nie*. *Hard Sample Aware Prompt-Tuning* [<a href="#" style="color: #1976d2;"><i class="fas fa-file-pdf"></i> Paper</a>] [<a href="#" style="color: #1976d2;"><i class="fab fa-github"></i> Code</a>]. **ACL 2023** <span style="color: #d32f2f; font-weight: bold;">[CCF A, CORE A*]</span>  
-  <div style="background-color: #f8f9fa; border-left: 3px solid #388e3c; padding: 0.8em 1em; margin: 0.5em 0 1em 1.5em; font-size: 0.85em; color: #555; line-height: 1.5;">
-  <strong style="color: #388e3c;">✓ Key Contribution:</strong> We introduce a hard sample aware mechanism for prompt-tuning that dynamically adjusts learning focus on difficult samples, improving model performance on challenging instances.
-  </div>
-
 - **Yuanjian Xu** and Guang Zhang*. *LENS: Large Pre-trained Transformer for Exploring Financial Time Series Regularities* [<a href="#" style="color: #1976d2;"><i class="fas fa-file-pdf"></i> Paper</a>] [<a href="#" style="color: #1976d2;"><i class="fab fa-github"></i> Code</a>]. **ICAIF 2025** <span style="color: #7b7b7b; font-style: italic;">(Leading conference for AI in Finance)</span>  
   <div style="background-color: #f8f9fa; border-left: 3px solid #388e3c; padding: 0.8em 1em; margin: 0.5em 0 1em 1.5em; font-size: 0.85em; color: #555; line-height: 1.5;">
   <strong style="color: #388e3c;">✓ Key Contribution:</strong> We present LENS, a large-scale pre-trained Transformer that captures inherent regularities in financial time series, achieving superior performance in financial forecasting tasks.
+  </div>
+
+- **Yuanjian Xu** and Zaiqing Nie*. *Hard Sample Aware Prompt-Tuning* [<a href="#" style="color: #1976d2;"><i class="fas fa-file-pdf"></i> Paper</a>] [<a href="#" style="color: #1976d2;"><i class="fab fa-github"></i> Code</a>]. **ACL 2023** <span style="color: #d32f2f; font-weight: bold;">[CCF A, CORE A*]</span>  
+  <div style="background-color: #f8f9fa; border-left: 3px solid #388e3c; padding: 0.8em 1em; margin: 0.5em 0 1em 1.5em; font-size: 0.85em; color: #555; line-height: 1.5;">
+  <strong style="color: #388e3c;">✓ Key Contribution:</strong> We introduce a hard sample aware mechanism for prompt-tuning that dynamically adjusts learning focus on difficult samples, improving model performance on challenging instances.
   </div>
 
 
@@ -62,11 +67,6 @@ My work has been published at venues including **ACL 2023**, **ACL 2025**, **ICA
 - **Yuanjian Xu** and Guang Zhang*. *Rethinking Data Mixing from the Perspective of Large Language Model*. <span style="background-color: #e3f2fd; color: #1976d2; padding: 2px 8px; border-radius: 4px; font-weight: bold;">ACL ARR (Oct 2025)</span> <span style="color: #d32f2f; font-weight: bold;">[CCF A, CORE A*]</span> <span style="background-color: #c8e6c9; color: #2e7d32; padding: 2px 8px; border-radius: 4px; font-weight: bold;">✓ All Positive Reviews</span>  
   <div style="background-color: #f8f9fa; border-left: 3px solid #1976d2; padding: 0.8em 1em; margin: 0.5em 0 1em 1.5em; font-size: 0.85em; color: #555; line-height: 1.5;">
   <strong style="color: #1976d2;">🔑 Key Idea:</strong> We establish formal connections between gradient dynamics and domain distributions, and introduce DoGraph, a graph-constrained optimization framework for data mixing that clarifies how domain weighting influences LLM generalization.
-  </div>
-
-- **Yuanjian Xu** and Guang Zhang*. *HGAN-SDEs: Learning Neural Stochastic Differential Equations with Hermite-Guided Adversarial Training* [<a href="#" style="color: #1976d2;"><i class="fas fa-file-pdf"></i> Paper</a>] [<a href="#" style="color: #1976d2;"><i class="fab fa-github"></i> Code</a>]. **ICASSP 2026** <span style="color: #d32f2f; font-weight: bold;">[CCF B, CORE A]</span>  
-  <div style="background-color: #f8f9fa; border-left: 3px solid #388e3c; padding: 0.8em 1em; margin: 0.5em 0 1em 1.5em; font-size: 0.85em; color: #555; line-height: 1.5;">
-  <strong style="color: #388e3c;">✓ Key Contribution:</strong> We introduce HGAN-SDEs, leveraging Neural Hermite functions to construct an expressive yet lightweight discriminator for Neural SDEs, achieving reduced computational complexity and improved training stability with theoretical guarantees.
   </div>
 
 > <span style="color: #2e7d32; font-weight: bold;">📌 Note:</span> Papers with <span style="background-color: #c8e6c9; color: #2e7d32; padding: 2px 8px; border-radius: 4px; font-weight: bold;">✓ All Positive Reviews</span> badges are currently under review and have received positive feedback from all reviewers, indicating a high likelihood of acceptance.

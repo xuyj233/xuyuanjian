@@ -116,10 +116,6 @@ My work has been published at venues including **ACL 2023**, **ACL 2025**, **ICA
   <strong style="color: #1976d2;">🔑 Key Idea:</strong> We provide a theoretical characterization of steady-state properties in LLM annealing and formulate sample selection as an optimization problem, achieving SOTA results across multiple model scales.
   </div>
 
-- **Yuanjian Xu**, et al. *A Unified Framework for Time-Series Foundation Model Pretraining*. <span style="color: #888;">Target:</span> **JMLR** <span style="color: #d32f2f; font-weight: bold;">[CCF A]</span>
-
-- **Yuanjian Xu**, et al. *A Comprehensive Survey on Data Curriculum and Scheduling Strategies in Deep Learning*. <span style="color: #888;">Target:</span> **IJCAI Survey** <span style="color: #d32f2f; font-weight: bold;">[CCF A]</span>
-
 - **Yuanjian Xu**, et al. *A Systematic Survey of Multi-Agent Learning, Collaboration, and Decision-Making*. <span style="color: #888;">Target:</span> **IJCAI Survey** <span style="color: #d32f2f; font-weight: bold;">[CCF A]</span>
 
 </div>

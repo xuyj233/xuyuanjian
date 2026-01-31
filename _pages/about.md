@@ -83,24 +83,24 @@ My work has been published at venues including **ACL 2023**, **ACL 2025**, **ICA
 
 ## Under Review
 
-- **Yuanjian Xu**, et al. *A$^{4}$: Tree-Based Action Advantage Attribution for LLM Agent Evolution*. <span style="background-color: #e3f2fd; color: #1976d2; padding: 2px 8px; border-radius: 4px; font-weight: bold;">Target: ACL</span> <span style="color: #d32f2f; font-weight: bold;">[CCF A]</span>  
+- **Yuanjian Xu**, et al. *A$^{4}$: Tree-Based Action Advantage Attribution for LLM Agent Evolution*. <span style="background-color: #e3f2fd; color: #1976d2; padding: 2px 8px; border-radius: 4px; font-weight: bold;">ACL 2026</span> <span style="color: #d32f2f; font-weight: bold;">[CCF A]</span>  
   <div style="background-color: #f8f9fa; border-left: 3px solid #1976d2; padding: 0.8em 1em; margin: 0.5em 0 1em 1.5em; font-size: 0.85em; color: #555; line-height: 1.5;">
   <strong style="color: #1976d2;">🔑 Key Idea:</strong> We propose a tree-structured approach to decompose agent component contributions and reduce estimation bias by adaptively adjusting sampling frequency, achieving improved convergence in multi-agent systems.
   </div>
 
-- **Yuanjian Xu** and Guang Zhang*. *State Aware Neural Stochastic Differential Equations for Multi-Modal Dynamics*. <span style="background-color: #e3f2fd; color: #1976d2; padding: 2px 8px; border-radius: 4px; font-weight: bold;">ICLR 2026</span>
+- **Yuanjian Xu** and Guang Zhang*. *State Aware Neural Stochastic Differential Equations for Multi-Modal Dynamics*. <span style="background-color: #e3f2fd; color: #1976d2; padding: 2px 8px; border-radius: 4px; font-weight: bold;">IJCAI 2026</span>
 
-- **Yuanjian Xu**, et al. *D$^{3}$: Dynamic Directional Graph-Constrained Data Scheduling for LLM Training*. <span style="background-color: #e3f2fd; color: #1976d2; padding: 2px 8px; border-radius: 4px; font-weight: bold;">Target: ICML</span> <span style="color: #d32f2f; font-weight: bold;">[CCF A, CORE A*]</span>  
+- **Yuanjian Xu**, et al. *D$^{3}$: Dynamic Directional Graph-Constrained Data Scheduling for LLM Training*. <span style="background-color: #e3f2fd; color: #1976d2; padding: 2px 8px; border-radius: 4px; font-weight: bold;">ICML 2026</span> <span style="color: #d32f2f; font-weight: bold;">[CCF A, CORE A*]</span>  
   <div style="background-color: #f8f9fa; border-left: 3px solid #1976d2; padding: 0.8em 1em; margin: 0.5em 0 1em 1.5em; font-size: 0.85em; color: #555; line-height: 1.5;">
   <strong style="color: #1976d2;">🔑 Key Idea:</strong> We explain why training order matters in LLM optimization and propose a data scheduling framework grounded in gradient interactions, where training dependencies are modeled as a graph that explicitly constrains valid training orders.
   </div>
 
-- **Yuanjian Xu**, et al. *Towards Efficient LLMs Annealing with Principled Sample Selection*. <span style="background-color: #e3f2fd; color: #1976d2; padding: 2px 8px; border-radius: 4px; font-weight: bold;">Target: ICML</span> <span style="color: #d32f2f; font-weight: bold;">[CCF A, CORE A*]</span>  
+- **Yuanjian Xu**, et al. *Towards Efficient LLMs Annealing with Principled Sample Selection*. <span style="background-color: #e3f2fd; color: #1976d2; padding: 2px 8px; border-radius: 4px; font-weight: bold;">ICML 2026</span> <span style="color: #d32f2f; font-weight: bold;">[CCF A, CORE A*]</span>  
   <div style="background-color: #f8f9fa; border-left: 3px solid #1976d2; padding: 0.8em 1em; margin: 0.5em 0 1em 1.5em; font-size: 0.85em; color: #555; line-height: 1.5;">
   <strong style="color: #1976d2;">🔑 Key Idea:</strong> We provide a theoretical characterization of steady-state properties in LLM annealing and formulate sample selection as an optimization problem, achieving SOTA results across multiple model scales.
   </div>
 
-- **Yuanjian Xu**, et al. *A Systematic Survey of Multi-Agent Learning, Collaboration, and Decision-Making*. <span style="background-color: #e3f2fd; color: #1976d2; padding: 2px 8px; border-radius: 4px; font-weight: bold;">Target: IJCAI Survey</span> <span style="color: #d32f2f; font-weight: bold;">[CCF A]</span>
+- **Yuanjian Xu**, et al. *A Systematic Survey of Multi-Agent Learning, Collaboration, and Decision-Making*. <span style="background-color: #e3f2fd; color: #1976d2; padding: 2px 8px; border-radius: 4px; font-weight: bold;">IJCAI 2026 Survey</span> <span style="color: #d32f2f; font-weight: bold;">[CCF A]</span>
 
 </div>
 </div>

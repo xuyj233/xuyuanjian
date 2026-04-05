@@ -95,11 +95,6 @@ My work has been published at venues including **ICML 2026**,**ACL 2026**, **ACL
 
 ## Under Review
 
-- [<span style="background-color: #e3f2fd; color: #1976d2; padding: 2px 8px; border-radius: 4px; font-weight: bold;">ACL 2026</span>] **Yuanjian Xu**, et al. *A<sup>4</sup>: Tree-Based Action Advantage Attribution for LLM Agent Evolution*. <span style="color: #d32f2f; font-weight: bold;">[CCF A]</span>  
-  <div style="background-color: #f8f9fa; border-left: 3px solid #1976d2; padding: 0.8em 1em; margin: 0.5em 0 1em 1.5em; font-size: 0.85em; color: #555; line-height: 1.5;">
-  <strong style="color: #1976d2;">🔑 Key Idea:</strong> We propose a tree-structured approach to decompose agent component contributions and reduce estimation bias by adaptively adjusting sampling frequency, achieving improved convergence in multi-agent systems.
-  </div>
-
 - [<span style="background-color: #e3f2fd; color: #1976d2; padding: 2px 8px; border-radius: 4px; font-weight: bold;">IJCAI 2026 Survey</span>] **Yuanjian Xu**, et al. *A Systematic Survey of Multi-Agent Learning, Collaboration, and Decision-Making*. <span style="color: #d32f2f; font-weight: bold;">[CCF A]</span>
 
 - [<span style="background-color: #e3f2fd; color: #1976d2; padding: 2px 8px; border-radius: 4px; font-weight: bold;">IJCAI 2026</span>] **Yuanjian Xu** and Guang Zhang*. *State Aware Neural Stochastic Differential Equations for Multi-Modal Dynamics*.
@@ -112,6 +107,22 @@ My work has been published at venues including **ICML 2026**,**ACL 2026**, **ACL
 <div markdown="1">
 <span class='anchor' id='experience'></span>
 
+## Ongoing Works
+
+- [<span style="background-color: #e3f2fd; color: #1976d2; padding: 2px 8px; border-radius: 4px; font-weight: bold;">NeurIPS 2026</span>] **Yuanjian Xu**, et al. *FineWeb-Edu-Ultra: A Large-Scale Educational Dataset for Full-Cycle Foundation Model Training*. <span style="color: #d32f2f; font-weight: bold;">[CCF A]</span>
+  <div style="background-color: #f8f9fa; border-left: 3px solid #1976d2; padding: 0.8em 1em; margin: 0.5em 0 1em 1.5em; font-size: 0.85em; color: #555; line-height: 1.5;">
+  <strong style="color: #1976d2;">🔑 Key Idea:</strong> We construct a large-scale educational corpus tailored for full-cycle foundation model training, aiming to support principled data development from pre-training to downstream adaptation.
+  </div>
+
+- [<span style="background-color: #e3f2fd; color: #1976d2; padding: 2px 8px; border-radius: 4px; font-weight: bold;">NeurIPS 2026</span>] **Yuanjian Xu**, et al. *Data Correction via Logical Dependency Graph Reconstruction*. <span style="color: #d32f2f; font-weight: bold;">[CCF A]</span>
+  <div style="background-color: #f8f9fa; border-left: 3px solid #1976d2; padding: 0.8em 1em; margin: 0.5em 0 1em 1.5em; font-size: 0.85em; color: #555; line-height: 1.5;">
+  <strong style="color: #1976d2;">🔑 Key Idea:</strong> We study data correction through logical dependency graph reconstruction, leveraging structural relationships among data instances to identify inconsistencies and recover more reliable supervision.
+  </div>
+
+- [<span style="background-color: #e3f2fd; color: #1976d2; padding: 2px 8px; border-radius: 4px; font-weight: bold;">NeurIPS 2026</span>] **Yuanjian Xu**, et al. *FinCorpus: A Large-Scale Corpus for Financial Foundation Models*. <span style="color: #d32f2f; font-weight: bold;">[CCF A]</span>
+  <div style="background-color: #f8f9fa; border-left: 3px solid #1976d2; padding: 0.8em 1em; margin: 0.5em 0 1em 1.5em; font-size: 0.85em; color: #555; line-height: 1.5;">
+  <strong style="color: #1976d2;">🔑 Key Idea:</strong> We build FinCorpus as a large-scale corpus for financial foundation models, with the goal of improving domain-specific reasoning, representation learning, and downstream financial intelligence.
+  </div>
 
 
 ## 🎓 Education

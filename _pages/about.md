@@ -97,7 +97,7 @@ My work has been published at venues including **ICML 2026**,**ACL 2026**, **ACL
 
 - [<span style="background-color: #ffebee; color: #c62828; padding: 2px 8px; border-radius: 4px; font-weight: bold;">IJCAI 2026</span>] **Yuanjian Xu**, et al. *State Aware Neural Stochastic Differential Equations for Multi-Modal Dynamics*.
 
----
+
 
 ## Ongoing Works
 

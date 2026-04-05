@@ -97,7 +97,7 @@ My work has been published at venues including **ICML 2026**,**ACL 2026**, **ACL
 
 - [<span style="background-color: #e3f2fd; color: #1976d2; padding: 2px 8px; border-radius: 4px; font-weight: bold;">IJCAI 2026 Survey</span>] **Yuanjian Xu**, et al. *A Systematic Survey of Multi-Agent Learning, Collaboration, and Decision-Making*. <span style="color: #d32f2f; font-weight: bold;">[CCF A]</span>
 
-- [<span style="background-color: #e3f2fd; color: #1976d2; padding: 2px 8px; border-radius: 4px; font-weight: bold;">IJCAI 2026</span>] **Yuanjian Xu** and Guang Zhang*. *State Aware Neural Stochastic Differential Equations for Multi-Modal Dynamics*.
+- [<span style="background-color: #e3f2fd; color: #1976d2; padding: 2px 8px; border-radius: 4px; font-weight: bold;">IJCAI 2026</span>] **Yuanjian Xu**, et al. *State Aware Neural Stochastic Differential Equations for Multi-Modal Dynamics*.
 
 ---
 

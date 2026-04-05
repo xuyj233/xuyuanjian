@@ -31,17 +31,17 @@ My research revolves around **Data-centric Machine Learning**, with a primary fo
 - **RQ3 (Data Representation):** How to model *complex data characteristics* (e.g.multi-modal data)? 
 - **RQ4 (Data Orchestration):** How to elegantly organize *heterogeneous data*?
 
-<p style="margin: 1.25em 0 1.5em 0;">
-<img src="{{ '/static/big_pic.webp' | relative_url }}?v=1" alt="Overview of data-centric research questions" width="1600" height="900" loading="lazy" decoding="async" fetchpriority="low" style="max-width: 100%; height: auto; display: block; border-radius: 8px; box-shadow: 0 2px 12px rgba(0,0,0,0.08);">
-</p>
+<div style="margin: 1.25em 0 1.5em 0; overflow: hidden; border-radius: 10px; box-shadow: 0 2px 12px rgba(0,0,0,0.08);">
+<img src="{{ '/static/big_pic.webp' | relative_url }}?v=1" alt="Overview of data-centric research questions" width="1600" height="900" loading="lazy" decoding="async" fetchpriority="low" style="width: 100%; height: 380px; display: block; object-fit: cover; object-position: center; transform: scale(1.08);">
+</div>
 
-My work has been published at venues including **ICML 2026**,**ACL 2026**,**ACL 2023**, **ACL 2025**, **ICAIF**, and **ICASSP 2026** (oral). Two submissions to **ICML 2026** have received **all positive reviews**; additional manuscripts are under review at **IJCAI 2026**. I also serve as a reviewer for leading conferences such as **NeurIPS 2025/2026**, **ICLR 2024/2025**, and **ICML 2026**.
+My work has been published at venues including **ICML 2026**,**ACL 2026**, **ACL 2023**,   **ACL 2025**,  **ICAIF**, and **ICASSP 2026** (oral). Two submissions to **ICML 2026** have received **all positive reviews**; additional manuscripts are under review at **IJCAI 2026**. I also serve as a reviewer for leading conferences such as **NeurIPS 2025/2026**, **ICLR 2024/2025**, and **ICML 2026**.
 
 <!-- <hr style="border: 2px solid #ccc; margin: 2em 0;"> -->
 
 # 📝 Selected Papers
 
-- [<span style="background-color: #e3f2fd; color: #1976d2; padding: 2px 8px; border-radius: 4px; font-weight: bold;">ICML 2026</span>] **Yuanjian Xu**, et al. *D$^{3}$: Dynamic Directional Graph-Constrained Data Scheduling for LLM Training*. <span style="color: #d32f2f; font-weight: bold;">[CCF A]</span> <span style="color: #d32f2f; font-weight: bold;">[CORE A*]</span> <span style="background-color: #c8e6c9; color: #2e7d32; padding: 2px 8px; border-radius: 4px; font-weight: bold;">✓ All Positive Reviews</span>  
+- [<span style="background-color: #e3f2fd; color: #1976d2; padding: 2px 8px; border-radius: 4px; font-weight: bold;">ICML 2026</span>] **Yuanjian Xu**, et al. *D<sup>3</sup>: Dynamic Directional Graph-Constrained Data Scheduling for LLM Training*. <span style="color: #d32f2f; font-weight: bold;">[CCF A]</span> <span style="color: #d32f2f; font-weight: bold;">[CORE A*]</span> <span style="background-color: #c8e6c9; color: #2e7d32; padding: 2px 8px; border-radius: 4px; font-weight: bold;">✓ All Positive Reviews</span>  
   <div style="background-color: #f8f9fa; border-left: 3px solid #1976d2; padding: 0.8em 1em; margin: 0.5em 0 1em 1.5em; font-size: 0.85em; color: #555; line-height: 1.5;">
   <strong style="color: #1976d2;">🔑 Key Idea:</strong> We explain why training order matters in LLM optimization and propose a data scheduling framework grounded in gradient interactions, where training dependencies are modeled as a graph that explicitly constrains valid training orders.
   </div>
@@ -95,7 +95,7 @@ My work has been published at venues including **ICML 2026**,**ACL 2026**,**ACL 
 
 ## Under Review
 
-- [<span style="background-color: #e3f2fd; color: #1976d2; padding: 2px 8px; border-radius: 4px; font-weight: bold;">ACL 2026</span>] **Yuanjian Xu**, et al. *A$^{4}$: Tree-Based Action Advantage Attribution for LLM Agent Evolution*. <span style="color: #d32f2f; font-weight: bold;">[CCF A]</span>  
+- [<span style="background-color: #e3f2fd; color: #1976d2; padding: 2px 8px; border-radius: 4px; font-weight: bold;">ACL 2026</span>] **Yuanjian Xu**, et al. *A<sup>4</sup>: Tree-Based Action Advantage Attribution for LLM Agent Evolution*. <span style="color: #d32f2f; font-weight: bold;">[CCF A]</span>  
   <div style="background-color: #f8f9fa; border-left: 3px solid #1976d2; padding: 0.8em 1em; margin: 0.5em 0 1em 1.5em; font-size: 0.85em; color: #555; line-height: 1.5;">
   <strong style="color: #1976d2;">🔑 Key Idea:</strong> We propose a tree-structured approach to decompose agent component contributions and reduce estimation bias by adaptively adjusting sampling frequency, achieving improved convergence in multi-agent systems.
   </div>

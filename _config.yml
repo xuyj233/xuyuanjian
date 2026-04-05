@@ -10,7 +10,7 @@ repository: "xuyj233/xuyuanjian"
 author:
   name: "Yuanjian Xu"
   name_cn: "徐元健"
-  avatar: "/static/picture.jpeg"
+  avatar: "/static/me.jpg"
   bio: "Ph.D. candidate @ HKUST | Generative Model Theory · Data-Centric AI"
   location: "Guangzhou, China"
   email: "xuyuanjian233@gmail.com"

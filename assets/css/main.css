@@ -90,6 +90,9 @@ body {
   flex: 0 0 300px;
   position: sticky;
   top: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 
 .author-profile {
@@ -180,13 +183,13 @@ body {
   width: 20px;
 }
 
-.sidebar-news {
-  align-self: stretch;
-  width: 100%;
+.sidebar-news-card {
+  background-color: var(--sidebar-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 1.25rem 1.5rem;
   text-align: left;
-  margin-top: 1.25rem;
-  padding-top: 1.25rem;
-  border-top: 1px solid var(--border-color);
+  width: 100%;
 }
 
 .sidebar-news-title {

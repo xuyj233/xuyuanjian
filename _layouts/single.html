@@ -45,17 +45,17 @@ layout: default
         </ul>
         {% endif %}
       </div>
-      {% if page.author_profile and site.data.news.items %}
-      <div class="sidebar-news">
-        <h3 class="sidebar-news-title">🔥 News</h3>
-        <ul class="sidebar-news-list">
-          {% for item in site.data.news.items %}
-          <li class="sidebar-news-item">{{ item | markdownify }}</li>
-          {% endfor %}
-        </ul>
-      </div>
-      {% endif %}
     </div>
+    {% if page.author_profile and site.data.news.items %}
+    <div class="sidebar-news-card">
+      <h3 class="sidebar-news-title">🔥 News</h3>
+      <ul class="sidebar-news-list">
+        {% for item in site.data.news.items %}
+        <li class="sidebar-news-item">{{ item | markdownify }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+    {% endif %}
   </div>
   {% endif %}
   

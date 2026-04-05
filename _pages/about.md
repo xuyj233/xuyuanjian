@@ -26,9 +26,10 @@ I am currently pursuing a Ph.D. degree at the Hong Kong University of Science an
 
 My research interests focus on **Data-Centric AI**, **generative model theory**, and **interpretability**. I am also interested in applied research that can generate practical value, such as **Fintech** and other domains.
 
-My work has been published at venues including **ACL 2023**, **ACL 2025**, **ICAIF**, and **ICASSP 2026**, with additional manuscripts under review at **ICLR** and **ACL Rolling Review (ARR)**. I also serve as a reviewer for leading conferences such as **NeurIPS**, **ICLR**, and **AAAI**.
+My work has been published at venues including **ACL 2023**, **ACL 2025**, **ICAIF**, and **ICASSP 2026**. Two submissions to **ICML 2026** have received **all positive reviews**; additional manuscripts are under review at **IJCAI 2026**, **ACL**, **ICLR**, and **ACL Rolling Review (ARR)**. I also serve as a reviewer for leading conferences such as **NeurIPS**, **ICLR**, and **AAAI**.
 
 # 🔥 News
+- *2026.04*: &nbsp;😊 Two papers submitted to **ICML 2026** received **all positive reviews**!
 - *2026.01*: &nbsp;🎉 Paper accepted at **ICASSP 2026**!
 - *2025.10*: &nbsp;😊 Two papers received **all positive reviews** in the October  **ACL ARR** cycle!
 - *2025*: &nbsp;🎉🎉 Two papers accepted at **ACL 2025** and **ICAIF 2025**!
@@ -58,6 +59,15 @@ My work has been published at venues including **ACL 2023**, **ACL 2025**, **ICA
   <strong style="color: #388e3c;">✓ Key Contribution:</strong> We introduce a hard sample aware mechanism for prompt-tuning that dynamically adjusts learning focus on difficult samples, improving model performance on challenging instances.
   </div>
 
+- **Yuanjian Xu**, et al. *D$^{3}$: Dynamic Directional Graph-Constrained Data Scheduling for LLM Training*. <span style="background-color: #e3f2fd; color: #1976d2; padding: 2px 8px; border-radius: 4px; font-weight: bold;">ICML 2026</span> <span style="color: #d32f2f; font-weight: bold;">[CCF A, CORE A*]</span> <span style="background-color: #c8e6c9; color: #2e7d32; padding: 2px 8px; border-radius: 4px; font-weight: bold;">✓ All Positive Reviews</span>  
+  <div style="background-color: #f8f9fa; border-left: 3px solid #1976d2; padding: 0.8em 1em; margin: 0.5em 0 1em 1.5em; font-size: 0.85em; color: #555; line-height: 1.5;">
+  <strong style="color: #1976d2;">🔑 Key Idea:</strong> We explain why training order matters in LLM optimization and propose a data scheduling framework grounded in gradient interactions, where training dependencies are modeled as a graph that explicitly constrains valid training orders.
+  </div>
+
+- **Yuanjian Xu**, et al. *Towards Efficient LLMs Annealing with Principled Sample Selection*. <span style="background-color: #e3f2fd; color: #1976d2; padding: 2px 8px; border-radius: 4px; font-weight: bold;">ICML 2026</span> <span style="color: #d32f2f; font-weight: bold;">[CCF A, CORE A*]</span> <span style="background-color: #c8e6c9; color: #2e7d32; padding: 2px 8px; border-radius: 4px; font-weight: bold;">✓ All Positive Reviews</span>  
+  <div style="background-color: #f8f9fa; border-left: 3px solid #1976d2; padding: 0.8em 1em; margin: 0.5em 0 1em 1.5em; font-size: 0.85em; color: #555; line-height: 1.5;">
+  <strong style="color: #1976d2;">🔑 Key Idea:</strong> We provide a theoretical characterization of steady-state properties in LLM annealing and formulate sample selection as an optimization problem, achieving SOTA results across multiple model scales.
+  </div>
 
 - Jianing Hao†, Yuhe Wu†, **Yuanjian Xu†** and Guang Zhang*. *BizCompass: Benchmarking the Reasoning Capabilities of LLMs in Business Knowledge and Applications*. <span style="background-color: #e3f2fd; color: #1976d2; padding: 2px 8px; border-radius: 4px; font-weight: bold;">ACL ARR (Oct 2025)</span> <span style="color: #d32f2f; font-weight: bold;">[CCF A, CORE A*]</span> <span style="background-color: #c8e6c9; color: #2e7d32; padding: 2px 8px; border-radius: 4px; font-weight: bold;">✓ All Positive Reviews</span> <span style="color: #666; font-size: 0.9em;">(† Equal Contribution)</span>  
   <div style="background-color: #f8f9fa; border-left: 3px solid #1976d2; padding: 0.8em 1em; margin: 0.5em 0 1em 1.5em; font-size: 0.85em; color: #555; line-height: 1.5;">
@@ -89,16 +99,6 @@ My work has been published at venues including **ACL 2023**, **ACL 2025**, **ICA
   </div>
 
 - **Yuanjian Xu** and Guang Zhang*. *State Aware Neural Stochastic Differential Equations for Multi-Modal Dynamics*. <span style="background-color: #e3f2fd; color: #1976d2; padding: 2px 8px; border-radius: 4px; font-weight: bold;">IJCAI 2026</span>
-
-- **Yuanjian Xu**, et al. *D$^{3}$: Dynamic Directional Graph-Constrained Data Scheduling for LLM Training*. <span style="background-color: #e3f2fd; color: #1976d2; padding: 2px 8px; border-radius: 4px; font-weight: bold;">ICML 2026</span> <span style="color: #d32f2f; font-weight: bold;">[CCF A, CORE A*]</span>  
-  <div style="background-color: #f8f9fa; border-left: 3px solid #1976d2; padding: 0.8em 1em; margin: 0.5em 0 1em 1.5em; font-size: 0.85em; color: #555; line-height: 1.5;">
-  <strong style="color: #1976d2;">🔑 Key Idea:</strong> We explain why training order matters in LLM optimization and propose a data scheduling framework grounded in gradient interactions, where training dependencies are modeled as a graph that explicitly constrains valid training orders.
-  </div>
-
-- **Yuanjian Xu**, et al. *Towards Efficient LLMs Annealing with Principled Sample Selection*. <span style="background-color: #e3f2fd; color: #1976d2; padding: 2px 8px; border-radius: 4px; font-weight: bold;">ICML 2026</span> <span style="color: #d32f2f; font-weight: bold;">[CCF A, CORE A*]</span>  
-  <div style="background-color: #f8f9fa; border-left: 3px solid #1976d2; padding: 0.8em 1em; margin: 0.5em 0 1em 1.5em; font-size: 0.85em; color: #555; line-height: 1.5;">
-  <strong style="color: #1976d2;">🔑 Key Idea:</strong> We provide a theoretical characterization of steady-state properties in LLM annealing and formulate sample selection as an optimization problem, achieving SOTA results across multiple model scales.
-  </div>
 
 - **Yuanjian Xu**, et al. *A Systematic Survey of Multi-Agent Learning, Collaboration, and Decision-Making*. <span style="background-color: #e3f2fd; color: #1976d2; padding: 2px 8px; border-radius: 4px; font-weight: bold;">IJCAI 2026 Survey</span> <span style="color: #d32f2f; font-weight: bold;">[CCF A]</span>
 

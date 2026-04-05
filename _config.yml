@@ -11,17 +11,11 @@ author:
   name: "Yuanjian Xu"
   name_cn: "徐元健"
   avatar: "/static/me.jpg"
-  bio: "Ph.D. candidate @ HKUST | Data-Centric AI"
-  location: "Guangzhou, China"
+  bio: "Ph.D. candidate @ HKUST "
+  bio: "Data-Centric AI (LLMs)"
+  bio: "MSRA|THU-AIR|PKU"
+  location: "Beijing, China"
   email: "xuyuanjian233@gmail.com"
-  links:
-    - label: "Google Scholar"
-      icon: "fas fa-fw fa-graduation-cap"
-      url: "https://scholar.google.com/citations?user=RyaJnbwAAAAJ&hl=en&oi=sra"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/xuyj233"
-
 # Reading Files
 include:
   - _pages

@@ -17,7 +17,19 @@ layout: default
           <span style="color: #666; font-size: 0.85em; font-weight: normal;">({{ site.author.name_cn }})</span>
           {% endif %}
         </h2>
-        {% if site.author.bio %}
+        {% if site.author.bio0 or site.author.bio1 or site.author.bio2 %}
+        <div class="author-bio-stack">
+          {% if site.author.bio0 %}
+          <p class="author-bio">{{ site.author.bio0 }}</p>
+          {% endif %}
+          {% if site.author.bio1 %}
+          <p class="author-bio">{{ site.author.bio1 }}</p>
+          {% endif %}
+          {% if site.author.bio2 %}
+          <p class="author-bio">{{ site.author.bio2 }}</p>
+          {% endif %}
+        </div>
+        {% elsif site.author.bio %}
         <p class="author-bio">{{ site.author.bio }}</p>
         {% endif %}
         

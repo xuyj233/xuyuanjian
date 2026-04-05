@@ -11,9 +11,9 @@ author:
   name: "Yuanjian Xu"
   name_cn: "徐元健"
   avatar: "/static/me.jpg"
-  bio: "Ph.D. candidate @ HKUST "
-  bio: "Data-Centric AI (LLMs)"
-  bio: "MSRA|THU-AIR|PKU"
+  bio0: "Ph.D. candidate @ HKUST "
+  bio1: "Data-Centric AI (LLMs)"
+  bio2: "MSRA|THU-AIR|PKU"
   location: "Beijing, China"
   email: "xuyuanjian233@gmail.com"
 # Reading Files

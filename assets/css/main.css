@@ -141,6 +141,18 @@ body {
   word-wrap: break-word;
 }
 
+.author-bio-stack {
+  margin-bottom: 1rem;
+}
+
+.author-bio-stack .author-bio {
+  margin-bottom: 0.2rem;
+}
+
+.author-bio-stack .author-bio:last-child {
+  margin-bottom: 0;
+}
+
 .author-email {
   color: #666;
   font-size: 0.9rem;

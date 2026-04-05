@@ -345,6 +345,8 @@ body {
 }
 
 .page-content h2 {
+  display: block;
+  width: 100%;
   font-size: 1.5rem;
   border-bottom: 2px solid var(--border-color);
   padding-bottom: 0.5rem;

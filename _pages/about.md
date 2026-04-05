@@ -24,7 +24,16 @@ redirect_from:
 
 I am currently pursuing a Ph.D. degree at the Hong Kong University of Science and Technology (HKUST), now in my third year, supervised by <span style="color: #1976d2;">@Prof. Guang Zhang</span> from HKUST-GZ and <span style="color: #1976d2;">@Dr. Zhong Li</span> from Microsoft Research Asia (MSRA).
 
-My research interests focus on **Data-Centric AI**, **generative model theory**, and **interpretability**. I am also interested in applied research that can generate practical value, such as **Fintech** and other domains.
+My research focuses on **Data Centric Artificial Intelligence**, particularly on understanding the mechanisms of **large language models (LLMs)**. My research systematically addresses four core data-centric questions:
+
+- **RQ1:** Which data to select for *LLM training*?
+- **RQ2:** In what order to schedule training data to maximize performance?
+- **RQ3:** How to model *complex data characteristics* (e.g., irregular high-frequency and multi-modal data)?
+- **RQ4:** How to elegantly organize *heterogeneous data*?
+
+<p style="margin: 1.25em 0 1.5em 0;">
+<img src="{{ '/static/big_pic.png' | relative_url }}" alt="Overview of data-centric research questions" style="max-width: 100%; height: auto; display: block; border-radius: 8px; box-shadow: 0 2px 12px rgba(0,0,0,0.08);">
+</p>
 
 My work has been published at venues including **ACL 2023**, **ACL 2025**, **ICAIF**, and **ICASSP 2026** (oral). Two submissions to **ICML 2026** have received **all positive reviews**; additional manuscripts are under review at **IJCAI 2026**. I also serve as a reviewer for leading conferences such as **NeurIPS 2025/2026**, **ICLR 2024/2025**, and **ICML 2026**.
 

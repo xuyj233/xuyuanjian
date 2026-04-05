@@ -190,31 +190,37 @@ body {
 
 .sidebar-news-card {
   text-align: left;
+  max-height: 320px;
+  overflow: hidden;
 }
 
 .sidebar-news-title {
-  font-size: 1.1rem;
-  margin: 0 0 1rem 0;
+  font-size: 1rem;
+  margin: 0 0 0.75rem 0;
+  padding-bottom: 0.75rem;
   color: var(--primary-color);
   text-align: left;
+  border-bottom: 1px solid var(--border-color);
 }
 
 .sidebar-news-list {
   list-style: none;
   padding: 0;
   margin: 0;
-  max-height: 260px;
+  max-height: 220px;
   overflow-y: auto;
   padding-right: 0.35rem;
+  text-align: left;
 }
 
 .sidebar-news-item {
-  font-size: 0.9rem;
-  line-height: 1.6;
+  font-size: 0.82rem;
+  line-height: 1.55;
   color: #444;
-  margin-bottom: 0.85rem;
-  padding-bottom: 0.85rem;
+  margin-bottom: 0.7rem;
+  padding-bottom: 0.7rem;
   border-bottom: 1px solid var(--border-color);
+  text-align: left;
 }
 
 .sidebar-news-item:last-child {

@@ -24,7 +24,7 @@ redirect_from:
 
 I am currently pursuing a Ph.D. degree at the Hong Kong University of Science and Technology (HKUST), now in my third year, supervised by <span style="color: #1976d2;">@Prof. Guang Zhang</span> from HKUST-GZ and <span style="color: #1976d2;">@Dr. Zhong Li</span> from Microsoft Research Asia (MSRA).
 
-My research focuses on **Data Centric Artificial Intelligence**, particularly on understanding the mechanisms of **large language models (LLMs)**. My research systematically addresses four core data-centric questions:
+My research focuses on **data-centric machine learning**, particularly **large language models (LLMs)**. My previous work has systematically addressed the following four questions:
 
 - **RQ1:** Which data to select for *LLM training*?
 - **RQ2:** In what order to schedule training data to maximize performance?

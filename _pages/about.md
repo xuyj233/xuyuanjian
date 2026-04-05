@@ -32,7 +32,7 @@ My research focuses on **Data Centric Artificial Intelligence**, particularly on
 - **RQ4:** How to elegantly organize *heterogeneous data*?
 
 <p style="margin: 1.25em 0 1.5em 0;">
-<img src="{{ '/static/big_pic.png' | relative_url }}" alt="Overview of data-centric research questions" style="max-width: 100%; height: auto; display: block; border-radius: 8px; box-shadow: 0 2px 12px rgba(0,0,0,0.08);">
+<img src="{{ '/static/big_pic.webp' | relative_url }}?v=1" alt="Overview of data-centric research questions" width="1600" height="900" loading="lazy" decoding="async" fetchpriority="low" style="max-width: 100%; height: auto; display: block; border-radius: 8px; box-shadow: 0 2px 12px rgba(0,0,0,0.08);">
 </p>
 
 My work has been published at venues including **ACL 2023**, **ACL 2025**, **ICAIF**, and **ICASSP 2026** (oral). Two submissions to **ICML 2026** have received **all positive reviews**; additional manuscripts are under review at **IJCAI 2026**. I also serve as a reviewer for leading conferences such as **NeurIPS 2025/2026**, **ICLR 2024/2025**, and **ICML 2026**.

@@ -27,8 +27,8 @@ I am currently pursuing a Ph.D. degree at the Hong Kong University of Science an
 My research revolves around **Data-centric Machine Learning**, with a primary focus on LLMs. Specifically, my work has systematically investigated the following four dimensions:
 
 - **RQ1 (Data Selection):** Identifying optimal data selection strategies for LLM pre-training.
-- **RQ2 (Data Curriculum):** Designing effective data scheduling and curriculum learning to maximize model performance. 
-- **RQ3 (Data Representation):** How to model *complex data characteristics* (e.g., irregular high-frequency and multi-modal data)? 
+- **RQ2 (Data Curriculum):** Designing effective data scheduling to maximize model performance. 
+- **RQ3 (Data Representation):** How to model *complex data characteristics* (e.g.multi-modal data)? 
 - **RQ4 (Data Orchestration):** How to elegantly organize *heterogeneous data*?
 
 <p style="margin: 1.25em 0 1.5em 0;">

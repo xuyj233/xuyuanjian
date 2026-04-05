@@ -129,9 +129,31 @@ I am currently pursuing a Ph.D. in Fintech at the **Hong Kong University of Scie
 
 ---
 
-## 💼 Industry Research
+## 💼 Internship
 
-During my Ph.D., I led an algorithm team at **OpenCSG**, a startup company focusing on open-source AI community development. The team consisted of **2 Ph.D. students** (<span style="font-family: 'Courier New', monospace; color: #1976d2;">@Jianing Hao</span> from HKUST(GZ), <span style="font-family: 'Courier New', monospace; color: #1976d2;">@Tianze Sun</span> from HIT) and **2 students** (<span style="font-family: 'Georgia', serif; color: #7b1fa2;">@Changwei Xu</span> from HKU, <span style="font-family: 'Georgia', serif; color: #7b1fa2;">@Han Ding</span> from Beihang University). I have also gained research experience at financial institutions including **Amber** and **HuaTai Securities**, where I worked as a research intern and participated in quantitative research.
+<div style="margin-bottom: 1.3em;">
+<div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 0.5em; border-bottom: 1px solid #e0e0e0; padding-bottom: 0.35em;">
+<strong>AIR, Tsinghua University</strong>
+<span style="color: #555; font-size: 0.95em; white-space: nowrap;">Research Intern | 2022.03—2023.03</span>
+</div>
+<p style="margin: 0.65em 0 0 0; color: #444; line-height: 1.65;">Worked under the supervision of <span style="color: #1976d2;">Prof. Zaiqing Nie</span>. Contributed to the <em>Meituan Nutrition Knowledge Graph</em> construction. Investigated <em>hard sample problems</em> in NLP and proposed <em>HardPT</em>, published at <em>ACL 2023</em>.</p>
+</div>
+
+<div style="margin-bottom: 1.3em;">
+<div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 0.5em; border-bottom: 1px solid #e0e0e0; padding-bottom: 0.35em;">
+<strong>Microsoft Research Asia (MSRA)</strong>
+<span style="color: #555; font-size: 0.95em; white-space: nowrap;">Research Intern | 2024.10—2025.02</span>
+</div>
+<p style="margin: 0.65em 0 0 0; color: #444; line-height: 1.65;">Worked under the supervision of <span style="color: #1976d2;">Dr. Zhong Li</span>. Focused on <em>data selection</em> and <em>training order optimization for large language models</em>. Proposed the <em>D<sup>3</sup></em> method and an <em>annealing training framework</em>, both currently under submission.</p>
+</div>
+
+<div style="margin-bottom: 0.5em;">
+<div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 0.5em; border-bottom: 1px solid #e0e0e0; padding-bottom: 0.35em;">
+<strong>Joinquant (Billion-scale quantitative fund)</strong>
+<span style="color: #555; font-size: 0.95em; white-space: nowrap;">Research Intern | 2025.02—2025.05</span>
+</div>
+<p style="margin: 0.65em 0 0 0; color: #444; line-height: 1.65;">Worked under the supervision of PM Ruixiao. Developed <em>tick-level generative and representation models</em> for <em>high-frequency trading</em>. Addressed key challenges including <em>non-equally spaced data</em> and <em>market randomness</em>.</p>
+</div>
 
 ---
 

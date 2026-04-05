@@ -120,11 +120,6 @@ I am currently pursuing a Ph.D. in Fintech at the **Hong Kong University of Scie
 
 ## 🔬 Academic Activities
 
-**Research Experience:**
-- Microsoft Research Asia (MSRA), supervised by <span style="color: #1976d2;">@Dr. Zhong Li</span>
-- Tsinghua University's Institute for AI Industry Research (AIR), supervised by <span style="color: #1976d2;">@Prof. Zaiqing Nie</span>
-
-**Teaching Experience:**
 - Teaching Assistant, **Advanced Statistics** (FTEC 5030), HKUST
 
 ---

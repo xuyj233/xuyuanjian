@@ -32,7 +32,7 @@ My research revolves around **Data-centric Machine Learning**, with a primary fo
 - **RQ4 (Data Orchestration):** How to elegantly organize *heterogeneous data*?
 
 <div style="margin: 1.25em 0 1.5em 0; overflow: hidden; border-radius: 10px; box-shadow: 0 2px 12px rgba(0,0,0,0.08);">
-<img src="{{ '/static/big_pic.webp' | relative_url }}?v=1" alt="Overview of data-centric research questions" width="1600" height="900" loading="lazy" decoding="async" fetchpriority="low" style="width: 100%; height: 340px; display: block; object-fit: cover; object-position: center top; transform: scale(1.03);">
+<img src="{{ '/static/big_pic.webp' | relative_url }}?v=1" alt="Overview of data-centric research questions" width="1600" height="900" loading="lazy" decoding="async" fetchpriority="low" style="width: 100%; height: 350px; display: block; object-fit: cover; object-position: center 65%; transform: scale(1.01);">
 </div>
 
 My work has been published at venues including **ICML 2026**,**ACL 2026**, **ACL 2023**,   **ACL 2025**,  **ICAIF**, and **ICASSP 2026** (oral). Two submissions to **ICML 2026** have received **all positive reviews**; additional manuscripts are under review at **IJCAI 2026**. I also serve as a reviewer for leading conferences such as **NeurIPS 2025/2026**, **ICLR 2024/2025**, and **ICML 2026**.

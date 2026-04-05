@@ -24,12 +24,12 @@ redirect_from:
 
 I am currently pursuing a Ph.D. degree at the Hong Kong University of Science and Technology (HKUST), now in my third year, supervised by <span style="color: #1976d2;">@Prof. Guang Zhang</span> from HKUST-GZ and <span style="color: #1976d2;">@Dr. Zhong Li</span> from Microsoft Research Asia (MSRA).
 
-My research focuses on **data-centric machine learning**, particularly **large language models (LLMs)**. My previous work has systematically addressed the following four questions:
+My research revolves around **Data-centric Machine Learning**, with a primary focus on LLMs. Specifically, my work has systematically investigated the following four dimensions:
 
-- **RQ1:** Which data to select for *LLM training*?
-- **RQ2:** In what order to schedule training data to maximize performance?
-- **RQ3:** How to model *complex data characteristics* (e.g., irregular high-frequency and multi-modal data)?
-- **RQ4:** How to elegantly organize *heterogeneous data*?
+- **RQ1 (Data Selection):** Identifying optimal data selection strategies for LLM pre-training.
+- **RQ2 (Data Curriculum):** Designing effective data scheduling and curriculum learning to maximize model performance. 
+- **RQ3 (Data Representation):** How to model *complex data characteristics* (e.g., irregular high-frequency and multi-modal data)? 
+- **RQ4 (Data Orchestration):** How to elegantly organize *heterogeneous data*?
 
 <p style="margin: 1.25em 0 1.5em 0;">
 <img src="{{ '/static/big_pic.webp' | relative_url }}?v=1" alt="Overview of data-centric research questions" width="1600" height="900" loading="lazy" decoding="async" fetchpriority="low" style="max-width: 100%; height: auto; display: block; border-radius: 8px; box-shadow: 0 2px 12px rgba(0,0,0,0.08);">

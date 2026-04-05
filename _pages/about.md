@@ -26,7 +26,7 @@ I am currently pursuing a Ph.D. degree at the Hong Kong University of Science an
 
 My research interests focus on **Data-Centric AI**, **generative model theory**, and **interpretability**. I am also interested in applied research that can generate practical value, such as **Fintech** and other domains.
 
-My work has been published at venues including **ACL 2023**, **ACL 2025**, **ICAIF**, and **ICASSP 2026** (oral). Two submissions to **ICML 2026** have received **all positive reviews**; additional manuscripts are under review at **IJCAI 2026**, **ACL**, **ICLR**, and **ACL Rolling Review (ARR)**. I also serve as a reviewer for leading conferences such as **NeurIPS**, **ICLR**, and **AAAI**.
+My work has been published at venues including **ACL 2023**, **ACL 2025**, **ICAIF**, and **ICASSP 2026** (oral). Two submissions to **ICML 2026** have received **all positive reviews**; additional manuscripts are under review at **IJCAI 2026**. I also serve as a reviewer for leading conferences such as **NeurIPS 2025/2026**, **ICLR 2024/2025**, and **ICML 2026**.
 
 # 🔥 News
 - *2026.04*: &nbsp;😊 Two papers submitted to **ICML 2026** received **all positive reviews**!

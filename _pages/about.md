@@ -128,13 +128,13 @@ My work has been published at venues including **ICML 2026**,**ACL 2026**, **ACL
 
 I am currently pursuing a Ph.D. in Fintech at the **Hong Kong University of Science and Technology**. I received my Master's degree in Computer Science from **Peking University**, and my Bachelor's degree in Computer Science from **Nankai University**.
 
----
+
 
 ## 🔬 Academic Activities
 
 - Teaching Assistant, **Advanced Statistics** (FTEC 5030), HKUST
 
----
+
 
 ## 💼 Internship
 
@@ -162,7 +162,7 @@ I am currently pursuing a Ph.D. in Fintech at the **Hong Kong University of Scie
 <p style="margin: 0.65em 0 0 0; color: #444; line-height: 1.65;">Worked under the supervision of PM Ruixiao. Developed <em>tick-level generative and representation models</em> for <em>high-frequency trading</em>. Addressed key challenges including <em>non-equally spaced data</em> and <em>market randomness</em>.</p>
 </div>
 
----
+
 
 ## 🏆 Honors and Awards
 - *2023--Present* Full Ph.D. Scholarship, Hong Kong University of Science and Technology

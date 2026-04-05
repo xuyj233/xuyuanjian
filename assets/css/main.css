@@ -427,6 +427,25 @@ body {
     flex-wrap: wrap;
     justify-content: center;
   }
+
+  .author-profile,
+  .sidebar-news-card {
+    padding: 1.5rem;
+  }
+
+  .author-avatar {
+    width: min(42vw, 150px);
+    height: min(42vw, 150px);
+    margin-bottom: 0.85rem;
+  }
+
+  .author-name {
+    font-size: 1.35rem;
+  }
+
+  .author-bio {
+    font-size: 0.95rem;
+  }
 }
 
 .anchor {

@@ -21,6 +21,7 @@ body {
   line-height: 1.6;
   color: var(--text-color);
   background-color: var(--bg-color);
+  overflow-x: hidden;
 }
 
 /* Navigation Bar */
@@ -376,6 +377,11 @@ body {
   border-bottom-color: var(--link-color);
 }
 
+.page-content img {
+  max-width: 100%;
+  height: auto;
+}
+
 .page-content code {
   background-color: #f6f8fa;
   padding: 0.2em 0.4em;
@@ -407,6 +413,11 @@ body {
 
 /* Responsive Design */
 @media (max-width: 768px) {
+  .site-main {
+    margin: 1rem auto;
+    padding: 0 1rem;
+  }
+
   .page-wrapper {
     flex-direction: column;
   }
@@ -428,6 +439,18 @@ body {
     justify-content: center;
   }
 
+  .tab-navigation {
+    flex-direction: column;
+    border-radius: 8px;
+  }
+
+  .tab-button {
+    width: 100%;
+    padding: 0.85rem 1rem;
+    font-size: 0.95rem;
+    white-space: normal;
+  }
+
   .author-profile,
   .sidebar-news-card {
     padding: 1.5rem;
@@ -445,6 +468,16 @@ body {
 
   .author-bio {
     font-size: 0.95rem;
+  }
+
+  .page-content {
+    overflow-wrap: anywhere;
+    word-break: break-word;
+  }
+
+  .page-content ul,
+  .page-content ol {
+    padding-left: 1.25rem;
   }
 }
 

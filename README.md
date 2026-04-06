@@ -8,7 +8,7 @@ This repository contains a [Hugo](https://github.com/gohugoio/hugo) template to 
 - `content/projects/` is primed for future write-ups while avoiding dead navigation links.
 - `content/papers/_index.md` consumes a generated data file instead of hard-coded Markdown so publications stay in sync with the LaTeX CV.
 - `scripts/update_publications.py` parses `source/resume.tex` and emits `data/publications.json`. Run `python scripts/update_publications.py` whenever the CV changes.
-- `static/files/YuanjianXu_CV.pdf` is the download linked from the homepage; replace it with the latest compiled CV PDF when needed.
+- `resume-06-04-06.pdf` is the current CV linked from the homepage; replace the link target when a newer CV is published.
 
 If `data/publications.json` is missing or stale, the publications page provides inline guidance to regenerate it. The JSON structure includes `generated_at`, `counts`, and separate `published`/`ongoing` arrays to make custom templates straightforward.
 

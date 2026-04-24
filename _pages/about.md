@@ -22,7 +22,7 @@ redirect_from:
 
 ## 👋 A Brief Introduction
 
-I am currently a third-year Ph.D. candidate at the Hong Kong University of Science and Technology (HKUST), supervised by <span style="color: #1976d2;">@Prof. Guang Zhang</span> from HKUST-GZ and <span style="color: #1976d2;">@Dr. Zhong Li</span>. I am currently doing research at Tencent as a **Qing Yun Program** intern.
+I am currently a third-year Ph.D. candidate at the Hong Kong University of Science and Technology (HKUST), supervised by <span style="color: #1976d2;">@Prof. Guang Zhang</span> from HKUST-GZ and <span style="color: #1976d2;">@Dr. Zhong Li</span> from MSRA. I am currently doing research at Tencent as a **Qing Yun Program** intern.
 
 My research revolves around **Data-centric Machine Learning**, with a primary focus on LLMs. Specifically, my work has systematically investigated the following four dimensions:
 

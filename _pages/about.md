@@ -35,18 +35,18 @@ My research revolves around **Data-centric Machine Learning**, with a primary fo
 <img src="{{ '/static/big_pic.webp' | relative_url }}?v=1" alt="Overview of data-centric research questions" width="1600" height="900" loading="lazy" decoding="async" fetchpriority="low" style="width: 100%; height: auto; display: block;">
 </div>
 
-My work has been published at venues including **ICML 2026**,**ACL 2026**, **ACL 2023**,   **ACL 2025**,  **ICAIF**, and **ICASSP 2026** (oral). Two submissions to **ICML 2026** have received **all positive reviews**; additional manuscripts are under review at **IJCAI 2026**. I also serve as a reviewer for leading conferences such as **NeurIPS 2025/2026**, **ICLR 2024/2025**, and **ICML 2026**.
+My work has been published at venues including **ICML 2026**, **ACL 2026**, **ACL 2023**, **ACL 2025**, **ICAIF**, and **ICASSP 2026** (oral). Two papers were accepted at **ICML 2026**, including *Towards Efficient LLMs Annealing with Principled Sample Selection* as **Spotlight**; additional manuscripts are under review at **IJCAI 2026**. I also serve as a reviewer for leading conferences such as **NeurIPS 2025/2026**, **ICLR 2024/2025**, and **ICML 2026**.
 
 <!-- <hr style="border: 2px solid #ccc; margin: 2em 0;"> -->
 
 ## 📝 Selected Papers (First Author)
 
-- [<span style="background-color: #ffebee; color: #c62828; padding: 2px 8px; border-radius: 4px; font-weight: bold;">ICML 2026</span>] **Yuanjian Xu**, et al. *D<sup>3</sup>: Dynamic Directional Graph-Constrained Data Scheduling for LLM Training*. <span style="color: #d32f2f; font-weight: bold;">[CCF A]</span> <span style="color: #d32f2f; font-weight: bold;">[CORE A*]</span> <span style="background-color: #c8e6c9; color: #2e7d32; padding: 2px 8px; border-radius: 4px; font-weight: bold;">✓ All Positive Reviews</span>  
+- [<span style="background-color: #ffebee; color: #c62828; padding: 2px 8px; border-radius: 4px; font-weight: bold;">ICML 2026</span>] **Yuanjian Xu**, et al. *D<sup>3</sup>: Dynamic Directional Graph-Constrained Data Scheduling for LLM Training*. <span style="color: #d32f2f; font-weight: bold;">[CCF A]</span> <span style="color: #d32f2f; font-weight: bold;">[CORE A*]</span>  
   <div style="background-color: #f8f9fa; border-left: 3px solid #1976d2; padding: 0.8em 1em; margin: 0.5em 0 1em 1.5em; font-size: 0.85em; color: #555; line-height: 1.5;">
   <strong style="color: #1976d2;">🔑 Key Idea:</strong> We explain why training order matters in LLM optimization and propose a data scheduling framework grounded in gradient interactions, where training dependencies are modeled as a graph that explicitly constrains valid training orders.
   </div>
 
-- [<span style="background-color: #ffebee; color: #c62828; padding: 2px 8px; border-radius: 4px; font-weight: bold;">ICML 2026</span>] **Yuanjian Xu**, et al. *Towards Efficient LLMs Annealing with Principled Sample Selection*. <span style="color: #d32f2f; font-weight: bold;">[CCF A]</span> <span style="color: #d32f2f; font-weight: bold;">[CORE A*]</span> <span style="background-color: #c8e6c9; color: #2e7d32; padding: 2px 8px; border-radius: 4px; font-weight: bold;">✓ All Positive Reviews</span>  
+- [<span style="background-color: #ffebee; color: #c62828; padding: 2px 8px; border-radius: 4px; font-weight: bold;">ICML 2026</span>] **Yuanjian Xu**, et al. *Towards Efficient LLMs Annealing with Principled Sample Selection*. <span style="color: #d32f2f; font-weight: bold;">[CCF A]</span> <span style="color: #d32f2f; font-weight: bold;">[CORE A*]</span> <span style="background-color: #fff3e0; color: #e65100; padding: 2px 8px; border-radius: 4px; font-weight: bold;">Spotlight</span>  
   <div style="background-color: #f8f9fa; border-left: 3px solid #1976d2; padding: 0.8em 1em; margin: 0.5em 0 1em 1.5em; font-size: 0.85em; color: #555; line-height: 1.5;">
   <strong style="color: #1976d2;">🔑 Key Idea:</strong> We provide a theoretical characterization of steady-state properties in LLM annealing and formulate sample selection as an optimization problem, achieving SOTA results across multiple model scales.
   </div>
@@ -80,8 +80,6 @@ My work has been published at venues including **ICML 2026**,**ACL 2026**, **ACL
   <div style="background-color: #f8f9fa; border-left: 3px solid #388e3c; padding: 0.8em 1em; margin: 0.5em 0 1em 1.5em; font-size: 0.85em; color: #555; line-height: 1.5;">
   <strong style="color: #388e3c;">✓ Key Contribution:</strong> We present LENS, a large-scale pre-trained Transformer that captures inherent regularities in financial time series, achieving superior performance in financial forecasting tasks.
   </div>
-
-> <span style="color: #2e7d32; font-weight: bold;">📌 Note:</span> Papers with <span style="background-color: #c8e6c9; color: #2e7d32; padding: 2px 8px; border-radius: 4px; font-weight: bold;">✓ All Positive Reviews</span> badges are currently under review and have received positive feedback from all reviewers, indicating a high likelihood of acceptance.
 
 </div>
 </div>
@@ -159,7 +157,7 @@ I am currently pursuing a Ph.D. in Fintech at the **Hong Kong University of Scie
 <strong>Microsoft Research Asia (MSRA)</strong>
 <span style="color: #555; font-size: 0.95em;">Research Intern</span>
 </div>
-<p style="margin: 0.65em 0 0 0; color: #444; line-height: 1.65;">Worked under the supervision of <span style="color: #1976d2;">Dr. Zhong Li</span>. Focused on <em>data selection</em> and <em>training order optimization for large language models</em>. Proposed the <em>D<sup>3</sup></em> method and an <em>annealing training framework</em>, both currently under submission.</p>
+<p style="margin: 0.65em 0 0 0; color: #444; line-height: 1.65;">Worked under the supervision of <span style="color: #1976d2;">Dr. Zhong Li</span>. Focused on <em>data selection</em> and <em>training order optimization for large language models</em>. Proposed the <em>D<sup>3</sup></em> method and an <em>annealing training framework</em>, both accepted at <em>ICML 2026</em> (annealing work as Spotlight).</p>
 </div>
 
 <div style="margin-bottom: 0.5em;">

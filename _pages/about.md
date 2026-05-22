@@ -22,7 +22,7 @@ redirect_from:
 
 ## 👋 A Brief Introduction
 
-I am currently a third-year Ph.D. candidate at the Hong Kong University of Science and Technology (HKUST), supervised by <span style="color: #1976d2;">@Prof. Guang Zhang</span> from HKUST-GZ and <span style="color: #1976d2;">@Dr. Zhong Li</span> from MSRA. I am currently doing research at **Tencent Hunyuan** as a **Qing Yun Program** intern.
+I am currently a third-year Ph.D. candidate at the Hong Kong University of Science and Technology (HKUST), supervised by <span style="color: #1976d2;">@Prof. Guang Zhang</span> from HKUST-GZ and <span style="color: #1976d2;">@Dr. Zhong Li</span> from MSRA. I am currently doing research at **Tencent Hunyuan** as a **Qing Yun Program** intern, focusing on **data synthesis**.
 
 My research revolves around **Data-centric Machine Learning**, with a primary focus on LLMs. Specifically, my work has systematically investigated the following four dimensions:
 
@@ -103,12 +103,12 @@ My work has been published at venues including **ICML 2026** (one paper selected
   <strong style="color: #1976d2;">🔑 Key Idea:</strong> We reverse-optimize seed data selection for in-context learning-based data generation by leveraging model capability, enabling more effective seed curation from generation quality back to seed composition.
   </div>
 
-- [<span style="background-color: #ffebee; color: #c62828; padding: 2px 8px; border-radius: 4px; font-weight: bold;">Technical Report</span>] **Yuanjian Xu**, et al. *Benchmarking LLM Intelligence through Concept-Level Reasoning Capability*. <span style="color: #7b7b7b; font-style: italic;">(@ Tencent Hunyuan)</span>
+- [<span style="background-color: #ffebee; color: #c62828; padding: 2px 8px; border-radius: 4px; font-weight: bold;">ICLR 2026</span>] **Yuanjian Xu**, et al. *Benchmarking LLM Intelligence through Concept-Level Reasoning Capability*. <span style="color: #d32f2f; font-weight: bold;">[CCF A]</span> <span style="color: #7b7b7b; font-style: italic;">(@ Tencent Hunyuan)</span>
   <div style="background-color: #f8f9fa; border-left: 3px solid #1976d2; padding: 0.8em 1em; margin: 0.5em 0 1em 1.5em; font-size: 0.85em; color: #555; line-height: 1.5;">
   <strong style="color: #1976d2;">🔑 Key Idea:</strong> We argue that current token-level autoregressive LLMs will converge toward concept-level autoregression, and propose a concept-level reasoning benchmark that better reveals true model intelligence beyond surface-level token prediction.
   </div>
 
-- [<span style="background-color: #ffebee; color: #c62828; padding: 2px 8px; border-radius: 4px; font-weight: bold;">Technical Report</span>] **Yuanjian Xu**, et al. *Latent Shortcut Bias in LLM-generated Benchmarks*. <span style="color: #7b7b7b; font-style: italic;">(@ Tencent Hunyuan)</span>
+- [<span style="background-color: #ffebee; color: #c62828; padding: 2px 8px; border-radius: 4px; font-weight: bold;">ICLR 2026</span>] **Yuanjian Xu**, et al. *Latent Shortcut Bias in LLM-generated Benchmarks*. <span style="color: #d32f2f; font-weight: bold;">[CCF A]</span> <span style="color: #7b7b7b; font-style: italic;">(@ Tencent Hunyuan)</span>
   <div style="background-color: #f8f9fa; border-left: 3px solid #1976d2; padding: 0.8em 1em; margin: 0.5em 0 1em 1.5em; font-size: 0.85em; color: #555; line-height: 1.5;">
   <strong style="color: #1976d2;">🔑 Key Idea:</strong> We reveal that LLM-generated benchmarks contain latent shortcut biases imperceptible to humans, and propose methods to systematically identify and correct these biases to ensure more reliable evaluation.
   </div>

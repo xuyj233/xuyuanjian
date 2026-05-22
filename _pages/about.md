@@ -35,7 +35,7 @@ My research revolves around **Data-centric Machine Learning**, with a primary fo
 <img src="{{ '/static/big_pic.webp' | relative_url }}?v=1" alt="Overview of data-centric research questions" width="1600" height="900" loading="lazy" decoding="async" fetchpriority="low" style="width: 100%; height: auto; display: block;">
 </div>
 
-My work has been published at venues including **ICML 2026**, **ACL 2026**, **ACL 2023**, **ACL 2025**, **ICAIF**, and **ICASSP 2026** (oral). Two papers were accepted at **ICML 2026**, including *Towards Efficient LLMs Annealing with Principled Sample Selection* as **Spotlight**; additional manuscripts are under review at **IJCAI 2026**. I also serve as a reviewer for leading conferences such as **NeurIPS 2025/2026**, **ICLR 2024/2025**, and **ICML 2026**.
+My work has been published at venues including **ICML 2026** (one paper selected as <span style="background-color: #fff3e0; color: #e65100; padding: 2px 8px; border-radius: 4px; font-weight: bold;">Spotlight</span>), **ACL 2026**, **ACL 2023**, **ACL 2025**, **ICAIF**, and **ICASSP 2026** (<span style="background-color: #fff3e0; color: #e65100; padding: 2px 8px; border-radius: 4px; font-weight: bold;">Oral</span>); additional manuscripts are under review at **IJCAI 2026**. I also serve as a reviewer for leading conferences such as **NeurIPS 2025/2026**, **ICLR 2024/2025**, and **ICML 2026** (selected as <span style="background-color: #fff3e0; color: #e65100; padding: 2px 8px; border-radius: 4px; font-weight: bold;">Gold Reviewer</span>).
 
 <!-- <hr style="border: 2px solid #ccc; margin: 2em 0;"> -->
 

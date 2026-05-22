@@ -35,7 +35,7 @@ My research revolves around **Data-centric Machine Learning**, with a primary fo
 <img src="{{ '/static/big_pic.webp' | relative_url }}?v=1" alt="Overview of data-centric research questions" width="1600" height="900" loading="lazy" decoding="async" fetchpriority="low" style="width: 100%; height: auto; display: block;">
 </div>
 
-My work has been published at venues including **ICML 2026** (one paper selected as <span style="background-color: #fff3e0; color: #e65100; padding: 2px 8px; border-radius: 4px; font-weight: bold;">Spotlight</span>), **ACL 2026**, **ACL 2023**, **ACL 2025**, **ICAIF**, and **ICASSP 2026** (<span style="background-color: #fff3e0; color: #e65100; padding: 2px 8px; border-radius: 4px; font-weight: bold;">Oral</span>); additional manuscripts are under review at **IJCAI 2026**. I also serve as a reviewer for leading conferences such as **NeurIPS 2025/2026**, **ICLR 2024/2025**, and **ICML 2026** (selected as <span style="background-color: #fff3e0; color: #e65100; padding: 2px 8px; border-radius: 4px; font-weight: bold;">Gold Reviewer</span>).
+My work has been published at venues including **ICML 2026** (one paper selected as <span style="background-color: #fff3e0; color: #e65100; padding: 2px 8px; border-radius: 4px; font-weight: bold;">Spotlight</span>), **ACL 2026**, **ACL 2023**, **ACL 2025**, **ICAIF**, and **ICASSP 2026** (<span style="background-color: #fff3e0; color: #e65100; padding: 2px 8px; border-radius: 4px; font-weight: bold;">Oral</span>). I also serve as a reviewer for leading conferences such as **NeurIPS 2025/2026**, **ICLR 2024/2025**, and **ICML 2026** (selected as <span style="background-color: #fff3e0; color: #e65100; padding: 2px 8px; border-radius: 4px; font-weight: bold;">Gold Reviewer</span>).
 
 <!-- <hr style="border: 2px solid #ccc; margin: 2em 0;"> -->
 
@@ -91,25 +91,34 @@ My work has been published at venues including **ICML 2026** (one paper selected
 
 
 
-## Under Review
-
-- [<span style="background-color: #ffebee; color: #c62828; padding: 2px 8px; border-radius: 4px; font-weight: bold;">IJCAI 2026</span>] **Yuanjian Xu**, et al. *State Aware Neural Stochastic Differential Equations for Multi-Modal Dynamics*.
-
-
-
 ## Ongoing Works
 
-- [<span style="background-color: #ffebee; color: #c62828; padding: 2px 8px; border-radius: 4px; font-weight: bold;">NeurIPS 2026</span>] **Yuanjian Xu**, et al. *FineWeb-Edu-Ultra: A Large-Scale Educational Dataset for Full-Cycle Foundation Model Training*. <span style="color: #d32f2f; font-weight: bold;">[CCF A]</span>
-  <div style="background-color: #f8f9fa; border-left: 3px solid #1976d2; padding: 0.8em 1em; margin: 0.5em 0 1em 1.5em; font-size: 0.85em; color: #555; line-height: 1.5;">
-  <strong style="color: #1976d2;">🔑 Key Idea:</strong> We construct a large-scale educational corpus tailored for full-cycle foundation model training, aiming to support principled data development from pre-training to downstream adaptation.
-  </div>
-
-- [<span style="background-color: #ffebee; color: #c62828; padding: 2px 8px; border-radius: 4px; font-weight: bold;">NeurIPS 2026</span>] **Yuanjian Xu**, et al. *Data Correction via Logical Dependency Graph Reconstruction*. <span style="color: #d32f2f; font-weight: bold;">[CCF A]</span>
+- [<span style="background-color: #ffebee; color: #c62828; padding: 2px 8px; border-radius: 4px; font-weight: bold;">ICLR 2026</span>] **Yuanjian Xu**, et al. *Data Correction via Logical Dependency Graph Reconstruction*. <span style="color: #d32f2f; font-weight: bold;">[CCF A]</span>
   <div style="background-color: #f8f9fa; border-left: 3px solid #1976d2; padding: 0.8em 1em; margin: 0.5em 0 1em 1.5em; font-size: 0.85em; color: #555; line-height: 1.5;">
   <strong style="color: #1976d2;">🔑 Key Idea:</strong> We study data correction through logical dependency graph reconstruction, leveraging structural relationships among data instances to identify inconsistencies and recover more reliable supervision.
   </div>
 
-- [<span style="background-color: #ffebee; color: #c62828; padding: 2px 8px; border-radius: 4px; font-weight: bold;">NeurIPS 2026</span>] **Yuanjian Xu**, et al. *FinCorpus: A Large-Scale Corpus for Financial Foundation Models*. <span style="color: #d32f2f; font-weight: bold;">[CCF A]</span>
+- [<span style="background-color: #ffebee; color: #c62828; padding: 2px 8px; border-radius: 4px; font-weight: bold;">ICLR 2026</span>] **Yuanjian Xu**, et al. *Model-Aware Seed Selection for In-Context Data Generation*. <span style="color: #d32f2f; font-weight: bold;">[CCF A]</span> <span style="color: #7b7b7b; font-style: italic;">(@ Tencent Hunyuan)</span>
+  <div style="background-color: #f8f9fa; border-left: 3px solid #1976d2; padding: 0.8em 1em; margin: 0.5em 0 1em 1.5em; font-size: 0.85em; color: #555; line-height: 1.5;">
+  <strong style="color: #1976d2;">🔑 Key Idea:</strong> We reverse-optimize seed data selection for in-context learning-based data generation by leveraging model capability, enabling more effective seed curation from generation quality back to seed composition.
+  </div>
+
+- [<span style="background-color: #ffebee; color: #c62828; padding: 2px 8px; border-radius: 4px; font-weight: bold;">Technical Report</span>] **Yuanjian Xu**, et al. *Benchmarking LLM Intelligence through Concept-Level Reasoning Capability*. <span style="color: #7b7b7b; font-style: italic;">(@ Tencent Hunyuan)</span>
+  <div style="background-color: #f8f9fa; border-left: 3px solid #1976d2; padding: 0.8em 1em; margin: 0.5em 0 1em 1.5em; font-size: 0.85em; color: #555; line-height: 1.5;">
+  <strong style="color: #1976d2;">🔑 Key Idea:</strong> We argue that current token-level autoregressive LLMs will converge toward concept-level autoregression, and propose a concept-level reasoning benchmark that better reveals true model intelligence beyond surface-level token prediction.
+  </div>
+
+- [<span style="background-color: #ffebee; color: #c62828; padding: 2px 8px; border-radius: 4px; font-weight: bold;">Technical Report</span>] **Yuanjian Xu**, et al. *Latent Shortcut Bias in LLM-generated Benchmarks*. <span style="color: #7b7b7b; font-style: italic;">(@ Tencent Hunyuan)</span>
+  <div style="background-color: #f8f9fa; border-left: 3px solid #1976d2; padding: 0.8em 1em; margin: 0.5em 0 1em 1.5em; font-size: 0.85em; color: #555; line-height: 1.5;">
+  <strong style="color: #1976d2;">🔑 Key Idea:</strong> We reveal that LLM-generated benchmarks contain latent shortcut biases imperceptible to humans, and propose methods to systematically identify and correct these biases to ensure more reliable evaluation.
+  </div>
+
+- [<span style="background-color: #ffebee; color: #c62828; padding: 2px 8px; border-radius: 4px; font-weight: bold;">Technical Report</span>] **Yuanjian Xu**, et al. *FineWeb-Edu-Ultra: A Large-Scale Educational Dataset for Full-Cycle Foundation Model Training*.
+  <div style="background-color: #f8f9fa; border-left: 3px solid #1976d2; padding: 0.8em 1em; margin: 0.5em 0 1em 1.5em; font-size: 0.85em; color: #555; line-height: 1.5;">
+  <strong style="color: #1976d2;">🔑 Key Idea:</strong> We construct a large-scale educational corpus tailored for full-cycle foundation model training, aiming to support principled data development from pre-training to downstream adaptation.
+  </div>
+
+- [<span style="background-color: #ffebee; color: #c62828; padding: 2px 8px; border-radius: 4px; font-weight: bold;">Technical Report</span>] **Yuanjian Xu**, et al. *FinCorpus: A Large-Scale Corpus for Financial Foundation Models*.
   <div style="background-color: #f8f9fa; border-left: 3px solid #1976d2; padding: 0.8em 1em; margin: 0.5em 0 1em 1.5em; font-size: 0.85em; color: #555; line-height: 1.5;">
   <strong style="color: #1976d2;">🔑 Key Idea:</strong> We build FinCorpus as a large-scale corpus for financial foundation models, with the goal of improving domain-specific reasoning, representation learning, and downstream financial intelligence.
   </div>

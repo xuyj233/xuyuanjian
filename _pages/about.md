@@ -22,7 +22,7 @@ redirect_from:
 
 ## 👋 A Brief Introduction
 
-I am currently a third-year Ph.D. candidate at the Hong Kong University of Science and Technology (HKUST), supervised by <span style="color: #1976d2;">@Prof. Guang Zhang</span> from HKUST-GZ and <span style="color: #1976d2;">@Dr. Zhong Li</span> from MSRA. I am currently doing research at **Tencent Hunyuan** as a **Qing Yun Program** intern, focusing on **data synthesis**.
+I am currently a third-year Ph.D. candidate at the Hong Kong University of Science and Technology (HKUST), supervised by <span style="color: #1976d2;">@Prof. Guang Zhang</span> from HKUST-GZ and <span style="color: #1976d2;">@Dr. Zhong Li</span> from MSRA. I am currently doing research at **Tencent Hunyuan** as a **Qing Yun Program** intern.
 
 My research revolves around **Data-centric Machine Learning**, with a primary focus on LLMs. Specifically, my work has systematically investigated the following four dimensions:
 
@@ -32,33 +32,33 @@ My research revolves around **Data-centric Machine Learning**, with a primary fo
 - **RQ4 (Data Orchestration):** How to elegantly organize *heterogeneous data*?
 
 <div style="margin: 1.25em 0 1.5em 0; border-radius: 10px; box-shadow: 0 2px 12px rgba(0,0,0,0.08); overflow: hidden;">
-<img src="{{ '/static/big_pic.webp' | relative_url }}?v=1" alt="Overview of data-centric research questions" width="1600" height="900" loading="lazy" decoding="async" fetchpriority="low" style="width: 100%; height: auto; display: block;">
+<img src="{{ '/static/big_pic.webp' | relative_url }}?v=2" alt="Overview of data-centric research questions" width="1600" height="900" loading="lazy" decoding="async" fetchpriority="low" style="width: 100%; height: auto; display: block;">
 </div>
 
-My work has been published at venues including **ICML 2026** (one paper selected as <span style="background-color: #fff3e0; color: #e65100; padding: 2px 8px; border-radius: 4px; font-weight: bold;">Spotlight</span>), **ACL 2026**, **ACL 2023**, **ACL 2025**, **ICAIF**, and **ICASSP 2026** (<span style="background-color: #fff3e0; color: #e65100; padding: 2px 8px; border-radius: 4px; font-weight: bold;">Oral</span>). I also serve as a reviewer for leading conferences such as **NeurIPS 2025/2026**, **ICLR 2024/2025**, and **ICML 2026** (selected as <span style="background-color: #fff3e0; color: #e65100; padding: 2px 8px; border-radius: 4px; font-weight: bold;">Gold Reviewer</span>).
+My work has been published at venues including **ICML 2026** (one paper selected as <span style="background-color: #fff3e0; color: #e65100; padding: 2px 8px; border-radius: 4px; font-weight: bold;">Spotlight</span>), **ACL 2026**, **ACL 2023**, **ACL 2025**, **ICAIF 2025**, and **ICASSP 2026** (<span style="background-color: #fff3e0; color: #e65100; padding: 2px 8px; border-radius: 4px; font-weight: bold;">Oral</span>). I also serve as a reviewer for leading conferences such as **NeurIPS**, **ICLR**, and **ICML** (selected as <span style="background-color: #fff3e0; color: #e65100; padding: 2px 8px; border-radius: 4px; font-weight: bold;">Gold Reviewer</span>).
 
 <!-- <hr style="border: 2px solid #ccc; margin: 2em 0;"> -->
 
 ## 📝 Selected Papers (First Author)
 
 - [<span style="background-color: #ffebee; color: #c62828; padding: 2px 8px; border-radius: 4px; font-weight: bold;">ICML 2026</span>] **Yuanjian Xu**, et al. *D<sup>3</sup>: Dynamic Directional Graph-Constrained Data Scheduling for LLM Training*. <span style="color: #d32f2f; font-weight: bold;">[CCF A]</span> <span style="color: #d32f2f; font-weight: bold;">[CORE A*]</span> <span style="color: #7b7b7b; font-style: italic;">(@ MSRA)</span>  
-  <div style="background-color: #f8f9fa; border-left: 3px solid #1976d2; padding: 0.8em 1em; margin: 0.5em 0 1em 1.5em; font-size: 0.85em; color: #555; line-height: 1.5;">
-  <strong style="color: #1976d2;">🔑 Key Idea:</strong> We explain why training order matters in LLM optimization and propose a data scheduling framework grounded in gradient interactions, where training dependencies are modeled as a graph that explicitly constrains valid training orders.
+  <div style="background-color: #f8f9fa; border-left: 3px solid #388e3c; padding: 0.8em 1em; margin: 0.5em 0 1em 1.5em; font-size: 0.85em; color: #555; line-height: 1.5;">
+  <strong style="color: #388e3c;">✓ Key Contribution:</strong> We explain why training order matters in LLM optimization and propose a data scheduling framework grounded in gradient interactions, where training dependencies are modeled as a graph that explicitly constrains valid training orders.
   </div>
 
 - [<span style="background-color: #ffebee; color: #c62828; padding: 2px 8px; border-radius: 4px; font-weight: bold;">ICML 2026</span>] **Yuanjian Xu**, et al. *Towards Efficient LLMs Annealing with Principled Sample Selection*. <span style="color: #d32f2f; font-weight: bold;">[CCF A]</span> <span style="color: #d32f2f; font-weight: bold;">[CORE A*]</span> <span style="background-color: #fff3e0; color: #e65100; padding: 2px 8px; border-radius: 4px; font-weight: bold;">Spotlight</span> <span style="color: #7b7b7b; font-style: italic;">(@ MSRA)</span>  
-  <div style="background-color: #f8f9fa; border-left: 3px solid #1976d2; padding: 0.8em 1em; margin: 0.5em 0 1em 1.5em; font-size: 0.85em; color: #555; line-height: 1.5;">
-  <strong style="color: #1976d2;">🔑 Key Idea:</strong> We provide a theoretical characterization of steady-state properties in LLM annealing and formulate sample selection as an optimization problem, achieving SOTA results across multiple model scales.
+  <div style="background-color: #f8f9fa; border-left: 3px solid #388e3c; padding: 0.8em 1em; margin: 0.5em 0 1em 1.5em; font-size: 0.85em; color: #555; line-height: 1.5;">
+  <strong style="color: #388e3c;">✓ Key Contribution:</strong> We provide a theoretical characterization of steady-state properties in LLM annealing and formulate sample selection as an optimization problem, achieving SOTA results across multiple model scales.
   </div>
 
 - [<span style="background-color: #ffebee; color: #c62828; padding: 2px 8px; border-radius: 4px; font-weight: bold;">ACL 2026</span>] **Yuanjian Xu**, et al. *BizCompass: Benchmarking the Reasoning Capabilities of LLMs in Business Knowledge and Applications*. <span style="color: #d32f2f; font-weight: bold;">[CCF A]</span> <span style="color: #d32f2f; font-weight: bold;">[CORE A*]</span>  
-  <div style="background-color: #f8f9fa; border-left: 3px solid #1976d2; padding: 0.8em 1em; margin: 0.5em 0 1em 1.5em; font-size: 0.85em; color: #555; line-height: 1.5;">
-  <strong style="color: #1976d2;">🔑 Key Idea:</strong> We introduce BizCompass, a dual-axis benchmark connecting theoretical foundations (finance, economics, statistics, OR) with practical business applications (analyst, trader, consultant), revealing how theoretical knowledge translates into real-world business performance.
+  <div style="background-color: #f8f9fa; border-left: 3px solid #388e3c; padding: 0.8em 1em; margin: 0.5em 0 1em 1.5em; font-size: 0.85em; color: #555; line-height: 1.5;">
+  <strong style="color: #388e3c;">✓ Key Contribution:</strong> We introduce BizCompass, a dual-axis benchmark connecting theoretical foundations (finance, economics, statistics, OR) with practical business applications (analyst, trader, consultant), revealing how theoretical knowledge translates into real-world business performance.
   </div>
 
 - [<span style="background-color: #ffebee; color: #c62828; padding: 2px 8px; border-radius: 4px; font-weight: bold;">ACL 2026</span>] **Yuanjian Xu**, et al. *Rethinking Data Mixing from the Perspective of Large Language Model*. <span style="color: #d32f2f; font-weight: bold;">[CCF A]</span> <span style="color: #d32f2f; font-weight: bold;">[CORE A*]</span>  
-  <div style="background-color: #f8f9fa; border-left: 3px solid #1976d2; padding: 0.8em 1em; margin: 0.5em 0 1em 1.5em; font-size: 0.85em; color: #555; line-height: 1.5;">
-  <strong style="color: #1976d2;">🔑 Key Idea:</strong> We establish formal connections between gradient dynamics and domain distributions, and introduce DoGraph, a graph-constrained optimization framework for data mixing that clarifies how domain weighting influences LLM generalization.
+  <div style="background-color: #f8f9fa; border-left: 3px solid #388e3c; padding: 0.8em 1em; margin: 0.5em 0 1em 1.5em; font-size: 0.85em; color: #555; line-height: 1.5;">
+  <strong style="color: #388e3c;">✓ Key Contribution:</strong> We establish formal connections between gradient dynamics and domain distributions, and introduce DoGraph, a graph-constrained optimization framework for data mixing that clarifies how domain weighting influences LLM generalization.
   </div>
 
 - [<span style="background-color: #ffebee; color: #c62828; padding: 2px 8px; border-radius: 4px; font-weight: bold;">ACL 2025</span>] **Yuanjian Xu**, et al. *FinRipple: Aligning Large Language Models with Financial Market for Event Ripple Effect Awareness* [<a href="#" style="color: #1976d2;"><i class="fas fa-file-pdf"></i> Paper</a>] [<a href="#" style="color: #1976d2;"><i class="fab fa-github"></i> Code</a>]. <span style="color: #d32f2f; font-weight: bold;">[CCF A]</span> <span style="color: #d32f2f; font-weight: bold;">[CORE A*]</span>  
@@ -93,36 +93,16 @@ My work has been published at venues including **ICML 2026** (one paper selected
 
 ## Ongoing Works
 
-- [<span style="background-color: #ffebee; color: #c62828; padding: 2px 8px; border-radius: 4px; font-weight: bold;">ICLR 2027</span>] **Yuanjian Xu**, et al. *Model-Aware Seed Selection for In-Context Data Generation*. <span style="color: #d32f2f; font-weight: bold;">[CCF A]</span> <span style="color: #7b7b7b; font-style: italic;">(@ Tencent Hunyuan)</span>
-  <div style="background-color: #f8f9fa; border-left: 3px solid #1976d2; padding: 0.8em 1em; margin: 0.5em 0 1em 1.5em; font-size: 0.85em; color: #555; line-height: 1.5;">
-  <strong style="color: #1976d2;">🔑 Key Idea:</strong> We reverse-optimize seed data selection for in-context learning-based data generation by leveraging model capability, enabling more effective seed curation from generation quality back to seed composition.
-  </div>
+- [<span style="background-color: #ffebee; color: #c62828; padding: 2px 8px; border-radius: 4px; font-weight: bold;">ICLR 2027</span>] **Yuanjian Xu**, et al. *Knowledge Manifold Projection for Objective Sample Evaluation*. <span style="color: #d32f2f; font-weight: bold;">[CCF A]</span> <span style="color: #7b7b7b; font-style: italic;">(@ Tencent Hunyuan)</span>
 
-- [<span style="background-color: #ffebee; color: #c62828; padding: 2px 8px; border-radius: 4px; font-weight: bold;">ICLR 2027</span>] **Yuanjian Xu**, et al. *Benchmarking LLM Intelligence through Concept-Level Reasoning Capability*. <span style="color: #d32f2f; font-weight: bold;">[CCF A]</span> <span style="color: #7b7b7b; font-style: italic;">(@ Tencent Hunyuan)</span>
-  <div style="background-color: #f8f9fa; border-left: 3px solid #1976d2; padding: 0.8em 1em; margin: 0.5em 0 1em 1.5em; font-size: 0.85em; color: #555; line-height: 1.5;">
-  <strong style="color: #1976d2;">🔑 Key Idea:</strong> We argue that current token-level autoregressive LLMs will converge toward concept-level autoregression, and propose a concept-level reasoning benchmark that better reveals true model intelligence beyond surface-level token prediction.
-  </div>
+- [<span style="background-color: #ffebee; color: #c62828; padding: 2px 8px; border-radius: 4px; font-weight: bold;">ICLR 2027</span>] **Yuanjian Xu**, et al. *Geometry-Guided Sample Selection via Internal Reasoning Folds*. <span style="color: #d32f2f; font-weight: bold;">[CCF A]</span> <span style="color: #7b7b7b; font-style: italic;">(@ Tencent Hunyuan)</span>
 
-- [<span style="background-color: #ffebee; color: #c62828; padding: 2px 8px; border-radius: 4px; font-weight: bold;">ICLR 2027</span>] **Yuanjian Xu**, et al. *Latent Shortcut Bias in LLM-generated Benchmarks*. <span style="color: #d32f2f; font-weight: bold;">[CCF A]</span> <span style="color: #7b7b7b; font-style: italic;">(@ Tencent Hunyuan)</span>
-  <div style="background-color: #f8f9fa; border-left: 3px solid #1976d2; padding: 0.8em 1em; margin: 0.5em 0 1em 1.5em; font-size: 0.85em; color: #555; line-height: 1.5;">
-  <strong style="color: #1976d2;">🔑 Key Idea:</strong> We reveal that LLM-generated benchmarks contain latent shortcut biases imperceptible to humans, and propose methods to systematically identify and correct these biases to ensure more reliable evaluation.
-  </div>
 
-- [<span style="background-color: #ffebee; color: #c62828; padding: 2px 8px; border-radius: 4px; font-weight: bold;">ICLR 2027</span>] **Yuanjian Xu**, et al. *Data Correction via Logical Dependency Graph Reconstruction*. <span style="color: #d32f2f; font-weight: bold;">[CCF A]</span>
-  <div style="background-color: #f8f9fa; border-left: 3px solid #1976d2; padding: 0.8em 1em; margin: 0.5em 0 1em 1.5em; font-size: 0.85em; color: #555; line-height: 1.5;">
-  <strong style="color: #1976d2;">🔑 Key Idea:</strong> We study data correction through logical dependency graph reconstruction, leveraging structural relationships among data instances to identify inconsistencies and recover more reliable supervision.
-  </div>
+- [<span style="background-color: #ffebee; color: #c62828; padding: 2px 8px; border-radius: 4px; font-weight: bold;">ICLR 2027</span>] **Yuanjian Xu**, et al. *Towards Principled Long-Text Data Selection with Attention Head Functional Specialization*. <span style="color: #d32f2f; font-weight: bold;">[CCF A]</span>
 
 - [<span style="background-color: #ffebee; color: #c62828; padding: 2px 8px; border-radius: 4px; font-weight: bold;">Technical Report</span>] **Yuanjian Xu**, et al. *FineWeb-Edu-Ultra: A Large-Scale Educational Dataset for Full-Cycle Foundation Model Training*.
-  <div style="background-color: #f8f9fa; border-left: 3px solid #1976d2; padding: 0.8em 1em; margin: 0.5em 0 1em 1.5em; font-size: 0.85em; color: #555; line-height: 1.5;">
-  <strong style="color: #1976d2;">🔑 Key Idea:</strong> We construct a large-scale educational corpus tailored for full-cycle foundation model training, aiming to support principled data development from pre-training to downstream adaptation.
-  </div>
 
-- [<span style="background-color: #ffebee; color: #c62828; padding: 2px 8px; border-radius: 4px; font-weight: bold;">Technical Report</span>] **Yuanjian Xu**, et al. *FinCorpus: A Large-Scale Corpus for Financial Foundation Models*.
-  <div style="background-color: #f8f9fa; border-left: 3px solid #1976d2; padding: 0.8em 1em; margin: 0.5em 0 1em 1.5em; font-size: 0.85em; color: #555; line-height: 1.5;">
-  <strong style="color: #1976d2;">🔑 Key Idea:</strong> We build FinCorpus as a large-scale corpus for financial foundation models, with the goal of improving domain-specific reasoning, representation learning, and downstream financial intelligence.
-  </div>
-
+- [<span style="background-color: #ffebee; color: #c62828; padding: 2px 8px; border-radius: 4px; font-weight: bold;">Survey</span>] **Yuanjian Xu**, et al. *From Tokens to Intelligence: A Survey on Data Selection for Large Language Models*.
 </div>
 </div>
 
@@ -148,7 +128,7 @@ I am currently pursuing a Ph.D. in Fintech at the **Hong Kong University of Scie
 <div style="margin-bottom: 1.3em;">
 <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 0.5em; border-bottom: 1px solid #e0e0e0; padding-bottom: 0.35em;">
 <strong>Tencent Hunyuan</strong>
-<span style="color: #555; font-size: 0.95em;">Research Intern</span>
+<span style="color: #555; font-size: 0.95em;">Top Talent Research Intern</span>
 </div>
 <p style="margin: 0.65em 0 0 0; color: #444; line-height: 1.65;">Currently working as a <strong>Qing Yun Program</strong> research intern in foundation model research.</p>
 </div>

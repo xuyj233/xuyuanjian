@@ -39,6 +39,10 @@ My work has been published at venues including **ICML 2026** (one paper selected
 
 <!-- <hr style="border: 2px solid #ccc; margin: 2em 0;"> -->
 
+## 🔥 News
+
+- **[Jul 2026]** Awarded the <span style="background-color: #fff3e0; color: #e65100; padding: 2px 8px; border-radius: 4px; font-weight: bold;">🏆 Stars of Tomorrow</span> certificate by **Microsoft Research Asia (MSRA)**, in recognition of outstanding effort and performance as a **Top 10% intern**.
+
 ## 📝 Selected Papers (First Author)
 
 - [<span style="background-color: #ffebee; color: #c62828; padding: 2px 8px; border-radius: 4px; font-weight: bold;">ICML 2026</span>] **Yuanjian Xu**, et al. *D<sup>3</sup>: Dynamic Directional Graph-Constrained Data Scheduling for LLM Training*. <span style="color: #d32f2f; font-weight: bold;">[CCF A]</span> <span style="color: #d32f2f; font-weight: bold;">[CORE A*]</span> <span style="color: #7b7b7b; font-style: italic;">(@ MSRA)</span>  
@@ -160,6 +164,7 @@ I am currently pursuing a Ph.D. in Fintech at the **Hong Kong University of Scie
 
 
 ## 🏆 Honors and Awards
+- *2026* **Stars of Tomorrow** Certificate (Top 10% Intern), Microsoft Research Asia (MSRA)
 - *2023--Present* Full Ph.D. Scholarship, Hong Kong University of Science and Technology
 - *2021* Award for Excellent Academic Excellence, Peking University (Certificate No.: H2021000170320)
 - *2021* Air Star Plan, Tsinghua University, Institute for AI Industry Research (AIR)

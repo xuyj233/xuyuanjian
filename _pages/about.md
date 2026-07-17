@@ -100,7 +100,7 @@ My work has been published at venues including **ICML 2026** (one paper selected
 
 - [<span style="background-color: #ffebee; color: #c62828; padding: 2px 8px; border-radius: 4px; font-weight: bold;">ICLR 2027</span>] **Yuanjian Xu**, et al. *Towards Principled Long-Text Data Selection with Attention Head Functional Specialization*. <span style="color: #d32f2f; font-weight: bold;">[CCF A]</span>
 
-- [<span style="background-color: #ffebee; color: #c62828; padding: 2px 8px; border-radius: 4px; font-weight: bold;">Technical Report</span>] **Yuanjian Xu**, et al. *FineWeb-Edu-Ultra: A Large-Scale Educational Dataset for Full-Cycle Foundation Model Training*.
+- [<span style="background-color: #fffde7; color: #f57f17; padding: 2px 8px; border-radius: 4px; font-weight: bold;">🚧 Target ACL 2027</span>] **Yuanjian Xu**, et al. *The WoW: A Large-Scale World Knowledge Corpus for Full-Lifecycle LLM Training*. <span style="color: #d32f2f; font-weight: bold;">[CCF A]</span>
 
 - [<span style="background-color: #ffebee; color: #c62828; padding: 2px 8px; border-radius: 4px; font-weight: bold;">Survey</span>] **Yuanjian Xu**, et al. *From Tokens to Intelligence: A Survey on Data Selection for Large Language Models*.
 </div>

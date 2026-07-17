@@ -95,7 +95,7 @@ My work has been published at venues including **ICML 2026** (one paper selected
 
 - [<span style="background-color: #ffebee; color: #c62828; padding: 2px 8px; border-radius: 4px; font-weight: bold;">ICLR 2027</span>] **Yuanjian Xu**, et al. *Knowledge Manifold Projection for Objective Sample Evaluation*. <span style="color: #d32f2f; font-weight: bold;">[CCF A]</span> <span style="color: #7b7b7b; font-style: italic;">(@ Tencent Hunyuan)</span>
 
-- [<span style="background-color: #ffebee; color: #c62828; padding: 2px 8px; border-radius: 4px; font-weight: bold;">ICLR 2027</span>] **Yuanjian Xu**, et al. *Geometry-Guided Sample Selection via Internal Reasoning Folds*. <span style="color: #d32f2f; font-weight: bold;">[CCF A]</span> <span style="color: #7b7b7b; font-style: italic;">(@ Tencent Hunyuan)</span>
+- [<span style="background-color: #fffde7; color: #f57f17; padding: 2px 8px; border-radius: 4px; font-weight: bold;">🚧 Target ICLR 2027</span>] **Yuanjian Xu**, et al. *Benchmarking Sample Reasoning Quality from Internal Geometric Dynamics in LLMs*. <span style="color: #d32f2f; font-weight: bold;">[CCF A]</span> <span style="color: #7b7b7b; font-style: italic;">(@ Tencent Hunyuan)</span>
 
 
 - [<span style="background-color: #ffebee; color: #c62828; padding: 2px 8px; border-radius: 4px; font-weight: bold;">ICLR 2027</span>] **Yuanjian Xu**, et al. *Towards Principled Long-Text Data Selection with Attention Head Functional Specialization*. <span style="color: #d32f2f; font-weight: bold;">[CCF A]</span>

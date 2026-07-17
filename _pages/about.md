@@ -160,7 +160,7 @@ I am currently pursuing a Ph.D. in Fintech at the **Hong Kong University of Scie
 
 
 ## 🏆 Honors and Awards
-- *2026* **Stars of Tomorrow** Certificate (Top 10% Intern), Microsoft Research Asia (MSRA)
+- *2026* **Top 10% Intern**, Microsoft Research Asia (MSRA)
 - *2023--Present* Full Ph.D. Scholarship, Hong Kong University of Science and Technology
 - *2021* Award for Excellent Academic Excellence, Peking University (Certificate No.: H2021000170320)
 - *2021* Air Star Plan, Tsinghua University, Institute for AI Industry Research (AIR)

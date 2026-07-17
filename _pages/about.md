@@ -125,36 +125,48 @@ I am currently pursuing a Ph.D. in Fintech at the **Hong Kong University of Scie
 
 ## 💼 Internship
 
-<div style="margin-bottom: 1.3em;">
+<div style="display: flex; align-items: flex-start; gap: 1em; margin-bottom: 1.3em;">
+<img src="{{ '/static/logos/tencent.png' | relative_url }}" alt="Tencent" style="width: 46px; height: 46px; border-radius: 8px; object-fit: contain; flex-shrink: 0; margin-top: 0.2em;">
+<div style="flex: 1; min-width: 0;">
 <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 0.5em; border-bottom: 1px solid #e0e0e0; padding-bottom: 0.35em;">
 <strong>Tencent Hunyuan</strong>
 <span style="color: #555; font-size: 0.95em;">Top Talent Research Intern</span>
 </div>
 <p style="margin: 0.65em 0 0 0; color: #444; line-height: 1.65;">Currently working as a <strong>Qing Yun Program</strong> research intern in foundation model research.</p>
 </div>
+</div>
 
-<div style="margin-bottom: 1.3em;">
+<div style="display: flex; align-items: flex-start; gap: 1em; margin-bottom: 1.3em;">
+<img src="{{ '/static/logos/tsinghua.png' | relative_url }}" alt="Tsinghua University" style="width: 46px; height: 46px; border-radius: 8px; object-fit: contain; flex-shrink: 0; margin-top: 0.2em;">
+<div style="flex: 1; min-width: 0;">
 <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 0.5em; border-bottom: 1px solid #e0e0e0; padding-bottom: 0.35em;">
 <strong>AIR, Tsinghua University</strong>
 <span style="color: #555; font-size: 0.95em;">Research Intern</span>
 </div>
 <p style="margin: 0.65em 0 0 0; color: #444; line-height: 1.65;">Worked under the supervision of <span style="color: #1976d2;">Prof. Zaiqing Nie</span>. Contributed to the <em>Meituan Nutrition Knowledge Graph</em> construction. Investigated <em>hard sample problems</em> in NLP and proposed <em>HardPT</em>, published at <em>ACL 2023</em>.</p>
 </div>
+</div>
 
-<div style="margin-bottom: 1.3em;">
+<div style="display: flex; align-items: flex-start; gap: 1em; margin-bottom: 1.3em;">
+<img src="{{ '/static/logos/microsoft.svg' | relative_url }}" alt="Microsoft Research Asia" style="width: 46px; height: 46px; border-radius: 8px; object-fit: contain; flex-shrink: 0; margin-top: 0.2em;">
+<div style="flex: 1; min-width: 0;">
 <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 0.5em; border-bottom: 1px solid #e0e0e0; padding-bottom: 0.35em;">
 <strong>Microsoft Research Asia (MSRA)</strong>
 <span style="color: #555; font-size: 0.95em;">Research Intern</span>
 </div>
 <p style="margin: 0.65em 0 0 0; color: #444; line-height: 1.65;">Worked under the supervision of <span style="color: #1976d2;">Dr. Zhong Li</span>. Focused on <em>data selection</em> and <em>training order optimization for large language models</em>. Proposed the <em>D<sup>3</sup></em> method and an <em>annealing training framework</em>, both accepted at <em>ICML 2026</em> (annealing work as Spotlight).</p>
 </div>
+</div>
 
-<div style="margin-bottom: 0.5em;">
+<div style="display: flex; align-items: flex-start; gap: 1em; margin-bottom: 0.5em;">
+<img src="{{ '/static/logos/joinquant.png' | relative_url }}" alt="JoinQuant" style="width: 46px; height: 46px; border-radius: 8px; object-fit: contain; flex-shrink: 0; margin-top: 0.2em;">
+<div style="flex: 1; min-width: 0;">
 <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 0.5em; border-bottom: 1px solid #e0e0e0; padding-bottom: 0.35em;">
 <strong>Joinquant (Billion-scale quantitative fund)</strong>
 <span style="color: #555; font-size: 0.95em;">Research Intern</span>
 </div>
 <p style="margin: 0.65em 0 0 0; color: #444; line-height: 1.65;">Worked under the supervision of PM Ruixiao. Developed <em>tick-level generative and representation models</em> for <em>high-frequency trading</em>. Addressed key challenges including <em>non-equally spaced data</em> and <em>market randomness</em>.</p>
+</div>
 </div>
 
 

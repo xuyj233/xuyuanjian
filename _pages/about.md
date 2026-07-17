@@ -39,10 +39,6 @@ My work has been published at venues including **ICML 2026** (one paper selected
 
 <!-- <hr style="border: 2px solid #ccc; margin: 2em 0;"> -->
 
-## 🔥 News
-
-- **[Jul 2026]** Awarded <span style="background-color: #fff3e0; color: #e65100; padding: 2px 8px; border-radius: 4px; font-weight: bold;">🏆 Stars of Tomorrow</span> by **MSRA** (Top 10% intern).
-
 ## 📝 Selected Papers (First Author)
 
 - [<span style="background-color: #ffebee; color: #c62828; padding: 2px 8px; border-radius: 4px; font-weight: bold;">ICML 2026</span>] **Yuanjian Xu**, et al. *D<sup>3</sup>: Dynamic Directional Graph-Constrained Data Scheduling for LLM Training*. <span style="color: #d32f2f; font-weight: bold;">[CCF A]</span> <span style="color: #d32f2f; font-weight: bold;">[CORE A*]</span> <span style="color: #7b7b7b; font-style: italic;">(@ MSRA)</span>  

@@ -41,7 +41,7 @@ My work has been published at venues including **ICML 2026** (one paper selected
 
 ## 🔥 News
 
-- **[Jul 2026]** Awarded the <span style="background-color: #fff3e0; color: #e65100; padding: 2px 8px; border-radius: 4px; font-weight: bold;">🏆 Stars of Tomorrow</span> certificate by **Microsoft Research Asia (MSRA)**, in recognition of outstanding effort and performance as a **Top 10% intern**.
+- **[Jul 2026]** Awarded <span style="background-color: #fff3e0; color: #e65100; padding: 2px 8px; border-radius: 4px; font-weight: bold;">🏆 Stars of Tomorrow</span> by **MSRA** (Top 10% intern).
 
 ## 📝 Selected Papers (First Author)
 

@@ -29,21 +29,6 @@ My research revolves around **Data-centric Machine Learning**, with a primary fo
 <style>
 .rq-map { margin: 1.5em 0 1.75em 0; }
 .rq-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 0.9em; align-items: stretch; }
-.rq-hub {
-  grid-column: 1 / -1; justify-self: center; width: min(52%, 240px);
-  position: relative; z-index: 5; text-align: center; margin: -2.4em 0;
-  background: linear-gradient(135deg, #3f4b66 0%, #232b3e 100%);
-  color: #fff; border-radius: 6px; padding: 0.75em 0.9em;
-  box-shadow: 0 6px 20px rgba(35,43,62,0.32); border: 3px solid #fff;
-}
-.rq-hub .rq-hub-title { font-size: 0.86em; font-weight: 700; letter-spacing: 0.2px; }
-.rq-hub-sub { display: flex; flex-direction: column; align-items: center; gap: 0.35em; margin-top: 0.45em; }
-.rq-hub-item { display: inline-flex; align-items: center; gap: 0.3em; font-size: 0.66em; font-weight: 600; }
-.rq-hub-tag {
-  font-size: 0.9em; font-weight: 700; letter-spacing: 0.2px;
-  background: rgba(255,255,255,0.28); color: #fff;
-  padding: 0px 7px; border-radius: 20px;
-}
 .rq-card {
   position: relative; background: #fff; border: 1px solid #eceff1;
   border-radius: 12px; padding: 1em 1.1em 0.9em 1.1em;
@@ -72,9 +57,6 @@ My research revolves around **Data-centric Machine Learning**, with a primary fo
 }
 @media (max-width: 640px) {
   .rq-grid { grid-template-columns: 1fr; gap: 0.9em; }
-  .rq-hub { width: auto; margin: 0; border-radius: 14px; padding: 0.75em 1em; }
-  .rq-hub .rq-hub-title { font-size: 0.95em; }
-  .rq-hub-item { font-size: 0.72em; }
 }
 </style>
 
@@ -91,14 +73,6 @@ My research revolves around **Data-centric Machine Learning**, with a primary fo
 <div class="rq-q">In what order should the training data be scheduled?</div>
 <div class="rq-tags"><span class="rq-tag">D<sup>3</sup> · ICML 2026</span></div>
 <div class="rq-affil"><span class="rq-affil-tag">🏛 Microsoft</span></div>
-</div>
-<div class="rq-hub">
-<div class="rq-hub-title">🧭 Data-Centric Machine Learning</div>
-<div class="rq-hub-sub">
-<span class="rq-hub-item">Chinese FineWeb-Edu <span class="rq-hub-tag">Dataset</span></span>
-<span class="rq-hub-item">BizCompass · ACL 2026 <span class="rq-hub-tag">Benchmark</span></span>
-<span class="rq-hub-item">From Tokens to Intelligence <span class="rq-hub-tag">Survey</span></span>
-</div>
 </div>
 <div class="rq-card" style="--rq-color:#8e24aa; --rq-soft:#f3e5f5;">
 <div class="rq-head"><span class="rq-badge">RQ3</span><span class="rq-topic">Data Representation</span></div>

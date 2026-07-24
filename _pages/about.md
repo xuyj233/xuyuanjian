@@ -32,9 +32,9 @@ My research revolves around **Data-centric Machine Learning**, with a primary fo
 .rq-hub {
   grid-column: 1 / -1; justify-self: center; width: min(52%, 240px);
   position: relative; z-index: 5; text-align: center; margin: -2.4em 0;
-  background: linear-gradient(135deg, #64b5f6 0%, #2196f3 100%);
+  background: linear-gradient(135deg, #3f4b66 0%, #232b3e 100%);
   color: #fff; border-radius: 6px; padding: 0.75em 0.9em;
-  box-shadow: 0 4px 18px rgba(33,150,243,0.35); border: 3px solid #fff;
+  box-shadow: 0 6px 20px rgba(35,43,62,0.32); border: 3px solid #fff;
 }
 .rq-hub .rq-hub-title { font-size: 0.86em; font-weight: 700; letter-spacing: 0.2px; }
 .rq-hub-sub { display: flex; flex-direction: column; align-items: center; gap: 0.35em; margin-top: 0.45em; }

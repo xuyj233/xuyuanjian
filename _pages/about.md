@@ -27,23 +27,23 @@ I am currently a third-year Ph.D. candidate at the Hong Kong University of Scien
 My research revolves around **Data-centric Machine Learning**, with a primary focus on LLMs. Specifically, my work has systematically investigated four dimensions — **data selection, curriculum, representation, and orchestration** — organized around the following research questions:
 
 <style>
-.rq-map { position: relative; margin: 1.5em 0 1.75em 0; }
+.rq-map { margin: 1.5em 0 1.75em 0; }
+.rq-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 0.9em; align-items: stretch; }
 .rq-hub {
-  position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
-  z-index: 5; width: min(90%, 430px); text-align: center;
-  background: linear-gradient(135deg, #1976d2 0%, #0d47a1 100%);
-  color: #fff; border-radius: 40px; padding: 0.55em 1em;
-  box-shadow: 0 6px 22px rgba(13,71,161,0.35); border: 3px solid #fff;
+  grid-column: 1 / -1; justify-self: center; width: min(94%, 460px);
+  text-align: center; margin: 0.15em 0;
+  background: linear-gradient(135deg, #64b5f6 0%, #2196f3 100%);
+  color: #fff; border-radius: 30px; padding: 0.55em 1.1em;
+  box-shadow: 0 3px 12px rgba(33,150,243,0.28);
 }
-.rq-hub .rq-hub-title { font-size: 0.8em; font-weight: 700; letter-spacing: 0.2px; }
-.rq-hub-sub { display: flex; flex-wrap: wrap; justify-content: center; gap: 0.25em 0.55em; margin-top: 0.3em; }
-.rq-hub-item { display: inline-flex; align-items: center; gap: 0.28em; font-size: 0.62em; font-weight: 600; }
+.rq-hub .rq-hub-title { font-size: 0.86em; font-weight: 700; letter-spacing: 0.2px; }
+.rq-hub-sub { display: flex; flex-wrap: wrap; justify-content: center; gap: 0.25em 0.6em; margin-top: 0.3em; }
+.rq-hub-item { display: inline-flex; align-items: center; gap: 0.3em; font-size: 0.66em; font-weight: 600; }
 .rq-hub-tag {
   font-size: 0.9em; font-weight: 700; letter-spacing: 0.2px;
-  background: rgba(255,255,255,0.22); color: #fff;
-  padding: 0px 6px; border-radius: 20px;
+  background: rgba(255,255,255,0.28); color: #fff;
+  padding: 0px 7px; border-radius: 20px;
 }
-.rq-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 6em 1em; }
 .rq-card {
   position: relative; background: #fff; border: 1px solid #eceff1;
   border-radius: 12px; padding: 1em 1.1em 0.9em 1.1em;
@@ -72,21 +72,13 @@ My research revolves around **Data-centric Machine Learning**, with a primary fo
 }
 @media (max-width: 640px) {
   .rq-grid { grid-template-columns: 1fr; gap: 0.9em; }
-  .rq-hub { position: static; transform: none; width: auto; margin: 0 0 0.9em 0; border-radius: 14px; padding: 0.75em 1em; }
+  .rq-hub { width: auto; border-radius: 14px; padding: 0.75em 1em; }
   .rq-hub .rq-hub-title { font-size: 0.95em; }
   .rq-hub-item { font-size: 0.72em; }
 }
 </style>
 
 <div class="rq-map" markdown="0">
-<div class="rq-hub">
-<div class="rq-hub-title">🧭 Data-Centric Machine Learning</div>
-<div class="rq-hub-sub">
-<span class="rq-hub-item">Chinese FineWeb-Edu <span class="rq-hub-tag">Dataset</span></span>
-<span class="rq-hub-item">BizCompass · ACL 2026 <span class="rq-hub-tag">Benchmark</span></span>
-<span class="rq-hub-item">From Tokens to Intelligence <span class="rq-hub-tag">Survey</span></span>
-</div>
-</div>
 <div class="rq-grid">
 <div class="rq-card" style="--rq-color:#1976d2; --rq-soft:#e3f2fd;">
 <div class="rq-head"><span class="rq-badge">RQ1</span><span class="rq-topic">Data Selection</span></div>
@@ -99,6 +91,14 @@ My research revolves around **Data-centric Machine Learning**, with a primary fo
 <div class="rq-q">In what order should the training data be scheduled?</div>
 <div class="rq-tags"><span class="rq-tag">D<sup>3</sup> · ICML 2026</span></div>
 <div class="rq-affil"><span class="rq-affil-tag">🏛 Microsoft</span></div>
+</div>
+<div class="rq-hub">
+<div class="rq-hub-title">🧭 Data-Centric Machine Learning</div>
+<div class="rq-hub-sub">
+<span class="rq-hub-item">Chinese FineWeb-Edu <span class="rq-hub-tag">Dataset</span></span>
+<span class="rq-hub-item">BizCompass · ACL 2026 <span class="rq-hub-tag">Benchmark</span></span>
+<span class="rq-hub-item">From Tokens to Intelligence <span class="rq-hub-tag">Survey</span></span>
+</div>
 </div>
 <div class="rq-card" style="--rq-color:#8e24aa; --rq-soft:#f3e5f5;">
 <div class="rq-head"><span class="rq-badge">RQ3</span><span class="rq-topic">Data Representation</span></div>

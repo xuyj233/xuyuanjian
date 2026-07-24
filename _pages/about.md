@@ -67,8 +67,8 @@ My research revolves around **Data-centric Machine Learning**, with a primary fo
 <div class="rq-card" style="--rq-color:#1976d2; --rq-soft:#e3f2fd;">
 <div class="rq-head"><span class="rq-badge">RQ1</span><span class="rq-topic">Data Selection</span></div>
 <div class="rq-q">On which data should the model be trained?</div>
-<div class="rq-tags"><span class="rq-tag">HardPT · ACL 2023</span><span class="rq-tag">DoGraph · ACL 2026</span><span class="rq-tag">DirEct · ICML 2026</span></div>
-<div class="rq-affil"><span class="rq-affil-tag"><img src="{{ '/static/logos/microsoft.svg' | relative_url }}" alt="Microsoft">Microsoft</span><span class="rq-affil-tag"><img src="{{ '/static/logos/tsinghua.png' | relative_url }}" alt="Tsinghua AIR">Tsinghua AIR</span></div>
+<div class="rq-tags"><span class="rq-tag">HardPT · ACL 2023</span><span class="rq-tag">DoGraph · ACL 2026</span><span class="rq-tag">DirEct · ICML 2026</span><span class="rq-tag">CUBE · ICLR 2027</span><span class="rq-tag">GapLens · ICLR 2027</span></div>
+<div class="rq-affil"><span class="rq-affil-tag"><img src="{{ '/static/logos/microsoft.svg' | relative_url }}" alt="Microsoft">Microsoft</span><span class="rq-affil-tag"><img src="{{ '/static/logos/tencent.png' | relative_url }}" alt="Tencent Hunyuan">Tencent Hunyuan</span><span class="rq-affil-tag"><img src="{{ '/static/logos/tsinghua.png' | relative_url }}" alt="Tsinghua AIR">Tsinghua AIR</span></div>
 </div>
 <div class="rq-card" style="--rq-color:#388e3c; --rq-soft:#e8f5e9;">
 <div class="rq-head"><span class="rq-badge">RQ2</span><span class="rq-topic">Data Curriculum</span></div>
@@ -161,9 +161,9 @@ My work has been published at venues including **ICML 2026** (one paper selected
 
 ## 🔬 Papers in Progress
 
-- [<span style="background-color: #fffde7; color: #f57f17; padding: 2px 8px; border-radius: 4px; font-weight: bold;">🚧 Target ICLR 2027</span>] **Yuanjian Xu**, et al. *GapLens: Identifying Knowledge Gaps via the Manifold Geometry of Soft Prompts*. <span style="color: #d32f2f; font-weight: bold;">[CCF A]</span> <span style="color: #7b7b7b; font-style: italic;">(@ Tencent Hunyuan)</span>
+- [<span style="background-color: #fffde7; color: #f57f17; padding: 2px 8px; border-radius: 4px; font-weight: bold;">🚧 Target ICLR 2027</span>] **Yuanjian Xu**, et al. *Identifying Knowledge Gaps via the Manifold Geometry of Soft Prompts*. <span style="color: #d32f2f; font-weight: bold;">[CCF A]</span> <span style="color: #7b7b7b; font-style: italic;">(@ Tencent Hunyuan)</span>
 
-- [<span style="background-color: #fffde7; color: #f57f17; padding: 2px 8px; border-radius: 4px; font-weight: bold;">🚧 Target ICLR 2027</span>] **Yuanjian Xu**, et al. *CUBE: Benchmarking Sample Reasoning Quality from Internal Geometric Dynamics in LLMs*. <span style="color: #d32f2f; font-weight: bold;">[CCF A]</span> <span style="color: #7b7b7b; font-style: italic;">(@ Tencent Hunyuan)</span>
+- [<span style="background-color: #fffde7; color: #f57f17; padding: 2px 8px; border-radius: 4px; font-weight: bold;">🚧 Target ICLR 2027</span>] **Yuanjian Xu**, et al. *Benchmarking Sample Reasoning Quality from Internal Geometric Dynamics in LLMs*. <span style="color: #d32f2f; font-weight: bold;">[CCF A]</span> <span style="color: #7b7b7b; font-style: italic;">(@ Tencent Hunyuan)</span>
 
 - [<span style="background-color: #fffde7; color: #f57f17; padding: 2px 8px; border-radius: 4px; font-weight: bold;">🚧 Target ICLR 2027</span>] **Yuanjian Xu**, et al. *Towards Principled Long-Text Data Selection with Attention Head Functional Specialization*. <span style="color: #d32f2f; font-weight: bold;">[CCF A]</span>
 

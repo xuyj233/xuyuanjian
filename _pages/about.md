@@ -52,10 +52,11 @@ My research revolves around **Data-centric Machine Learning**, with a primary fo
 }
 .rq-affil { display: flex; flex-wrap: wrap; gap: 0.3em; }
 .rq-affil-tag {
-  display: inline-flex; align-items: center; gap: 0.2em;
+  display: inline-flex; align-items: center; gap: 0.3em;
   font-size: 0.68em; font-weight: 600; color: #607d8b;
-  background: #eceff1; padding: 2px 7px; border-radius: 4px;
+  background: #eceff1; padding: 2px 7px 2px 4px; border-radius: 4px;
 }
+.rq-affil-tag img { width: 15px; height: 15px; object-fit: contain; border-radius: 3px; background: #fff; }
 @media (max-width: 640px) {
   .rq-grid { grid-template-columns: 1fr; gap: 0.9em; }
 }
@@ -67,25 +68,25 @@ My research revolves around **Data-centric Machine Learning**, with a primary fo
 <div class="rq-head"><span class="rq-badge">RQ1</span><span class="rq-topic">Data Selection</span></div>
 <div class="rq-q">On which data should the model be trained?</div>
 <div class="rq-tags"><span class="rq-tag">HardPT · ACL 2023</span><span class="rq-tag">DoGraph · ACL 2026</span><span class="rq-tag">DirEct · ICML 2026</span></div>
-<div class="rq-affil"><span class="rq-affil-tag">🏛 Microsoft</span><span class="rq-affil-tag">🏛 Tsinghua AIR</span></div>
+<div class="rq-affil"><span class="rq-affil-tag"><img src="{{ '/static/logos/microsoft.svg' | relative_url }}" alt="Microsoft">Microsoft</span><span class="rq-affil-tag"><img src="{{ '/static/logos/tsinghua.png' | relative_url }}" alt="Tsinghua AIR">Tsinghua AIR</span></div>
 </div>
 <div class="rq-card" style="--rq-color:#388e3c; --rq-soft:#e8f5e9;">
 <div class="rq-head"><span class="rq-badge">RQ2</span><span class="rq-topic">Data Curriculum</span></div>
 <div class="rq-q">In what order should the training data be scheduled?</div>
 <div class="rq-tags"><span class="rq-tag">D<sup>3</sup> · ICML 2026</span></div>
-<div class="rq-affil"><span class="rq-affil-tag">🏛 Microsoft</span></div>
+<div class="rq-affil"><span class="rq-affil-tag"><img src="{{ '/static/logos/microsoft.svg' | relative_url }}" alt="Microsoft">Microsoft</span></div>
 </div>
 <div class="rq-card" style="--rq-color:#8e24aa; --rq-soft:#f3e5f5;">
 <div class="rq-head"><span class="rq-badge">RQ3</span><span class="rq-topic">Data Representation</span></div>
 <div class="rq-q">How should complex data characteristics be addressed?</div>
 <div class="rq-tags"><span class="rq-tag">LENS · ICAIF 2025</span><span class="rq-tag">HGAN-SDEs · ICASSP 2026</span><span class="rq-tag">MM-NSDEs · AAAI 2026</span><span class="rq-tag">HF Pretraining · Product</span></div>
-<div class="rq-affil"><span class="rq-affil-tag">🏛 JoinQuant</span><span class="rq-affil-tag">🏛 HKUST</span></div>
+<div class="rq-affil"><span class="rq-affil-tag"><img src="{{ '/static/logos/joinquant.png' | relative_url }}" alt="JoinQuant">JoinQuant</span><span class="rq-affil-tag">🏛 HKUST</span></div>
 </div>
 <div class="rq-card" style="--rq-color:#e65100; --rq-soft:#fff3e0;">
 <div class="rq-head"><span class="rq-badge">RQ4</span><span class="rq-topic">Data Orchestration</span></div>
 <div class="rq-q">How can we organize heterogeneous data in a more elegant way?</div>
 <div class="rq-tags"><span class="rq-tag">FinRipple · ACL 2025</span><span class="rq-tag">Meituan Nutrition KG · Product</span></div>
-<div class="rq-affil"><span class="rq-affil-tag">🏛 Tsinghua AIR</span><span class="rq-affil-tag">🏛 HKUST</span></div>
+<div class="rq-affil"><span class="rq-affil-tag"><img src="{{ '/static/logos/tsinghua.png' | relative_url }}" alt="Tsinghua AIR">Tsinghua AIR</span><span class="rq-affil-tag">🏛 HKUST</span></div>
 </div>
 <div class="rq-card rq-wide" style="--rq-color:#455a64; --rq-soft:#eceff1;">
 <div class="rq-head"><span class="rq-badge">DATA</span><span class="rq-topic">Foundational Datasets, Benchmarks and Survey</span></div>

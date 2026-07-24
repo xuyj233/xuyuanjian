@@ -90,7 +90,7 @@ My research revolves around **Data-centric Machine Learning**, with a primary fo
 </div>
 <div class="rq-card rq-wide" style="--rq-color:#455a64; --rq-soft:#eceff1;">
 <div class="rq-head"><span class="rq-badge">DATA</span><span class="rq-topic">Foundational Datasets, Benchmarks and Survey</span></div>
-<div class="rq-tags"><span class="rq-tag">Chinese FineWeb-Edu · Dataset</span><span class="rq-tag">The WoW · Corpus</span><span class="rq-tag">BizCompass · ACL 2026</span><span class="rq-tag">From Tokens to Intelligence · Survey</span></div>
+<div class="rq-tags"><span class="rq-tag">Chinese FineWeb-Edu · Dataset</span><span class="rq-tag">The WoW · Corpus</span><span class="rq-tag">BizCompass · ACL 2026</span><span class="rq-tag">From Tokens to Intelligence · Survey, ACL 2027</span></div>
 </div>
 </div>
 </div>
@@ -169,7 +169,7 @@ My work has been published at venues including **ICML 2026** (one paper selected
 
 - [<span style="background-color: #fffde7; color: #f57f17; padding: 2px 8px; border-radius: 4px; font-weight: bold;">🚧 Target ACL 2027</span>] **Yuanjian Xu**, et al. *The WoW: A Large-Scale World Knowledge Corpus for Full-Lifecycle LLM Training*. <span style="color: #d32f2f; font-weight: bold;">[CCF A]</span>
 
-- [<span style="background-color: #fffde7; color: #f57f17; padding: 2px 8px; border-radius: 4px; font-weight: bold;">🚧 Survey</span>] **Yuanjian Xu**, et al. *From Tokens to Intelligence: A Survey on Data Selection for Large Language Models*.
+- [<span style="background-color: #fffde7; color: #f57f17; padding: 2px 8px; border-radius: 4px; font-weight: bold;">🚧 Target ACL 2027 · Survey</span>] **Yuanjian Xu**, et al. *From Tokens to Intelligence: A Survey on Data Selection for Large Language Models*. <span style="color: #d32f2f; font-weight: bold;">[CCF A]</span>
 </div>
 </div>
 

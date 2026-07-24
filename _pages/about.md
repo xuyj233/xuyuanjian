@@ -35,7 +35,13 @@ My research revolves around **Data-centric Machine Learning**, with a primary fo
   box-shadow: 0 4px 16px rgba(25,118,210,0.28);
 }
 .rq-hub .rq-hub-title { font-size: 1.02em; font-weight: 700; letter-spacing: 0.3px; }
-.rq-hub .rq-hub-sub { font-size: 0.8em; opacity: 0.92; margin-top: 0.3em; }
+.rq-hub-sub { display: flex; flex-wrap: wrap; justify-content: center; gap: 0.4em 0.7em; margin-top: 0.55em; }
+.rq-hub-item { display: inline-flex; align-items: center; gap: 0.35em; font-size: 0.78em; font-weight: 600; }
+.rq-hub-tag {
+  font-size: 0.86em; font-weight: 700; letter-spacing: 0.2px;
+  background: rgba(255,255,255,0.22); color: #fff;
+  padding: 1px 7px; border-radius: 20px;
+}
 .rq-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 0.9em; }
 .rq-card {
   position: relative; background: #fff; border: 1px solid #eceff1;
@@ -57,39 +63,48 @@ My research revolves around **Data-centric Machine Learning**, with a primary fo
   font-size: 0.72em; font-weight: 600; color: var(--rq-color);
   background: var(--rq-soft); padding: 2px 8px; border-radius: 5px;
 }
-.rq-affil { font-size: 0.72em; color: #90a4ae; font-style: italic; }
+.rq-affil { display: flex; flex-wrap: wrap; gap: 0.3em; }
+.rq-affil-tag {
+  display: inline-flex; align-items: center; gap: 0.2em;
+  font-size: 0.68em; font-weight: 600; color: #607d8b;
+  background: #eceff1; padding: 2px 7px; border-radius: 4px;
+}
 @media (max-width: 640px) { .rq-grid { grid-template-columns: 1fr; } }
 </style>
 
 <div class="rq-map" markdown="0">
 <div class="rq-hub">
 <div class="rq-hub-title">🧭 Data-Centric Machine Learning</div>
-<div class="rq-hub-sub">Chinese FineWeb-Edu &nbsp;·&nbsp; BizCompass (ACL 2026)</div>
+<div class="rq-hub-sub">
+<span class="rq-hub-item">Chinese FineWeb-Edu <span class="rq-hub-tag">Dataset</span></span>
+<span class="rq-hub-item">BizCompass · ACL 2026 <span class="rq-hub-tag">Benchmark</span></span>
+<span class="rq-hub-item">From Tokens to Intelligence <span class="rq-hub-tag">Survey</span></span>
+</div>
 </div>
 <div class="rq-grid">
 <div class="rq-card" style="--rq-color:#1976d2; --rq-soft:#e3f2fd;">
 <div class="rq-head"><span class="rq-badge">RQ1</span><span class="rq-topic">Data Selection</span></div>
 <div class="rq-q">On which data should the model be trained?</div>
 <div class="rq-tags"><span class="rq-tag">HardPT · ACL 2023</span><span class="rq-tag">DoGraph · ACL 2026</span><span class="rq-tag">DirEct · ICML 2026</span></div>
-<div class="rq-affil">@ Microsoft · Tsinghua AIR</div>
+<div class="rq-affil"><span class="rq-affil-tag">🏛 Microsoft</span><span class="rq-affil-tag">🏛 Tsinghua AIR</span></div>
 </div>
 <div class="rq-card" style="--rq-color:#388e3c; --rq-soft:#e8f5e9;">
 <div class="rq-head"><span class="rq-badge">RQ2</span><span class="rq-topic">Data Curriculum</span></div>
 <div class="rq-q">In what order should the training data be scheduled?</div>
 <div class="rq-tags"><span class="rq-tag">D<sup>3</sup> · ICML 2026</span></div>
-<div class="rq-affil">@ Microsoft</div>
+<div class="rq-affil"><span class="rq-affil-tag">🏛 Microsoft</span></div>
 </div>
 <div class="rq-card" style="--rq-color:#8e24aa; --rq-soft:#f3e5f5;">
 <div class="rq-head"><span class="rq-badge">RQ3</span><span class="rq-topic">Data Representation</span></div>
 <div class="rq-q">How should complex data characteristics be addressed?</div>
-<div class="rq-tags"><span class="rq-tag">LENS · ICAIF 2025</span><span class="rq-tag">HGAN-SDEs · ICASSP 2026</span><span class="rq-tag">MM-NSDEs · IJCAI 2026</span><span class="rq-tag">HF Pretraining · Product</span></div>
-<div class="rq-affil">@ JoinQuant · HKUST</div>
+<div class="rq-tags"><span class="rq-tag">LENS · ICAIF 2025</span><span class="rq-tag">HGAN-SDEs · ICASSP 2026</span><span class="rq-tag">MM-NSDEs · AAAI 2026</span><span class="rq-tag">HF Pretraining · Product</span></div>
+<div class="rq-affil"><span class="rq-affil-tag">🏛 JoinQuant</span><span class="rq-affil-tag">🏛 HKUST</span></div>
 </div>
 <div class="rq-card" style="--rq-color:#e65100; --rq-soft:#fff3e0;">
 <div class="rq-head"><span class="rq-badge">RQ4</span><span class="rq-topic">Data Orchestration</span></div>
 <div class="rq-q">How can we organize heterogeneous data in a more elegant way?</div>
 <div class="rq-tags"><span class="rq-tag">FinRipple · ACL 2025</span><span class="rq-tag">Meituan Nutrition KG · Product</span></div>
-<div class="rq-affil">@ Tsinghua AIR · HKUST</div>
+<div class="rq-affil"><span class="rq-affil-tag">🏛 Tsinghua AIR</span><span class="rq-affil-tag">🏛 HKUST</span></div>
 </div>
 </div>
 </div>

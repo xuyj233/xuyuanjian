@@ -30,11 +30,11 @@ My research revolves around **Data-centric Machine Learning**, with a primary fo
 .rq-map { margin: 1.5em 0 1.75em 0; }
 .rq-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 0.9em; align-items: stretch; }
 .rq-hub {
-  grid-column: 1 / -1; justify-self: center; width: min(94%, 460px);
-  text-align: center; margin: 0.15em 0;
+  grid-column: 1 / -1; justify-self: center; width: min(80%, 400px);
+  position: relative; z-index: 5; text-align: center; margin: -1.2em 0;
   background: linear-gradient(135deg, #64b5f6 0%, #2196f3 100%);
-  color: #fff; border-radius: 30px; padding: 0.55em 1.1em;
-  box-shadow: 0 3px 12px rgba(33,150,243,0.28);
+  color: #fff; border-radius: 14px; padding: 0.6em 1.1em;
+  box-shadow: 0 4px 16px rgba(33,150,243,0.32); border: 3px solid #fff;
 }
 .rq-hub .rq-hub-title { font-size: 0.86em; font-weight: 700; letter-spacing: 0.2px; }
 .rq-hub-sub { display: flex; flex-wrap: wrap; justify-content: center; gap: 0.25em 0.6em; margin-top: 0.3em; }
@@ -72,7 +72,7 @@ My research revolves around **Data-centric Machine Learning**, with a primary fo
 }
 @media (max-width: 640px) {
   .rq-grid { grid-template-columns: 1fr; gap: 0.9em; }
-  .rq-hub { width: auto; border-radius: 14px; padding: 0.75em 1em; }
+  .rq-hub { width: auto; margin: 0; border-radius: 14px; padding: 0.75em 1em; }
   .rq-hub .rq-hub-title { font-size: 0.95em; }
   .rq-hub-item { font-size: 0.72em; }
 }

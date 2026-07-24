@@ -90,7 +90,7 @@ My research revolves around **Data-centric Machine Learning**, with a primary fo
 </div>
 <div class="rq-card rq-wide" style="--rq-color:#455a64; --rq-soft:#eceff1;">
 <div class="rq-head"><span class="rq-badge">DATA</span><span class="rq-topic">Foundational Datasets, Benchmarks and Survey</span></div>
-<div class="rq-tags"><span class="rq-tag">Chinese FineWeb-Edu · Dataset</span><span class="rq-tag">The WoW · Corpus</span><span class="rq-tag">BizCompass · ACL 2026</span><span class="rq-tag">From Tokens to Intelligence · Survey, ACL 2027</span></div>
+<div class="rq-tags"><span class="rq-tag">The WoW · Corpus · ACL 2027 (Ongoing)</span><span class="rq-tag">BizCompass · Benchmark · ACL 2026</span><span class="rq-tag">From Tokens to Intelligence · Survey · ACL 2027 (Ongoing)</span></div>
 </div>
 </div>
 </div>

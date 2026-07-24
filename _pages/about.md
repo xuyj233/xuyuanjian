@@ -24,15 +24,74 @@ redirect_from:
 
 I am currently a third-year Ph.D. candidate at the Hong Kong University of Science and Technology (HKUST), supervised by <span style="color: #1976d2;">@Prof. Guang Zhang</span> from HKUST-GZ and <span style="color: #1976d2;">@Dr. Zhong Li</span> from MSRA. I am currently doing research at **Tencent Hunyuan** as a **Qing Yun Program** intern.
 
-My research revolves around **Data-centric Machine Learning**, with a primary focus on LLMs. Specifically, my work has systematically investigated the following four dimensions:
+My research revolves around **Data-centric Machine Learning**, with a primary focus on LLMs. Specifically, my work has systematically investigated four dimensions — **data selection, curriculum, representation, and orchestration** — organized around the following research questions:
 
-- **RQ1 (Data Selection):** Identifying optimal data selection strategies for LLM pre-training.
-- **RQ2 (Data Curriculum):** Designing effective data scheduling to maximize model performance. 
-- **RQ3 (Data Representation):** How to model *complex data characteristics* (e.g.multi-modal data)? 
-- **RQ4 (Data Orchestration):** How to elegantly organize *heterogeneous data*?
+<style>
+.rq-map { margin: 1.5em 0 1.75em 0; }
+.rq-hub {
+  max-width: 460px; margin: 0 auto 1.1em auto; text-align: center;
+  background: linear-gradient(135deg, #1976d2 0%, #0d47a1 100%);
+  color: #fff; border-radius: 12px; padding: 0.85em 1.2em;
+  box-shadow: 0 4px 16px rgba(25,118,210,0.28);
+}
+.rq-hub .rq-hub-title { font-size: 1.02em; font-weight: 700; letter-spacing: 0.3px; }
+.rq-hub .rq-hub-sub { font-size: 0.8em; opacity: 0.92; margin-top: 0.3em; }
+.rq-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 0.9em; }
+.rq-card {
+  position: relative; background: #fff; border: 1px solid #eceff1;
+  border-radius: 12px; padding: 1em 1.1em 0.9em 1.1em;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.06);
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+  border-top: 4px solid var(--rq-color);
+}
+.rq-card:hover { transform: translateY(-4px); box-shadow: 0 8px 22px rgba(0,0,0,0.12); }
+.rq-head { display: flex; align-items: center; gap: 0.5em; margin-bottom: 0.45em; }
+.rq-badge {
+  flex-shrink: 0; font-size: 0.72em; font-weight: 700; color: #fff;
+  background: var(--rq-color); padding: 3px 9px; border-radius: 20px;
+}
+.rq-topic { font-size: 0.9em; font-weight: 700; color: #263238; }
+.rq-q { font-size: 0.86em; font-style: italic; color: #546e7a; line-height: 1.45; margin-bottom: 0.6em; }
+.rq-tags { display: flex; flex-wrap: wrap; gap: 0.35em; margin-bottom: 0.55em; }
+.rq-tag {
+  font-size: 0.72em; font-weight: 600; color: var(--rq-color);
+  background: var(--rq-soft); padding: 2px 8px; border-radius: 5px;
+}
+.rq-affil { font-size: 0.72em; color: #90a4ae; font-style: italic; }
+@media (max-width: 640px) { .rq-grid { grid-template-columns: 1fr; } }
+</style>
 
-<div style="margin: 1.25em 0 1.5em 0; border-radius: 10px; box-shadow: 0 2px 12px rgba(0,0,0,0.08); overflow: hidden;">
-<img src="{{ '/static/big_pic.webp' | relative_url }}?v=2" alt="Overview of data-centric research questions" width="1600" height="900" loading="lazy" decoding="async" fetchpriority="low" style="width: 100%; height: auto; display: block;">
+<div class="rq-map" markdown="0">
+<div class="rq-hub">
+<div class="rq-hub-title">🧭 Data-Centric Machine Learning</div>
+<div class="rq-hub-sub">Chinese FineWeb-Edu &nbsp;·&nbsp; BizCompass (ACL 2026)</div>
+</div>
+<div class="rq-grid">
+<div class="rq-card" style="--rq-color:#1976d2; --rq-soft:#e3f2fd;">
+<div class="rq-head"><span class="rq-badge">RQ1</span><span class="rq-topic">Data Selection</span></div>
+<div class="rq-q">On which data should the model be trained?</div>
+<div class="rq-tags"><span class="rq-tag">HardPT · ACL 2023</span><span class="rq-tag">DoGraph · ACL 2026</span><span class="rq-tag">DirEct · ICML 2026</span></div>
+<div class="rq-affil">@ Microsoft · Tsinghua AIR</div>
+</div>
+<div class="rq-card" style="--rq-color:#388e3c; --rq-soft:#e8f5e9;">
+<div class="rq-head"><span class="rq-badge">RQ2</span><span class="rq-topic">Data Curriculum</span></div>
+<div class="rq-q">In what order should the training data be scheduled?</div>
+<div class="rq-tags"><span class="rq-tag">D<sup>3</sup> · ICML 2026</span></div>
+<div class="rq-affil">@ Microsoft</div>
+</div>
+<div class="rq-card" style="--rq-color:#8e24aa; --rq-soft:#f3e5f5;">
+<div class="rq-head"><span class="rq-badge">RQ3</span><span class="rq-topic">Data Representation</span></div>
+<div class="rq-q">How should complex data characteristics be addressed?</div>
+<div class="rq-tags"><span class="rq-tag">LENS · ICAIF 2025</span><span class="rq-tag">HGAN-SDEs · ICASSP 2026</span><span class="rq-tag">MM-NSDEs · IJCAI 2026</span><span class="rq-tag">HF Pretraining · Product</span></div>
+<div class="rq-affil">@ JoinQuant · HKUST</div>
+</div>
+<div class="rq-card" style="--rq-color:#e65100; --rq-soft:#fff3e0;">
+<div class="rq-head"><span class="rq-badge">RQ4</span><span class="rq-topic">Data Orchestration</span></div>
+<div class="rq-q">How can we organize heterogeneous data in a more elegant way?</div>
+<div class="rq-tags"><span class="rq-tag">FinRipple · ACL 2025</span><span class="rq-tag">Meituan Nutrition KG · Product</span></div>
+<div class="rq-affil">@ Tsinghua AIR · HKUST</div>
+</div>
+</div>
 </div>
 
 My work has been published at venues including **ICML 2026** (one paper selected as <span style="background-color: #fff3e0; color: #e65100; padding: 2px 8px; border-radius: 4px; font-weight: bold;">🏆 Spotlight</span>), **ACL 2026**, **ACL 2023**, **ACL 2025**, **ICAIF 2025**, and **ICASSP 2026** (<span style="background-color: #fff3e0; color: #e65100; padding: 2px 8px; border-radius: 4px; font-weight: bold;">🏆 Oral</span>). I also serve as a reviewer for leading conferences such as **NeurIPS**, **ICLR**, and **ICML** (selected as <span style="background-color: #fff3e0; color: #e65100; padding: 2px 8px; border-radius: 4px; font-weight: bold;">🏆 Gold Reviewer</span>).

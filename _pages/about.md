@@ -27,22 +27,23 @@ I am currently a third-year Ph.D. candidate at the Hong Kong University of Scien
 My research revolves around **Data-centric Machine Learning**, with a primary focus on LLMs. Specifically, my work has systematically investigated four dimensions — **data selection, curriculum, representation, and orchestration** — organized around the following research questions:
 
 <style>
-.rq-map { margin: 1.5em 0 1.75em 0; }
+.rq-map { position: relative; margin: 1.5em 0 1.75em 0; }
 .rq-hub {
-  max-width: 460px; margin: 0 auto 1.1em auto; text-align: center;
+  position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+  z-index: 5; width: min(90%, 430px); text-align: center;
   background: linear-gradient(135deg, #1976d2 0%, #0d47a1 100%);
-  color: #fff; border-radius: 12px; padding: 0.85em 1.2em;
-  box-shadow: 0 4px 16px rgba(25,118,210,0.28);
+  color: #fff; border-radius: 40px; padding: 0.55em 1em;
+  box-shadow: 0 6px 22px rgba(13,71,161,0.35); border: 3px solid #fff;
 }
-.rq-hub .rq-hub-title { font-size: 1.02em; font-weight: 700; letter-spacing: 0.3px; }
-.rq-hub-sub { display: flex; flex-wrap: wrap; justify-content: center; gap: 0.4em 0.7em; margin-top: 0.55em; }
-.rq-hub-item { display: inline-flex; align-items: center; gap: 0.35em; font-size: 0.78em; font-weight: 600; }
+.rq-hub .rq-hub-title { font-size: 0.8em; font-weight: 700; letter-spacing: 0.2px; }
+.rq-hub-sub { display: flex; flex-wrap: wrap; justify-content: center; gap: 0.25em 0.55em; margin-top: 0.3em; }
+.rq-hub-item { display: inline-flex; align-items: center; gap: 0.28em; font-size: 0.62em; font-weight: 600; }
 .rq-hub-tag {
-  font-size: 0.86em; font-weight: 700; letter-spacing: 0.2px;
+  font-size: 0.9em; font-weight: 700; letter-spacing: 0.2px;
   background: rgba(255,255,255,0.22); color: #fff;
-  padding: 1px 7px; border-radius: 20px;
+  padding: 0px 6px; border-radius: 20px;
 }
-.rq-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 0.9em; }
+.rq-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 6em 1em; }
 .rq-card {
   position: relative; background: #fff; border: 1px solid #eceff1;
   border-radius: 12px; padding: 1em 1.1em 0.9em 1.1em;
@@ -69,7 +70,12 @@ My research revolves around **Data-centric Machine Learning**, with a primary fo
   font-size: 0.68em; font-weight: 600; color: #607d8b;
   background: #eceff1; padding: 2px 7px; border-radius: 4px;
 }
-@media (max-width: 640px) { .rq-grid { grid-template-columns: 1fr; } }
+@media (max-width: 640px) {
+  .rq-grid { grid-template-columns: 1fr; gap: 0.9em; }
+  .rq-hub { position: static; transform: none; width: auto; margin: 0 0 0.9em 0; border-radius: 14px; padding: 0.75em 1em; }
+  .rq-hub .rq-hub-title { font-size: 0.95em; }
+  .rq-hub-item { font-size: 0.72em; }
+}
 </style>
 
 <div class="rq-map" markdown="0">

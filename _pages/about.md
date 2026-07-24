@@ -29,6 +29,7 @@ My research revolves around **Data-centric Machine Learning**, with a primary fo
 <style>
 .rq-map { margin: 1.5em 0 1.75em 0; }
 .rq-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 0.9em; align-items: stretch; }
+.rq-wide { grid-column: 1 / -1; }
 .rq-card {
   position: relative; background: #fff; border: 1px solid #eceff1;
   border-radius: 12px; padding: 1em 1.1em 0.9em 1.1em;
@@ -85,6 +86,11 @@ My research revolves around **Data-centric Machine Learning**, with a primary fo
 <div class="rq-q">How can we organize heterogeneous data in a more elegant way?</div>
 <div class="rq-tags"><span class="rq-tag">FinRipple · ACL 2025</span><span class="rq-tag">Meituan Nutrition KG · Product</span></div>
 <div class="rq-affil"><span class="rq-affil-tag">🏛 Tsinghua AIR</span><span class="rq-affil-tag">🏛 HKUST</span></div>
+</div>
+<div class="rq-card rq-wide" style="--rq-color:#455a64; --rq-soft:#eceff1;">
+<div class="rq-head"><span class="rq-badge">DATA</span><span class="rq-topic">Foundational Datasets &amp; Benchmarks</span></div>
+<div class="rq-q">Large-scale corpora and benchmarks underpinning the research above.</div>
+<div class="rq-tags"><span class="rq-tag">Chinese FineWeb-Edu · Dataset</span><span class="rq-tag">BizCompass · ACL 2026</span><span class="rq-tag">The WoW · Corpus</span></div>
 </div>
 </div>
 </div>

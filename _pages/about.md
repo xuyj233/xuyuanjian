@@ -67,7 +67,7 @@ My research revolves around **Data-centric Machine Learning**, with a primary fo
 <div class="rq-card" style="--rq-color:#1976d2; --rq-soft:#e3f2fd;">
 <div class="rq-head"><span class="rq-badge">RQ1</span><span class="rq-topic">Data Scheduling (Selection &amp; Curriculum)</span></div>
 <div class="rq-q">Which data, and in what order, should the model be trained on?</div>
-<div class="rq-tags"><span class="rq-tag">HardPT · ACL 2023</span><span class="rq-tag">DoGraph · ACL 2026</span><span class="rq-tag">DirEct · ICML 2026</span><span class="rq-tag">D<sup>3</sup> · ICML 2026</span><span class="rq-tag">CUBE · ICLR 2027</span><span class="rq-tag">GapLens · ICLR 2027</span></div>
+<div class="rq-tags"><span class="rq-tag">HardPT · ACL 2023</span><span class="rq-tag">DoGraph · ACL 2026</span><span class="rq-tag">DirEct · ICML 2026</span><span class="rq-tag">D<sup>3</sup> · ICML 2026</span><span class="rq-tag">CUBE · ICLR 2027 (Ongoing)</span><span class="rq-tag">GapLens · ICLR 2027 (Ongoing)</span></div>
 <div class="rq-affil"><span class="rq-affil-tag"><img src="{{ '/static/logos/microsoft.svg' | relative_url }}" alt="Microsoft">Microsoft</span><span class="rq-affil-tag"><img src="{{ '/static/logos/tencent.png' | relative_url }}" alt="Tencent Hunyuan">Tencent Hunyuan</span><span class="rq-affil-tag"><img src="{{ '/static/logos/tsinghua.png' | relative_url }}" alt="Tsinghua AIR">Tsinghua AIR</span></div>
 </div>
 <div class="rq-card" style="--rq-color:#8e24aa; --rq-soft:#f3e5f5;">

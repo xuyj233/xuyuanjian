@@ -30,14 +30,14 @@ My research revolves around **Data-centric Machine Learning**, with a primary fo
 .rq-map { margin: 1.5em 0 1.75em 0; }
 .rq-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 0.9em; align-items: stretch; }
 .rq-hub {
-  grid-column: 1 / -1; justify-self: center; width: min(80%, 400px);
+  grid-column: 1 / -1; justify-self: center; width: min(52%, 240px);
   position: relative; z-index: 5; text-align: center; margin: -2.4em 0;
   background: linear-gradient(135deg, #64b5f6 0%, #2196f3 100%);
-  color: #fff; border-radius: 8px; padding: 0.6em 1.1em;
+  color: #fff; border-radius: 6px; padding: 0.75em 0.9em;
   box-shadow: 0 4px 18px rgba(33,150,243,0.35); border: 3px solid #fff;
 }
 .rq-hub .rq-hub-title { font-size: 0.86em; font-weight: 700; letter-spacing: 0.2px; }
-.rq-hub-sub { display: flex; flex-wrap: wrap; justify-content: center; gap: 0.25em 0.6em; margin-top: 0.3em; }
+.rq-hub-sub { display: flex; flex-direction: column; align-items: center; gap: 0.35em; margin-top: 0.45em; }
 .rq-hub-item { display: inline-flex; align-items: center; gap: 0.3em; font-size: 0.66em; font-weight: 600; }
 .rq-hub-tag {
   font-size: 0.9em; font-weight: 700; letter-spacing: 0.2px;

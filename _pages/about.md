@@ -88,8 +88,8 @@ My research revolves around **Data-centric Machine Learning**, with a primary fo
 <div class="rq-affil"><span class="rq-affil-tag">🏛 Tsinghua AIR</span><span class="rq-affil-tag">🏛 HKUST</span></div>
 </div>
 <div class="rq-card rq-wide" style="--rq-color:#455a64; --rq-soft:#eceff1;">
-<div class="rq-head"><span class="rq-badge">DATA</span><span class="rq-topic">Foundational Datasets &amp; Benchmarks</span></div>
-<div class="rq-tags"><span class="rq-tag">Chinese FineWeb-Edu · Dataset</span><span class="rq-tag">BizCompass · ACL 2026</span><span class="rq-tag">The WoW · Corpus</span></div>
+<div class="rq-head"><span class="rq-badge">DATA</span><span class="rq-topic">Foundational Datasets, Benchmarks and Survey</span></div>
+<div class="rq-tags"><span class="rq-tag">Chinese FineWeb-Edu · Dataset</span><span class="rq-tag">The WoW · Corpus</span><span class="rq-tag">BizCompass · ACL 2026</span><span class="rq-tag">From Tokens to Intelligence · Survey</span></div>
 </div>
 </div>
 </div>

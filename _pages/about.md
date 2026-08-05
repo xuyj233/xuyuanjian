@@ -22,7 +22,7 @@ redirect_from:
 
 ## 👋 A Brief Introduction
 
-I am currently a third-year Ph.D. candidate at the Hong Kong University of Science and Technology (HKUST), supervised by <span style="color: #1976d2;">@Prof. Guang Zhang</span> from HKUST-GZ and <span style="color: #1976d2;">@Dr. Zhong Li</span> from MSRA. I am currently doing research at **Tencent Hunyuan** as a **Qing Yun Program** intern.
+I am currently a third-year Ph.D. candidate at the Hong Kong University of Science and Technology (HKUST), supervised by <span style="color: #1976d2;">@Prof. Guang Zhang</span> from HKUST-GZ and <span style="color: #1976d2;">@Dr. Zhong Li</span> from MSRA.
 
 My research revolves around **Data-centric Machine Learning**, with a primary focus on LLMs. Specifically, my work is organized around two core dimensions — **data scheduling** (selection and curriculum) and **data organization and representation** — as outlined below:
 
@@ -187,7 +187,7 @@ I am currently pursuing a Ph.D. in Fintech at the **Hong Kong University of Scie
 <strong>Tencent Hunyuan</strong>
 <span style="color: #555; font-size: 0.95em;">Top Talent Research Intern</span>
 </div>
-<p style="margin: 0.65em 0 0 0; color: #444; line-height: 1.65;">Currently working as a <strong>Qing Yun Program</strong> research intern in foundation model research.</p>
+<p style="margin: 0.65em 0 0 0; color: #444; line-height: 1.65;">Working as a <strong>Qing Yun Program</strong> research intern in foundation model research.</p>
 </div>
 </div>
 

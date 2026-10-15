@@ -209,9 +209,10 @@ My past research has focused on **sample selection and sample quality assessment
         </div>
         <div class="stage-papers">
           <div class="stage-paper"><strong>HardPT</strong> · Hard-sample tuning</div>
+          <div class="stage-paper"><strong>CUBE</strong> · Reasoning quality assessment</div>
         </div>
       </div>
-      <div class="stage-venue">ACL 2023</div>
+      <div class="stage-venue">ACL 2023 · ICLR 2027 Under Review</div>
     </div>
     <div class="stage-card active">
       <div>
@@ -265,6 +266,16 @@ My work has been published at venues including **NeurIPS 2026**, **ICML 2026** (
   <strong style="color: #388e3c;">✓ Key Contribution:</strong> We survey data strategies for identifying high-quality corpora across the full LLM training lifecycle, organizing the field around how data quality requirements evolve across training stages.
   </div>
 
+- [<span style="background-color: #e3f2fd; color: #1565c0; padding: 2px 8px; border-radius: 4px; font-weight: bold;">Under Review at ICLR 2027</span>] **Yuanjian Xu**, et al. *CUBE: Benchmarking Sample Reasoning Quality from Internal Geometric Dynamics in LLMs*. <span style="color: #d32f2f; font-weight: bold;">[CCF A]</span> <span style="color: #d32f2f; font-weight: bold;">[CORE A*]</span> <span style="color: #7b7b7b; font-style: italic;">(@ Tencent Hunyuan)</span>  
+  <div style="background-color: #f8f9fa; border-left: 3px solid #388e3c; padding: 0.8em 1em; margin: 0.5em 0 1em 1.5em; font-size: 0.85em; color: #555; line-height: 1.5;">
+  <strong style="color: #388e3c;">✓ Key Contribution:</strong> We introduce CUBE to assess reasoning sample quality through the internal geometric dynamics of LLMs, enabling sample-level evaluation of reasoning data.
+  </div>
+
+- [<span style="background-color: #e3f2fd; color: #1565c0; padding: 2px 8px; border-radius: 4px; font-weight: bold;">Under Review at ICLR 2027</span>] Jinyi Han, Zixiang Di, Zishang Jiang, Ying Liao, Jianing Hao, **Yuanjian Xu**, Yanghua Xiao. *Structured Reasoning for Large Language Models*. <span style="color: #d32f2f; font-weight: bold;">[CCF A]</span> <span style="color: #d32f2f; font-weight: bold;">[CORE A*]</span>  
+  <div style="background-color: #f8f9fa; border-left: 3px solid #388e3c; padding: 0.8em 1em; margin: 0.5em 0 1em 1.5em; font-size: 0.85em; color: #555; line-height: 1.5;">
+  <strong style="color: #388e3c;">✓ Key Contribution:</strong> We study chain-of-thought data quality through structured reasoning traces, providing a framework for assessing which reasoning processes offer effective supervision for LLM training.
+  </div>
+
 </div>
 </div>
 
@@ -287,15 +298,13 @@ My work has been published at venues including **NeurIPS 2026**, **ICML 2026** (
 
 ## Under Review
 
-- [<span style="background-color: #ffebee; color: #c62828; padding: 2px 8px; border-radius: 4px; font-weight: bold;">Technical Report @ Tencent Hunyuan</span>] Jinyi Han*, **Yuanjian Xu***, et al. *Skill-Use: Can LLMs Actually Use Skills in Agentic Harnesses?* [<a href="https://arxiv.org/abs/2608.04828" style="color: #1976d2;"><i class="fas fa-file-pdf"></i> Paper</a>] [<a href="https://github.com/JinyiHan99/Skill-Use-Bench" style="color: #1976d2;"><i class="fab fa-github"></i> Code</a>]. <span style="color: #d32f2f; font-weight: bold;">[CCF A]</span> <span style="color: #7b7b7b; font-style: italic;">(under review at AAAI 2027, equal contribution)</span>
+- [<span style="background-color: #e3f2fd; color: #1565c0; padding: 2px 8px; border-radius: 4px; font-weight: bold;">Under Review at ACL 2027</span>] Jinyi Han*, **Yuanjian Xu***, et al. *Skill-Use: Can LLMs Actually Use Skills in Agentic Harnesses?* [<a href="https://arxiv.org/abs/2608.04828" style="color: #1976d2;"><i class="fas fa-file-pdf"></i> Paper</a>] [<a href="https://github.com/JinyiHan99/Skill-Use-Bench" style="color: #1976d2;"><i class="fab fa-github"></i> Code</a>]. <span style="color: #d32f2f; font-weight: bold;">[CCF A]</span> <span style="color: #d32f2f; font-weight: bold;">[CORE A*]</span> <span style="color: #7b7b7b; font-style: italic;">(equal contribution)</span>
+
+- [<span style="background-color: #e3f2fd; color: #1565c0; padding: 2px 8px; border-radius: 4px; font-weight: bold;">Under Review at ACL 2027</span>] **Yuanjian Xu**, et al. *Can LLMs Stay Robust in Noisy Agentic Environments?* <span style="color: #d32f2f; font-weight: bold;">[CCF A]</span> <span style="color: #d32f2f; font-weight: bold;">[CORE A*]</span>
+
+- [<span style="background-color: #e3f2fd; color: #1565c0; padding: 2px 8px; border-radius: 4px; font-weight: bold;">Under Review at ACL 2027</span>] Wei Guo, **Yuanjian Xu**, et al. *Bridging Foundational and Agentic Capabilities of LLMs*. <span style="color: #d32f2f; font-weight: bold;">[CCF A]</span> <span style="color: #d32f2f; font-weight: bold;">[CORE A*]</span>
 
 - [<span style="background-color: #e3f2fd; color: #1565c0; padding: 2px 8px; border-radius: 4px; font-weight: bold;">Under Review at AAAI 2027</span>] **Yuanjian Xu**, et al. *Rethinking Neural SDEs under Shifting Data-Generating Processes*. <span style="color: #d32f2f; font-weight: bold;">[CCF A]</span>
-
-## In Progress
-
-- [<span style="background-color: #fffde7; color: #f57f17; padding: 2px 8px; border-radius: 4px; font-weight: bold;">🚧 Target ICLR 2027</span>] **Yuanjian Xu**, et al. *Benchmarking Sample Reasoning Quality from Internal Geometric Dynamics in LLMs*. <span style="color: #d32f2f; font-weight: bold;">[CCF A]</span> <span style="color: #7b7b7b; font-style: italic;">(@ Tencent Hunyuan)</span>
-
-- [<span style="background-color: #fffde7; color: #f57f17; padding: 2px 8px; border-radius: 4px; font-weight: bold;">🚧 Target ACL 2027</span>] **Yuanjian Xu**, et al. *The WoW: A Large-Scale World Knowledge Corpus for Full-Lifecycle LLM Training*. <span style="color: #d32f2f; font-weight: bold;">[CCF A]</span>
 </div>
 </div>
 

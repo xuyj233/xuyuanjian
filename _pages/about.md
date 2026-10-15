@@ -26,8 +26,105 @@ I am currently a third-year Ph.D. candidate at the Hong Kong University of Scien
 
 My past research has focused on **sample selection and sample quality assessment across the full LLM training lifecycle**. Recently, I have been exploring two directions:
 
-1. **Multimodal Data Selection:** identifying high-quality samples by evaluating cross-modal alignment, complementarity, and informativeness across text, images, and other modalities.
-2. **Specialized Text Data Selection:** developing structure-aware and task-specific quality criteria for long-context and agentic data, including context dependency, reasoning trajectories, and tool-use behavior.
+<style>
+.focus-directions {
+  margin: 1.15em 0 1.45em;
+}
+.direction-item {
+  display: grid;
+  grid-template-columns: 3.3em 1fr;
+  gap: 0.9em;
+  align-items: start;
+  padding: 0.9em 0;
+}
+.direction-item + .direction-item {
+  border-top: 1px solid #edf1f5;
+}
+.direction-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.75em;
+  height: 2.75em;
+  border-radius: 50%;
+  color: #1976d2;
+  background: #eaf3fc;
+  font-size: 0.95em;
+}
+.direction-item:nth-child(2) .direction-icon {
+  color: #7b1fa2;
+  background: #f3eaf7;
+}
+.direction-title {
+  margin-bottom: 0.25em;
+  color: #263238;
+  font-size: 0.96em;
+  font-weight: 750;
+}
+.direction-description {
+  color: #546e7a;
+  font-size: 0.86em;
+  line-height: 1.58;
+}
+.direction-signals {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7em;
+  margin-top: 0.48em;
+  color: #78909c;
+  font-size: 0.7em;
+  font-weight: 650;
+}
+.direction-signals span {
+  white-space: nowrap;
+}
+.direction-signals i {
+  width: 1.2em;
+  color: #1976d2;
+  text-align: center;
+}
+.direction-item:nth-child(2) .direction-signals i {
+  color: #8e24aa;
+}
+@media (max-width: 640px) {
+  .direction-item {
+    grid-template-columns: 2.8em 1fr;
+    gap: 0.65em;
+  }
+  .direction-icon {
+    width: 2.35em;
+    height: 2.35em;
+  }
+}
+</style>
+
+<div class="focus-directions" markdown="0">
+  <div class="direction-item">
+    <div class="direction-icon"><i class="fas fa-images" aria-hidden="true"></i></div>
+    <div>
+      <div class="direction-title">Multimodal Data Selection</div>
+      <div class="direction-description">Identifying high-quality samples by evaluating alignment, complementarity, and informativeness across text, images, and other modalities.</div>
+      <div class="direction-signals">
+        <span><i class="fas fa-link"></i>Cross-modal alignment</span>
+        <span><i class="fas fa-puzzle-piece"></i>Complementarity</span>
+        <span><i class="fas fa-chart-line"></i>Informativeness</span>
+      </div>
+    </div>
+  </div>
+  <div class="direction-item">
+    <div class="direction-icon"><i class="fas fa-robot" aria-hidden="true"></i></div>
+    <div>
+      <div class="direction-title">Specialized Text Data Selection</div>
+      <div class="direction-description">Developing quality criteria for long-context and agentic data. For agentic data, I study what interaction trajectories teach language models and which examples provide genuinely useful learning signals.</div>
+      <div class="direction-signals">
+        <span><i class="fas fa-route"></i>Planning</span>
+        <span><i class="fas fa-tools"></i>Tool use</span>
+        <span><i class="fas fa-comment-dots"></i>Feedback</span>
+        <span><i class="fas fa-redo-alt"></i>Error recovery</span>
+      </div>
+    </div>
+  </div>
+</div>
 
 <style>
 .research-thread {

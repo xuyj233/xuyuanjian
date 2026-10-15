@@ -78,14 +78,6 @@ My past research has focused on **sample selection and sample quality assessment
 .direction-signals span {
   white-space: nowrap;
 }
-.direction-signals i {
-  width: 1.2em;
-  color: #1976d2;
-  text-align: center;
-}
-.direction-item:nth-child(2) .direction-signals i {
-  color: #8e24aa;
-}
 @media (max-width: 640px) {
   .direction-item {
     grid-template-columns: 2.8em 1fr;
@@ -105,9 +97,9 @@ My past research has focused on **sample selection and sample quality assessment
       <div class="direction-title">Multimodal Data Selection</div>
       <div class="direction-description">Identifying high-quality samples by evaluating alignment, complementarity, and informativeness across text, images, and other modalities.</div>
       <div class="direction-signals">
-        <span><i class="fas fa-link"></i>Cross-modal alignment</span>
-        <span><i class="fas fa-puzzle-piece"></i>Complementarity</span>
-        <span><i class="fas fa-chart-line"></i>Informativeness</span>
+        <span>Cross-modal alignment</span>
+        <span>Complementarity</span>
+        <span>Informativeness</span>
       </div>
     </div>
   </div>
@@ -117,10 +109,10 @@ My past research has focused on **sample selection and sample quality assessment
       <div class="direction-title">Specialized Text Data Selection</div>
       <div class="direction-description">Developing quality criteria for long-context and agentic data. For agentic data, I study what interaction trajectories teach language models and which examples provide genuinely useful learning signals.</div>
       <div class="direction-signals">
-        <span><i class="fas fa-route"></i>Planning</span>
-        <span><i class="fas fa-tools"></i>Tool use</span>
-        <span><i class="fas fa-comment-dots"></i>Feedback</span>
-        <span><i class="fas fa-redo-alt"></i>Error recovery</span>
+        <span>Planning</span>
+        <span>Tool use</span>
+        <span>Feedback</span>
+        <span>Error recovery</span>
       </div>
     </div>
   </div>
@@ -245,25 +237,25 @@ My past research has focused on **sample selection and sample quality assessment
 </style>
 
 <div class="research-thread" aria-label="Connection between previous work and current research" markdown="0">
-  <div class="thread-heading">A continuous research thread</div>
+  <div class="thread-heading">Across the LLM training lifecycle</div>
   <div class="thread-track">
     <div class="thread-step">
       <span class="thread-dot"></span>
-      <div class="thread-work">HardPT</div>
-      <div class="thread-topic">Hard-sample identification</div>
-      <div class="thread-venue">ACL 2023</div>
-    </div>
-    <div class="thread-step">
-      <span class="thread-dot"></span>
-      <div class="thread-work">DoGraph · DirEct</div>
-      <div class="thread-topic">Domain &amp; sample selection</div>
+      <div class="thread-work">Pre-training</div>
+      <div class="thread-topic"><strong>DoGraph</strong> · Stable training<br><strong>D<sup>3</sup></strong> · Sample ordering</div>
       <div class="thread-venue">ACL · ICML 2026</div>
     </div>
     <div class="thread-step">
       <span class="thread-dot"></span>
-      <div class="thread-work">D<sup>3</sup></div>
-      <div class="thread-topic">Training-order optimization</div>
+      <div class="thread-work">Annealing</div>
+      <div class="thread-topic"><strong>DirEct</strong> · Sample selection</div>
       <div class="thread-venue">ICML 2026</div>
+    </div>
+    <div class="thread-step">
+      <span class="thread-dot"></span>
+      <div class="thread-work">SFT</div>
+      <div class="thread-topic"><strong>HardPT</strong> · Hard-sample selection</div>
+      <div class="thread-venue">ACL 2023</div>
     </div>
     <div class="thread-step current">
       <span class="thread-dot"></span>

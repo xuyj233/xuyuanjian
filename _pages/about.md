@@ -26,8 +26,8 @@ I am currently a third-year Ph.D. candidate at the Hong Kong University of Scien
 
 My past research has focused on **sample selection and sample quality assessment across the full LLM training lifecycle**. Recently, I have been exploring two directions:
 
-1. **Multimodal Data Selection:** Identifying high-quality samples by evaluating **cross-modal alignment**, **complementarity**, and **informativeness** across text, images, and other modalities.
-2. **Specialized Text Data Selection:** Developing quality criteria for long-context and agentic data. For agentic data, I study what interaction trajectories teach language models and which examples provide genuinely useful learning signals across **planning**, **tool use**, **feedback**, and **error recovery**.
+1. **Multimodal Data Selection:** Studying how data selection strategies should adapt to multimodal corpora with extremely low signal-to-noise ratios, where useful supervision is sparse and distributed across modalities.
+2. **Specialized Text Data Selection:** Understanding what domain-specific data—such as agentic trajectories and long-context documents—actually contributes to LLM training, and developing principled criteria for selecting examples that provide useful capabilities and learning signals.
 
 <style>
 .lifecycle-board {

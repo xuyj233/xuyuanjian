@@ -26,242 +26,205 @@ I am currently a third-year Ph.D. candidate at the Hong Kong University of Scien
 
 My past research has focused on **sample selection and sample quality assessment across the full LLM training lifecycle**. Recently, I have been exploring two directions:
 
+1. **Multimodal Data Selection:** Identifying high-quality samples by evaluating **cross-modal alignment**, **complementarity**, and **informativeness** across text, images, and other modalities.
+2. **Specialized Text Data Selection:** Developing quality criteria for long-context and agentic data. For agentic data, I study what interaction trajectories teach language models and which examples provide genuinely useful learning signals across **planning**, **tool use**, **feedback**, and **error recovery**.
+
 <style>
-.focus-directions {
-  margin: 1.15em 0 1.45em;
+.lifecycle-board {
+  margin: 1.5em 0 1.85em;
+  padding: 1.15em 1.25em 1.2em;
+  background: linear-gradient(180deg, #fafcfe 0%, #f4f8fc 100%);
+  border: 1px solid #e2eaf3;
+  border-radius: 12px;
 }
-.direction-item {
+.lifecycle-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.5em;
+  margin-bottom: 1em;
+}
+.lifecycle-title {
+  color: #1e293b;
+  font-size: 0.78em;
+  font-weight: 750;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.lifecycle-subtitle {
+  color: #64748b;
+  font-size: 0.75em;
+}
+.lifecycle-grid {
   display: grid;
-  grid-template-columns: 3.3em 1fr;
-  gap: 0.9em;
-  align-items: start;
-  padding: 0.9em 0;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.75em;
+  align-items: stretch;
 }
-.direction-item + .direction-item {
-  border-top: 1px solid #edf1f5;
+.stage-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  padding: 0.85em 0.9em;
+  box-shadow: 0 1px 3px rgba(15, 23, 42, 0.03);
 }
-.direction-icon {
+.stage-card:not(:last-child)::after {
+  content: "→";
+  position: absolute;
+  right: -0.62em;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 1.1em;
+  height: 1.1em;
+  border-radius: 50%;
+  background: #ffffff;
+  border: 1px solid #cbd5e1;
+  color: #64748b;
+  font-size: 0.72em;
+  font-weight: 700;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 2.75em;
-  height: 2.75em;
-  border-radius: 50%;
-  color: #1976d2;
-  background: #eaf3fc;
-  font-size: 0.95em;
+  z-index: 2;
 }
-.direction-item:nth-child(2) .direction-icon {
-  color: #7b1fa2;
-  background: #f3eaf7;
+.stage-card.active {
+  background: linear-gradient(180deg, #eff6ff 0%, #ffffff 100%);
+  border-color: #93c5fd;
+  box-shadow: 0 3px 10px rgba(25, 118, 210, 0.08);
 }
-.direction-title {
-  margin-bottom: 0.25em;
-  color: #263238;
-  font-size: 0.96em;
-  font-weight: 750;
-}
-.direction-description {
-  color: #546e7a;
-  font-size: 0.86em;
-  line-height: 1.58;
-}
-.direction-signals {
+.stage-top {
   display: flex;
-  flex-wrap: wrap;
-  gap: 0.7em;
-  margin-top: 0.48em;
-  color: #78909c;
-  font-size: 0.7em;
-  font-weight: 650;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.4em;
+  margin-bottom: 0.55em;
 }
-.direction-signals span {
-  white-space: nowrap;
-}
-@media (max-width: 640px) {
-  .direction-item {
-    grid-template-columns: 2.8em 1fr;
-    gap: 0.65em;
-  }
-  .direction-icon {
-    width: 2.35em;
-    height: 2.35em;
-  }
-}
-</style>
-
-<div class="focus-directions" markdown="0">
-  <div class="direction-item">
-    <div class="direction-icon"><i class="fas fa-images" aria-hidden="true"></i></div>
-    <div>
-      <div class="direction-title">Multimodal Data Selection</div>
-      <div class="direction-description">Identifying high-quality samples by evaluating alignment, complementarity, and informativeness across text, images, and other modalities.</div>
-      <div class="direction-signals">
-        <span>Cross-modal alignment</span>
-        <span>Complementarity</span>
-        <span>Informativeness</span>
-      </div>
-    </div>
-  </div>
-  <div class="direction-item">
-    <div class="direction-icon"><i class="fas fa-robot" aria-hidden="true"></i></div>
-    <div>
-      <div class="direction-title">Specialized Text Data Selection</div>
-      <div class="direction-description">Developing quality criteria for long-context and agentic data. For agentic data, I study what interaction trajectories teach language models and which examples provide genuinely useful learning signals.</div>
-      <div class="direction-signals">
-        <span>Planning</span>
-        <span>Tool use</span>
-        <span>Feedback</span>
-        <span>Error recovery</span>
-      </div>
-    </div>
-  </div>
-</div>
-
-<style>
-.research-thread {
-  margin: 1.6em 0 1.8em;
-  padding: 1.1em 0 1.25em;
-  border-top: 1px solid #e3eaf1;
-  border-bottom: 1px solid #e3eaf1;
-}
-.thread-heading {
-  margin-bottom: 1.15em;
-  color: #455a64;
-  font-size: 0.76em;
-  font-weight: 750;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-}
-.thread-track {
-  position: relative;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 1em;
-}
-.thread-track::before {
-  content: "";
-  position: absolute;
-  top: 0.5em;
-  left: 0.55em;
-  right: 0.55em;
-  height: 2px;
-  background: linear-gradient(90deg, #b0bec5 0%, #78909c 58%, #1976d2 100%);
-}
-.thread-track::after {
-  content: "";
-  position: absolute;
-  top: 0.22em;
-  right: 0;
-  width: 0;
-  height: 0;
-  border-top: 0.34em solid transparent;
-  border-bottom: 0.34em solid transparent;
-  border-left: 0.5em solid #1976d2;
-}
-.thread-step {
-  position: relative;
-  padding-top: 1.65em;
-}
-.thread-dot {
-  position: absolute;
-  top: 0;
-  left: 0.18em;
-  width: 1.05em;
-  height: 1.05em;
-  border: 3px solid #fff;
-  border-radius: 50%;
-  background: #78909c;
-  box-shadow: 0 0 0 2px #78909c;
-}
-.thread-step.current .thread-dot {
-  background: #1976d2;
-  box-shadow: 0 0 0 2px #1976d2, 0 0 0 6px #e3f2fd;
-}
-.thread-work {
-  color: #263238;
+.stage-name {
+  color: #0f172a;
   font-size: 0.88em;
   font-weight: 750;
-  line-height: 1.35;
 }
-.thread-topic {
-  margin-top: 0.18em;
-  color: #607d8b;
+.stage-card.active .stage-name {
+  color: #1976d2;
+}
+.stage-step {
+  font-size: 0.65em;
+  font-weight: 700;
+  color: #64748b;
+  background: #f1f5f9;
+  padding: 0.15em 0.5em;
+  border-radius: 999px;
+}
+.stage-card.active .stage-step {
+  color: #1976d2;
+  background: #dbeafe;
+}
+.stage-papers {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4em;
+}
+.stage-paper {
   font-size: 0.76em;
   line-height: 1.4;
+  color: #475569;
+  padding-left: 0.55em;
+  border-left: 2px solid #cbd5e1;
 }
-.thread-venue {
-  margin-top: 0.35em;
-  color: #90a4ae;
-  font-size: 0.65em;
+.stage-card.active .stage-paper {
+  border-left-color: #1976d2;
+}
+.stage-paper strong {
+  color: #1e293b;
+}
+.stage-venue {
+  margin-top: 0.65em;
+  padding-top: 0.45em;
+  border-top: 1px dashed #e2e8f0;
+  color: #94a3b8;
+  font-size: 0.66em;
   font-weight: 650;
   letter-spacing: 0.03em;
 }
-.thread-step.current .thread-work,
-.thread-step.current .thread-venue {
+.stage-card.active .stage-venue {
   color: #1976d2;
 }
-@media (max-width: 640px) {
-  .thread-track {
+@media (max-width: 720px) {
+  .lifecycle-grid {
     grid-template-columns: 1fr;
-    gap: 0;
-    padding-left: 1.85em;
+    gap: 0.65em;
   }
-  .thread-track::before {
-    top: 0.55em;
-    bottom: 0.55em;
-    left: 0.48em;
+  .stage-card:not(:last-child)::after {
+    content: "↓";
     right: auto;
-    width: 2px;
-    height: auto;
-    background: linear-gradient(180deg, #b0bec5 0%, #78909c 58%, #1976d2 100%);
-  }
-  .thread-track::after {
+    left: 50%;
     top: auto;
-    right: auto;
-    bottom: 0;
-    left: 0.18em;
-    transform: rotate(90deg);
-  }
-  .thread-step {
-    padding: 0 0 1.15em;
-  }
-  .thread-step:last-child {
-    padding-bottom: 0;
-  }
-  .thread-dot {
-    top: 0.12em;
-    left: -1.85em;
+    bottom: -0.68em;
+    transform: translateX(-50%);
   }
 }
 </style>
 
-<div class="research-thread" aria-label="Connection between previous work and current research" markdown="0">
-  <div class="thread-heading">Across the LLM training lifecycle</div>
-  <div class="thread-track">
-    <div class="thread-step">
-      <span class="thread-dot"></span>
-      <div class="thread-work">Pre-training</div>
-      <div class="thread-topic"><strong>DoGraph</strong> · Stable training<br><strong>D<sup>3</sup></strong> · Sample ordering</div>
-      <div class="thread-venue">ACL · ICML 2026</div>
+<div class="lifecycle-board" aria-label="Research across the LLM training lifecycle" markdown="0">
+  <div class="lifecycle-header">
+    <span class="lifecycle-title">Research Across the LLM Training Lifecycle</span>
+    <span class="lifecycle-subtitle">From earlier stage-specific selection to multimodal &amp; specialized data</span>
+  </div>
+  <div class="lifecycle-grid">
+    <div class="stage-card">
+      <div>
+        <div class="stage-top">
+          <span class="stage-name">Pre-training</span>
+          <span class="stage-step">Stage 1</span>
+        </div>
+        <div class="stage-papers">
+          <div class="stage-paper"><strong>DoGraph</strong> · Stable training</div>
+          <div class="stage-paper"><strong>D<sup>3</sup></strong> · Sample ordering</div>
+        </div>
+      </div>
+      <div class="stage-venue">ACL 2026 · ICML 2026</div>
     </div>
-    <div class="thread-step">
-      <span class="thread-dot"></span>
-      <div class="thread-work">Annealing</div>
-      <div class="thread-topic"><strong>DirEct</strong> · Sample selection</div>
-      <div class="thread-venue">ICML 2026</div>
+    <div class="stage-card">
+      <div>
+        <div class="stage-top">
+          <span class="stage-name">Annealing</span>
+          <span class="stage-step">Stage 2</span>
+        </div>
+        <div class="stage-papers">
+          <div class="stage-paper"><strong>DirEct</strong> · Principled sample selection</div>
+        </div>
+      </div>
+      <div class="stage-venue">ICML 2026 Spotlight</div>
     </div>
-    <div class="thread-step">
-      <span class="thread-dot"></span>
-      <div class="thread-work">SFT</div>
-      <div class="thread-topic"><strong>HardPT</strong> · Hard-sample selection</div>
-      <div class="thread-venue">ACL 2023</div>
+    <div class="stage-card">
+      <div>
+        <div class="stage-top">
+          <span class="stage-name">SFT</span>
+          <span class="stage-step">Stage 3</span>
+        </div>
+        <div class="stage-papers">
+          <div class="stage-paper"><strong>HardPT</strong> · Hard-sample tuning</div>
+        </div>
+      </div>
+      <div class="stage-venue">ACL 2023</div>
     </div>
-    <div class="thread-step current">
-      <span class="thread-dot"></span>
-      <div class="thread-work">Current Focus</div>
-      <div class="thread-topic">Multimodal &amp; specialized data</div>
-      <div class="thread-venue">ONGOING</div>
+    <div class="stage-card active">
+      <div>
+        <div class="stage-top">
+          <span class="stage-name">Current Focus</span>
+          <span class="stage-step">Ongoing</span>
+        </div>
+        <div class="stage-papers">
+          <div class="stage-paper"><strong>Multimodal</strong> · Cross-modal selection</div>
+          <div class="stage-paper"><strong>Specialized Text</strong> · Long-context &amp; agentic</div>
+        </div>
+      </div>
+      <div class="stage-venue">Full-Lifecycle Quality</div>
     </div>
   </div>
 </div>

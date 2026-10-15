@@ -24,63 +24,131 @@ redirect_from:
 
 I am currently a third-year Ph.D. candidate at the Hong Kong University of Science and Technology (HKUST), supervised by <span style="color: #1976d2;">@Prof. Guang Zhang</span> from HKUST-GZ and <span style="color: #1976d2;">@Dr. Zhong Li</span> from MSRA.
 
-My research revolves around **Data-centric Machine Learning**, with a primary focus on LLMs. Specifically, my work is organized around two core dimensions — **data scheduling** (selection and curriculum) and **data organization and representation** — as outlined below:
+My research focuses on **sample quality assessment across the full LLM training lifecycle**. I currently study this problem from two perspectives: **data selection in multimodal settings** and **data selection for specialized text**, including long-context and agentic data.
 
 <style>
-.rq-map { margin: 1.5em 0 1.75em 0; }
-.rq-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 0.9em; align-items: stretch; }
-.rq-wide { grid-column: 1 / -1; }
-.rq-card {
-  position: relative; background: #fff; border: 1px solid #eceff1;
-  border-radius: 12px; padding: 1em 1.1em 0.9em 1.1em;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.06);
-  transition: transform 0.18s ease, box-shadow 0.18s ease;
-  border-top: 4px solid var(--rq-color);
+.research-focus {
+  margin: 1.6em 0 1.9em;
+  border-top: 1px solid #dce5ef;
+  border-bottom: 1px solid #dce5ef;
 }
-.rq-card:hover { transform: translateY(-4px); box-shadow: 0 8px 22px rgba(0,0,0,0.12); }
-.rq-head { display: flex; align-items: center; gap: 0.5em; margin-bottom: 0.45em; }
-.rq-badge {
-  flex-shrink: 0; font-size: 0.72em; font-weight: 700; color: #fff;
-  background: var(--rq-color); padding: 3px 9px; border-radius: 20px;
+.research-overview {
+  display: grid;
+  grid-template-columns: 8.5em 1fr;
+  gap: 1.4em;
+  padding: 1.35em 0;
 }
-.rq-topic { font-size: 0.9em; font-weight: 700; color: #263238; }
-.rq-q { font-size: 0.86em; font-style: italic; color: #546e7a; line-height: 1.45; margin-bottom: 0.6em; }
-.rq-tags { display: flex; flex-wrap: wrap; gap: 0.35em; margin-bottom: 0.55em; }
-.rq-tag {
-  font-size: 0.72em; font-weight: 600; color: var(--rq-color);
-  background: var(--rq-soft); padding: 2px 8px; border-radius: 5px;
+.research-kicker {
+  color: #1976d2;
+  font-size: 0.72em;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  line-height: 1.55;
+  text-transform: uppercase;
 }
-.rq-affil { display: flex; flex-wrap: wrap; gap: 0.3em; }
-.rq-affil-tag {
-  display: inline-flex; align-items: center; gap: 0.3em;
-  font-size: 0.68em; font-weight: 600; color: #607d8b;
-  background: #eceff1; padding: 2px 7px 2px 4px; border-radius: 4px;
+.research-core h3 {
+  margin: 0 0 0.35em !important;
+  color: #1f2937;
+  font-size: 1.18em;
+  line-height: 1.35;
 }
-.rq-affil-tag img { width: 15px; height: 15px; object-fit: contain; border-radius: 3px; background: #fff; }
+.research-core p {
+  margin: 0 0 0.8em;
+  color: #5f6b78;
+  font-size: 0.9em;
+  line-height: 1.6;
+}
+.lifecycle {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.45em;
+  color: #455a64;
+  font-size: 0.76em;
+  font-weight: 650;
+}
+.lifecycle span {
+  padding: 0.28em 0.7em;
+  background: #f3f7fb;
+  border-radius: 999px;
+}
+.lifecycle i {
+  color: #90a4ae;
+  font-style: normal;
+}
+.focus-list {
+  border-top: 1px solid #edf1f5;
+}
+.focus-item {
+  display: grid;
+  grid-template-columns: 3.2em 1fr;
+  gap: 1em;
+  padding: 1.15em 0;
+}
+.focus-item + .focus-item {
+  border-top: 1px solid #edf1f5;
+}
+.focus-number {
+  color: #b7c7d8;
+  font-size: 1.35em;
+  font-weight: 300;
+  line-height: 1.25;
+}
+.focus-title {
+  color: #263238;
+  font-size: 0.98em;
+  font-weight: 750;
+  margin-bottom: 0.28em;
+}
+.focus-description {
+  color: #607d8b;
+  font-size: 0.84em;
+  line-height: 1.55;
+  margin-bottom: 0.4em;
+}
+.focus-keywords {
+  color: #1976d2;
+  font-size: 0.72em;
+  font-weight: 650;
+  letter-spacing: 0.015em;
+}
 @media (max-width: 640px) {
-  .rq-grid { grid-template-columns: 1fr; gap: 0.9em; }
+  .research-overview { grid-template-columns: 1fr; gap: 0.55em; }
+  .research-kicker { line-height: 1.3; }
+  .focus-item { grid-template-columns: 2.25em 1fr; gap: 0.65em; }
+  .lifecycle { gap: 0.35em; }
 }
 </style>
 
-<div class="rq-map" markdown="0">
-<div class="rq-grid">
-<div class="rq-card" style="--rq-color:#1976d2; --rq-soft:#e3f2fd;">
-<div class="rq-head"><span class="rq-badge">RQ1</span><span class="rq-topic">Data Scheduling (Selection &amp; Curriculum)</span></div>
-<div class="rq-q">Which data, and in what order, should the model be trained on?</div>
-<div class="rq-tags"><span class="rq-tag">HardPT · ACL 2023</span><span class="rq-tag">DoGraph · ACL 2026</span><span class="rq-tag">DirEct · ICML 2026</span><span class="rq-tag">D<sup>3</sup> · ICML 2026</span><span class="rq-tag">CUBE · ICLR 2027 (Ongoing)</span><span class="rq-tag">GapLens · ICLR 2027 (Ongoing)</span></div>
-<div class="rq-affil"><span class="rq-affil-tag"><img src="{{ '/static/logos/microsoft.svg' | relative_url }}" alt="Microsoft">Microsoft</span><span class="rq-affil-tag"><img src="{{ '/static/logos/tencent.png' | relative_url }}" alt="Tencent Hunyuan">Tencent Hunyuan</span><span class="rq-affil-tag"><img src="{{ '/static/logos/tsinghua.png' | relative_url }}" alt="Tsinghua AIR">Tsinghua AIR</span></div>
-</div>
-<div class="rq-card" style="--rq-color:#8e24aa; --rq-soft:#f3e5f5;">
-<div class="rq-head"><span class="rq-badge">RQ2</span><span class="rq-topic">Data Organization &amp; Representation</span></div>
-<div class="rq-q">How should we represent and organize complex, heterogeneous data?</div>
-<div class="rq-tags"><span class="rq-tag">LENS · ICAIF 2025</span><span class="rq-tag">HGAN-SDEs · ICASSP 2026</span><span class="rq-tag">MM-NSDEs · AAAI 2026</span><span class="rq-tag">HF Pretraining · Product</span><span class="rq-tag">FinRipple · ACL 2025</span><span class="rq-tag">Meituan Nutrition KG · Product</span></div>
-<div class="rq-affil"><span class="rq-affil-tag"><img src="{{ '/static/logos/joinquant.png' | relative_url }}" alt="JoinQuant">JoinQuant</span><span class="rq-affil-tag"><img src="{{ '/static/logos/tsinghua.png' | relative_url }}" alt="Tsinghua AIR">Tsinghua AIR</span><span class="rq-affil-tag">🏛 HKUST</span></div>
-</div>
-<div class="rq-card rq-wide" style="--rq-color:#455a64; --rq-soft:#eceff1;">
-<div class="rq-head"><span class="rq-badge">DATA</span><span class="rq-topic">Foundational Datasets, Benchmarks and Survey</span></div>
-<div class="rq-tags"><span class="rq-tag">The WoW · Corpus · ACL 2027 (Ongoing)</span><span class="rq-tag">BizCompass · Benchmark · ACL 2026</span><span class="rq-tag">Data Strategy in Action · Survey · ACL 2027 (Under Review)</span></div>
-</div>
-</div>
+<div class="research-focus" markdown="0">
+  <div class="research-overview">
+    <div class="research-kicker">Research<br>Focus</div>
+    <div class="research-core">
+      <h3>Full-Lifecycle Sample Quality Assessment</h3>
+      <p>How can we identify the most valuable data as models move through different stages of training and capability development?</p>
+      <div class="lifecycle">
+        <span>Pre-training</span><i>→</i><span>Post-training</span><i>→</i><span>Adaptation</span><i>→</i><span>Agentic Learning</span>
+      </div>
+    </div>
+  </div>
+  <div class="focus-list">
+    <div class="focus-item">
+      <div class="focus-number">01</div>
+      <div>
+        <div class="focus-title">Multimodal Data Selection</div>
+        <div class="focus-description">Assessing data quality when useful signals are distributed across text, images, and other modalities.</div>
+        <div class="focus-keywords">MULTIMODAL CORPORA · CROSS-MODAL SIGNALS · QUALITY ESTIMATION</div>
+      </div>
+    </div>
+    <div class="focus-item">
+      <div class="focus-number">02</div>
+      <div>
+        <div class="focus-title">Specialized Text Data Selection</div>
+        <div class="focus-description">Developing selection principles tailored to structurally complex and capability-specific text data.</div>
+        <div class="focus-keywords">LONG-CONTEXT DATA · AGENTIC DATA · TASK-SPECIFIC QUALITY</div>
+      </div>
+    </div>
+  </div>
 </div>
 
 My work has been published at venues including **NeurIPS 2026**, **ICML 2026** (one paper selected as <span style="background-color: #fff3e0; color: #e65100; padding: 2px 8px; border-radius: 4px; font-weight: bold;">🏆 Spotlight</span>), **ACL 2026**, **ACL 2023**, **ACL 2025**, **ICAIF 2025**, and **ICASSP 2026** (<span style="background-color: #fff3e0; color: #e65100; padding: 2px 8px; border-radius: 4px; font-weight: bold;">🏆 Oral</span>). I also serve as a reviewer for leading conferences such as **NeurIPS**, **ICLR**, and **ICML** (selected as <span style="background-color: #fff3e0; color: #e65100; padding: 2px 8px; border-radius: 4px; font-weight: bold;">🏆 Gold Reviewer</span>).

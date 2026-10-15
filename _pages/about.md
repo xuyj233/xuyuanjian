@@ -29,7 +29,153 @@ My past research has focused on **sample selection and sample quality assessment
 1. **Multimodal Data Selection:** identifying high-quality samples by evaluating cross-modal alignment, complementarity, and informativeness across text, images, and other modalities.
 2. **Specialized Text Data Selection:** developing structure-aware and task-specific quality criteria for long-context and agentic data, including context dependency, reasoning trajectories, and tool-use behavior.
 
-**Connection to previous work:** Hard-sample identification (**HardPT**) → domain and sample selection (**DoGraph**, **DirEct**) → training-order optimization (**D<sup>3</sup>**) → quality assessment for new modalities and specialized data. The common thread is understanding how much each sample contributes at a particular stage of model training.
+<style>
+.research-thread {
+  margin: 1.6em 0 1.8em;
+  padding: 1.1em 0 1.25em;
+  border-top: 1px solid #e3eaf1;
+  border-bottom: 1px solid #e3eaf1;
+}
+.thread-heading {
+  margin-bottom: 1.15em;
+  color: #455a64;
+  font-size: 0.76em;
+  font-weight: 750;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.thread-track {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1em;
+}
+.thread-track::before {
+  content: "";
+  position: absolute;
+  top: 0.5em;
+  left: 0.55em;
+  right: 0.55em;
+  height: 2px;
+  background: linear-gradient(90deg, #b0bec5 0%, #78909c 58%, #1976d2 100%);
+}
+.thread-track::after {
+  content: "";
+  position: absolute;
+  top: 0.22em;
+  right: 0;
+  width: 0;
+  height: 0;
+  border-top: 0.34em solid transparent;
+  border-bottom: 0.34em solid transparent;
+  border-left: 0.5em solid #1976d2;
+}
+.thread-step {
+  position: relative;
+  padding-top: 1.65em;
+}
+.thread-dot {
+  position: absolute;
+  top: 0;
+  left: 0.18em;
+  width: 1.05em;
+  height: 1.05em;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  background: #78909c;
+  box-shadow: 0 0 0 2px #78909c;
+}
+.thread-step.current .thread-dot {
+  background: #1976d2;
+  box-shadow: 0 0 0 2px #1976d2, 0 0 0 6px #e3f2fd;
+}
+.thread-work {
+  color: #263238;
+  font-size: 0.88em;
+  font-weight: 750;
+  line-height: 1.35;
+}
+.thread-topic {
+  margin-top: 0.18em;
+  color: #607d8b;
+  font-size: 0.76em;
+  line-height: 1.4;
+}
+.thread-venue {
+  margin-top: 0.35em;
+  color: #90a4ae;
+  font-size: 0.65em;
+  font-weight: 650;
+  letter-spacing: 0.03em;
+}
+.thread-step.current .thread-work,
+.thread-step.current .thread-venue {
+  color: #1976d2;
+}
+@media (max-width: 640px) {
+  .thread-track {
+    grid-template-columns: 1fr;
+    gap: 0;
+    padding-left: 1.85em;
+  }
+  .thread-track::before {
+    top: 0.55em;
+    bottom: 0.55em;
+    left: 0.48em;
+    right: auto;
+    width: 2px;
+    height: auto;
+    background: linear-gradient(180deg, #b0bec5 0%, #78909c 58%, #1976d2 100%);
+  }
+  .thread-track::after {
+    top: auto;
+    right: auto;
+    bottom: 0;
+    left: 0.18em;
+    transform: rotate(90deg);
+  }
+  .thread-step {
+    padding: 0 0 1.15em;
+  }
+  .thread-step:last-child {
+    padding-bottom: 0;
+  }
+  .thread-dot {
+    top: 0.12em;
+    left: -1.85em;
+  }
+}
+</style>
+
+<div class="research-thread" aria-label="Connection between previous work and current research" markdown="0">
+  <div class="thread-heading">A continuous research thread</div>
+  <div class="thread-track">
+    <div class="thread-step">
+      <span class="thread-dot"></span>
+      <div class="thread-work">HardPT</div>
+      <div class="thread-topic">Hard-sample identification</div>
+      <div class="thread-venue">ACL 2023</div>
+    </div>
+    <div class="thread-step">
+      <span class="thread-dot"></span>
+      <div class="thread-work">DoGraph · DirEct</div>
+      <div class="thread-topic">Domain &amp; sample selection</div>
+      <div class="thread-venue">ACL · ICML 2026</div>
+    </div>
+    <div class="thread-step">
+      <span class="thread-dot"></span>
+      <div class="thread-work">D<sup>3</sup></div>
+      <div class="thread-topic">Training-order optimization</div>
+      <div class="thread-venue">ICML 2026</div>
+    </div>
+    <div class="thread-step current">
+      <span class="thread-dot"></span>
+      <div class="thread-work">Current Focus</div>
+      <div class="thread-topic">Multimodal &amp; specialized data</div>
+      <div class="thread-venue">ONGOING</div>
+    </div>
+  </div>
+</div>
 
 My work has been published at venues including **NeurIPS 2026**, **ICML 2026** (one paper selected as <span style="background-color: #fff3e0; color: #e65100; padding: 2px 8px; border-radius: 4px; font-weight: bold;">🏆 Spotlight</span>), **ACL 2026**, **ACL 2023**, **ACL 2025**, **ICAIF 2025**, and **ICASSP 2026** (<span style="background-color: #fff3e0; color: #e65100; padding: 2px 8px; border-radius: 4px; font-weight: bold;">🏆 Oral</span>). I also serve as a reviewer for leading conferences such as **NeurIPS**, **ICLR**, and **ICML** (selected as <span style="background-color: #fff3e0; color: #e65100; padding: 2px 8px; border-radius: 4px; font-weight: bold;">🏆 Gold Reviewer</span>).
 

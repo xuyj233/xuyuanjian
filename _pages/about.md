@@ -234,74 +234,386 @@ My work has been published at venues including **NeurIPS 2026**, **ICML 2026** (
 
 <!-- <hr style="border: 2px solid #ccc; margin: 2em 0;"> -->
 
+<style>
+.publication-showcase {
+  display: grid;
+  gap: 1rem;
+  margin: 1rem 0 1.7rem;
+}
+.publication-card {
+  display: grid;
+  grid-template-columns: minmax(260px, 0.95fr) minmax(0, 1.15fr);
+  overflow: hidden;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 14px;
+  box-shadow: 0 3px 14px rgba(15, 23, 42, 0.05);
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+}
+.publication-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.09);
+}
+.publication-card__media {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.55rem;
+  min-height: 215px;
+  margin: 0;
+  padding: 1rem;
+  background: linear-gradient(145deg, #f8fafc 0%, #eef4f9 100%);
+  border-right: 1px solid #e2e8f0;
+}
+.publication-card__media img {
+  display: block;
+  width: 100%;
+  max-height: 255px;
+  object-fit: contain;
+  transition: transform 0.18s ease;
+}
+.publication-card:hover .publication-card__media img {
+  transform: scale(1.012);
+}
+.publication-card__media figcaption {
+  color: #64748b;
+  font-size: 0.69em;
+  line-height: 1.35;
+  text-align: center;
+}
+.publication-card__body {
+  align-self: center;
+  padding: 1.05rem 1.15rem 1.1rem;
+}
+.publication-card__tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.38rem;
+  margin-bottom: 0.65rem;
+}
+.publication-tag {
+  padding: 0.18rem 0.52rem;
+  border-radius: 999px;
+  font-size: 0.65em;
+  font-weight: 750;
+  line-height: 1.35;
+}
+.publication-tag--published {
+  color: #b42318;
+  background: #ffebe9;
+}
+.publication-tag--review {
+  color: #175cd3;
+  background: #eaf2ff;
+}
+.publication-tag--rank {
+  color: #475467;
+  background: #f2f4f7;
+}
+.publication-card__body h3 {
+  margin: 0 0 0.42rem;
+  color: #172033;
+  font-size: 0.98em;
+  line-height: 1.38;
+}
+.publication-card__authors {
+  margin: 0 0 0.55rem;
+  color: #667085;
+  font-size: 0.76em;
+  line-height: 1.45;
+}
+.publication-card__summary {
+  margin: 0;
+  color: #475467;
+  font-size: 0.79em;
+  line-height: 1.58;
+}
+.publication-card__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 0.72rem;
+}
+.publication-card__links a {
+  color: #1976d2;
+  font-size: 0.73em;
+  font-weight: 700;
+  text-decoration: none;
+}
+.publication-card__links a:hover {
+  text-decoration: underline;
+}
+.publication-notes {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.75rem;
+  margin: 0.9rem 0 1.7rem;
+}
+.publication-note {
+  padding: 0.9rem 1rem;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-left: 3px solid #93c5fd;
+  border-radius: 10px;
+}
+.publication-note h3 {
+  margin: 0.48rem 0 0.34rem;
+  color: #27364b;
+  font-size: 0.84em;
+  line-height: 1.4;
+}
+.publication-note p {
+  margin: 0;
+  color: #667085;
+  font-size: 0.73em;
+  line-height: 1.5;
+}
+.publication-note .publication-card__links {
+  margin-top: 0.5rem;
+}
+@media (max-width: 760px) {
+  .publication-card {
+    grid-template-columns: 1fr;
+  }
+  .publication-card__media {
+    min-height: 0;
+    border-right: 0;
+    border-bottom: 1px solid #e2e8f0;
+  }
+  .publication-card__media img {
+    max-height: 230px;
+  }
+  .publication-notes {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
+
 ## 📝 Selected Publications (Data Strategy)
 
-- [<span style="background-color: #ffebee; color: #c62828; padding: 2px 8px; border-radius: 4px; font-weight: bold;">ICML 2026</span>] **Yuanjian Xu**, et al. *D<sup>3</sup>: Dynamic Directional Graph-Constrained Data Scheduling for LLM Training* [<a href="https://arxiv.org/abs/2605.31164" style="color: #1976d2;"><i class="fas fa-file-pdf"></i> Paper</a>] [<a href="https://github.com/xuyj233/D3" style="color: #1976d2;"><i class="fab fa-github"></i> Code</a>]. <span style="color: #d32f2f; font-weight: bold;">[CCF A]</span> <span style="color: #d32f2f; font-weight: bold;">[CORE A*]</span> <span style="color: #7b7b7b; font-style: italic;">(@ MSRA)</span>  
-  <div style="background-color: #f8f9fa; border-left: 3px solid #388e3c; padding: 0.8em 1em; margin: 0.5em 0 1em 1.5em; font-size: 0.85em; color: #555; line-height: 1.5;">
-  <strong style="color: #388e3c;">✓ Key Contribution:</strong> We explain why training order matters in LLM optimization and propose a data scheduling framework grounded in gradient interactions, where training dependencies are modeled as a graph that explicitly constrains valid training orders.
-  </div>
+<div class="publication-showcase" aria-label="Selected data strategy publications">
+  <article class="publication-card">
+    <figure class="publication-card__media">
+      <a href="https://arxiv.org/abs/2605.31164" target="_blank" rel="noopener">
+        <img src="{{ '/static/publication-figures/d3.webp' | relative_url }}" alt="D3 influence-aware data scheduling framework" loading="lazy">
+      </a>
+      <figcaption>Figure 1. Influence-aware scheduling from pairwise batch interactions to a learned training order.</figcaption>
+    </figure>
+    <div class="publication-card__body">
+      <div class="publication-card__tags">
+        <span class="publication-tag publication-tag--published">ICML 2026</span>
+        <span class="publication-tag publication-tag--rank">CCF A · CORE A*</span>
+      </div>
+      <h3>D<sup>3</sup>: Dynamic Directional Graph-Constrained Data Scheduling for LLM Training</h3>
+      <p class="publication-card__authors"><strong>Yuanjian Xu</strong>, et al. · MSRA</p>
+      <p class="publication-card__summary">D<sup>3</sup> models gradient and curvature interactions between micro-batches as a directional graph, then solves for a training order that improves the optimization trajectory.</p>
+      <div class="publication-card__links">
+        <a href="https://arxiv.org/abs/2605.31164" target="_blank" rel="noopener"><i class="fas fa-file-pdf"></i> Paper</a>
+        <a href="https://github.com/xuyj233/D3" target="_blank" rel="noopener"><i class="fab fa-github"></i> Code</a>
+      </div>
+    </div>
+  </article>
 
-- [<span style="background-color: #ffebee; color: #c62828; padding: 2px 8px; border-radius: 4px; font-weight: bold;">ICML 2026 Spotlight 🏆</span>] **Yuanjian Xu**, et al. *Towards Efficient LLMs Annealing with Principled Sample Selection* [<a href="https://arxiv.org/abs/2605.31175" style="color: #1976d2;"><i class="fas fa-file-pdf"></i> Paper</a>] [<a href="https://github.com/xuyj233/Direct" style="color: #1976d2;"><i class="fab fa-github"></i> Code</a>]. <span style="color: #d32f2f; font-weight: bold;">[CCF A]</span> <span style="color: #d32f2f; font-weight: bold;">[CORE A*]</span> <span style="color: #7b7b7b; font-style: italic;">(@ MSRA)</span>  
-  <div style="background-color: #f8f9fa; border-left: 3px solid #388e3c; padding: 0.8em 1em; margin: 0.5em 0 1em 1.5em; font-size: 0.85em; color: #555; line-height: 1.5;">
-  <strong style="color: #388e3c;">✓ Key Contribution:</strong> We provide a theoretical characterization of steady-state properties in LLM annealing and formulate sample selection as an optimization problem, achieving SOTA results across multiple model scales.
-  </div>
+  <article class="publication-card">
+    <figure class="publication-card__media">
+      <a href="https://arxiv.org/abs/2605.31175" target="_blank" rel="noopener">
+        <img src="{{ '/static/publication-figures/direct.webp' | relative_url }}" alt="Geometric comparison of stable training and annealing" loading="lazy">
+      </a>
+      <figcaption>Figure 1. Annealing suppresses transverse noise while preserving the useful descent signal.</figcaption>
+    </figure>
+    <div class="publication-card__body">
+      <div class="publication-card__tags">
+        <span class="publication-tag publication-tag--published">ICML 2026 Spotlight 🏆</span>
+        <span class="publication-tag publication-tag--rank">CCF A · CORE A*</span>
+      </div>
+      <h3>Towards Efficient LLMs Annealing with Principled Sample Selection</h3>
+      <p class="publication-card__authors"><strong>Yuanjian Xu</strong>, et al. · MSRA</p>
+      <p class="publication-card__summary">DirEct characterizes the geometry of LLM annealing and selects samples that reduce sharp-direction noise while strengthening progress along the low-curvature valley.</p>
+      <div class="publication-card__links">
+        <a href="https://arxiv.org/abs/2605.31175" target="_blank" rel="noopener"><i class="fas fa-file-pdf"></i> Paper</a>
+        <a href="https://github.com/xuyj233/Direct" target="_blank" rel="noopener"><i class="fab fa-github"></i> Code</a>
+      </div>
+    </div>
+  </article>
 
-- [<span style="background-color: #ffebee; color: #c62828; padding: 2px 8px; border-radius: 4px; font-weight: bold;">ACL 2026</span>] **Yuanjian Xu**, et al. *Rethinking Data Mixing from the Perspective of Large Language Model* [<a href="https://aclanthology.org/2026.acl-short.28/" style="color: #1976d2;"><i class="fas fa-file-pdf"></i> Paper</a>]. <span style="color: #d32f2f; font-weight: bold;">[CCF A]</span> <span style="color: #d32f2f; font-weight: bold;">[CORE A*]</span>  
-  <div style="background-color: #f8f9fa; border-left: 3px solid #388e3c; padding: 0.8em 1em; margin: 0.5em 0 1em 1.5em; font-size: 0.85em; color: #555; line-height: 1.5;">
-  <strong style="color: #388e3c;">✓ Key Contribution:</strong> We establish formal connections between gradient dynamics and domain distributions, and introduce DoGraph, a graph-constrained optimization framework for data mixing that clarifies how domain weighting influences LLM generalization.
-  </div>
+  <article class="publication-card">
+    <figure class="publication-card__media">
+      <a href="https://aclanthology.org/2026.acl-short.28/" target="_blank" rel="noopener">
+        <img src="{{ '/static/publication-figures/dograph.webp' | relative_url }}" alt="PCA projections of domain gradients across training epochs" loading="lazy">
+      </a>
+      <figcaption>Figure 1. Domain-specific gradient clusters gradually overlap as training proceeds.</figcaption>
+    </figure>
+    <div class="publication-card__body">
+      <div class="publication-card__tags">
+        <span class="publication-tag publication-tag--published">ACL 2026</span>
+        <span class="publication-tag publication-tag--rank">CCF A · CORE A*</span>
+      </div>
+      <h3>Rethinking Data Mixing from the Perspective of Large Language Models</h3>
+      <p class="publication-card__authors"><strong>Yuanjian Xu</strong>, et al.</p>
+      <p class="publication-card__summary">The paper connects domain distributions with gradient dynamics. DoGraph uses these relationships to optimize data mixing and explain how domain weighting affects generalization.</p>
+      <div class="publication-card__links">
+        <a href="https://aclanthology.org/2026.acl-short.28/" target="_blank" rel="noopener"><i class="fas fa-file-pdf"></i> Paper</a>
+      </div>
+    </div>
+  </article>
 
-- [<span style="background-color: #ffebee; color: #c62828; padding: 2px 8px; border-radius: 4px; font-weight: bold;">ACL 2023</span>] **Yuanjian Xu**, et al. *Hard Sample Aware Prompt-Tuning* [<a href="https://aclanthology.org/2023.acl-long.690/" style="color: #1976d2;"><i class="fas fa-file-pdf"></i> Paper</a>]. <span style="color: #d32f2f; font-weight: bold;">[CCF A]</span> <span style="color: #d32f2f; font-weight: bold;">[CORE A*]</span> <span style="color: #7b7b7b; font-style: italic;">(@ THU AIR)</span>  
-  <div style="background-color: #f8f9fa; border-left: 3px solid #388e3c; padding: 0.8em 1em; margin: 0.5em 0 1em 1.5em; font-size: 0.85em; color: #555; line-height: 1.5;">
-  <strong style="color: #388e3c;">✓ Key Contribution:</strong> We introduce a hard sample aware mechanism for prompt-tuning that dynamically adjusts learning focus on difficult samples, improving model performance on challenging instances.
-  </div>
+  <article class="publication-card">
+    <figure class="publication-card__media">
+      <a href="https://aclanthology.org/2023.acl-long.690/" target="_blank" rel="noopener">
+        <img src="{{ '/static/publication-figures/hardpt.webp' | relative_url }}" alt="HardPT sample stratification and adaptive contrastive learning architecture" loading="lazy">
+      </a>
+      <figcaption>Figure 1. HardPT separates easy, hard, and misleading samples, then constructs contrastive supervision.</figcaption>
+    </figure>
+    <div class="publication-card__body">
+      <div class="publication-card__tags">
+        <span class="publication-tag publication-tag--published">ACL 2023</span>
+        <span class="publication-tag publication-tag--rank">CCF A · CORE A*</span>
+      </div>
+      <h3>Hard Sample Aware Prompt-Tuning</h3>
+      <p class="publication-card__authors"><strong>Yuanjian Xu</strong>, et al. · THU AIR</p>
+      <p class="publication-card__summary">HardPT identifies examples that provide useful difficulty and builds adaptive contrastive batches so prompt-tuning focuses on informative hard samples.</p>
+      <div class="publication-card__links">
+        <a href="https://aclanthology.org/2023.acl-long.690/" target="_blank" rel="noopener"><i class="fas fa-file-pdf"></i> Paper</a>
+      </div>
+    </div>
+  </article>
 
-- [<span style="background-color: #ffebee; color: #c62828; padding: 2px 8px; border-radius: 4px; font-weight: bold;">NeurIPS 2026</span>] Yuxuan Sun, **Yuanjian Xu**, et al. *Rethinking Knowledge Distillation for Diffusion Language Models* [<a href="https://openreview.net/forum?id=RwFzh7uPPD" style="color: #1976d2;"><i class="fas fa-file-pdf"></i> Paper</a>]. <span style="color: #d32f2f; font-weight: bold;">[CCF A]</span> <span style="color: #d32f2f; font-weight: bold;">[CORE A*]</span> <span style="color: #7b7b7b; font-style: italic;">(@ MSRA)</span>  
-  <div style="background-color: #f8f9fa; border-left: 3px solid #388e3c; padding: 0.8em 1em; margin: 0.5em 0 1em 1.5em; font-size: 0.85em; color: #555; line-height: 1.5;">
-  <strong style="color: #388e3c;">✓ Key Contribution:</strong> We investigate sample selection for knowledge distillation in diffusion language models, providing a principled perspective on choosing informative training samples for effective distillation.
-  </div>
+  <article class="publication-card">
+    <figure class="publication-card__media">
+      <a href="https://github.com/xuyj233/data_strategy_survey" target="_blank" rel="noopener">
+        <img src="{{ '/static/publication-figures/survey.webp' | relative_url }}" alt="Landscape of data strategies across the LLM training lifecycle" loading="lazy">
+      </a>
+      <figcaption>Survey overview. The landscape connects pretraining and post-training data strategies across the LLM lifecycle.</figcaption>
+    </figure>
+    <div class="publication-card__body">
+      <div class="publication-card__tags">
+        <span class="publication-tag publication-tag--review">Under Review at ACL 2027 · Survey</span>
+        <span class="publication-tag publication-tag--rank">CCF A · CORE A*</span>
+      </div>
+      <h3>Data Strategy in Action: Identifying High-Quality Corpora Across the LLM Training Lifecycle</h3>
+      <p class="publication-card__authors"><strong>Yuanjian Xu</strong>, et al.</p>
+      <p class="publication-card__summary">This survey organizes data strategies by training stage and decision granularity, showing how quality criteria and selection policies evolve across the full LLM training lifecycle.</p>
+      <div class="publication-card__links">
+        <a href="https://github.com/xuyj233/data_strategy_survey" target="_blank" rel="noopener"><i class="fab fa-github"></i> Survey Resources</a>
+      </div>
+    </div>
+  </article>
 
-- [<span style="background-color: #e3f2fd; color: #1565c0; padding: 2px 8px; border-radius: 4px; font-weight: bold;">Under Review at ACL 2027 · Survey</span>] **Yuanjian Xu**, et al. *Data Strategy in Action: Identifying High-Quality Corpora Across the LLM Training Lifecycle*. <span style="color: #d32f2f; font-weight: bold;">[CCF A]</span> <span style="color: #d32f2f; font-weight: bold;">[CORE A*]</span>  
-  <div style="background-color: #f8f9fa; border-left: 3px solid #388e3c; padding: 0.8em 1em; margin: 0.5em 0 1em 1.5em; font-size: 0.85em; color: #555; line-height: 1.5;">
-  <strong style="color: #388e3c;">✓ Key Contribution:</strong> We survey data strategies for identifying high-quality corpora across the full LLM training lifecycle, organizing the field around how data quality requirements evolve across training stages.
-  </div>
+  <article class="publication-card">
+    <figure class="publication-card__media">
+      <img src="{{ '/static/publication-figures/cube.webp' | relative_url }}" alt="CUBE geometric signatures illustrated with Rubik's cube trajectories" loading="lazy">
+      <figcaption>Method overview. Directness, update scale, and early settling describe the internal geometry of reasoning.</figcaption>
+    </figure>
+    <div class="publication-card__body">
+      <div class="publication-card__tags">
+        <span class="publication-tag publication-tag--review">Under Review at ICLR 2027</span>
+        <span class="publication-tag publication-tag--rank">CCF A · CORE A*</span>
+      </div>
+      <h3>CUBE: Benchmarking Sample Reasoning Quality from Internal Geometric Dynamics in LLMs</h3>
+      <p class="publication-card__authors"><strong>Yuanjian Xu</strong>, et al. · Tencent Hunyuan</p>
+      <p class="publication-card__summary">CUBE evaluates reasoning samples through layerwise geometric dynamics, measuring whether internal trajectories are direct, substantive, and convergent.</p>
+    </div>
+  </article>
+</div>
 
-- [<span style="background-color: #e3f2fd; color: #1565c0; padding: 2px 8px; border-radius: 4px; font-weight: bold;">Under Review at ICLR 2027</span>] **Yuanjian Xu**, et al. *CUBE: Benchmarking Sample Reasoning Quality from Internal Geometric Dynamics in LLMs*. <span style="color: #d32f2f; font-weight: bold;">[CCF A]</span> <span style="color: #d32f2f; font-weight: bold;">[CORE A*]</span> <span style="color: #7b7b7b; font-style: italic;">(@ Tencent Hunyuan)</span>  
-  <div style="background-color: #f8f9fa; border-left: 3px solid #388e3c; padding: 0.8em 1em; margin: 0.5em 0 1em 1.5em; font-size: 0.85em; color: #555; line-height: 1.5;">
-  <strong style="color: #388e3c;">✓ Key Contribution:</strong> We introduce CUBE to assess reasoning sample quality through the internal geometric dynamics of LLMs, enabling sample-level evaluation of reasoning data.
-  </div>
-
-- [<span style="background-color: #e3f2fd; color: #1565c0; padding: 2px 8px; border-radius: 4px; font-weight: bold;">Under Review at ICLR 2027</span>] Jinyi Han, Zixiang Di, Zishang Jiang, Ying Liao, Jianing Hao, **Yuanjian Xu**, Yanghua Xiao. *Structured Reasoning for Large Language Models*. <span style="color: #d32f2f; font-weight: bold;">[CCF A]</span> <span style="color: #d32f2f; font-weight: bold;">[CORE A*]</span>  
-  <div style="background-color: #f8f9fa; border-left: 3px solid #388e3c; padding: 0.8em 1em; margin: 0.5em 0 1em 1.5em; font-size: 0.85em; color: #555; line-height: 1.5;">
-  <strong style="color: #388e3c;">✓ Key Contribution:</strong> We study chain-of-thought data quality through structured reasoning traces, providing a framework for assessing which reasoning processes offer effective supervision for LLM training.
-  </div>
+<div class="publication-notes" aria-label="Additional selected data strategy publications">
+  <article class="publication-note">
+    <span class="publication-tag publication-tag--published">NeurIPS 2026</span>
+    <h3>Rethinking Knowledge Distillation for Diffusion Language Models</h3>
+    <p>Yuxuan Sun, <strong>Yuanjian Xu</strong>, et al. We study why classical distillation fails for diffusion language models and develop a more effective off-policy and on-policy framework.</p>
+    <div class="publication-card__links">
+      <a href="https://neurips.cc/virtual/2026/poster/152596" target="_blank" rel="noopener"><i class="fas fa-file-alt"></i> Abstract</a>
+    </div>
+  </article>
+  <article class="publication-note">
+    <span class="publication-tag publication-tag--review">Under Review at ICLR 2027</span>
+    <h3>Structured Reasoning for Large Language Models</h3>
+    <p>Jinyi Han, Zixiang Di, Zishang Jiang, Ying Liao, Jianing Hao, <strong>Yuanjian Xu</strong>, Yanghua Xiao. We study quality assessment for structured chain-of-thought supervision.</p>
+  </article>
+</div>
 
 ## 📝 Selected Publications (Corpora & Benchmarks)
 
-- [<span style="background-color: #ffebee; color: #c62828; padding: 2px 8px; border-radius: 4px; font-weight: bold;">ACL 2026</span>] **Yuanjian Xu**, et al. *BizCompass: Benchmarking the Reasoning Capabilities of LLMs in Business Knowledge and Applications* [<a href="https://aclanthology.org/2026.findings-acl.1198/" style="color: #1976d2;"><i class="fas fa-file-pdf"></i> Paper</a>] [<a href="https://github.com/CatherineHao/BizCompass" style="color: #1976d2;"><i class="fab fa-github"></i> Code</a>]. <span style="color: #d32f2f; font-weight: bold;">[CCF A]</span> <span style="color: #d32f2f; font-weight: bold;">[CORE A*]</span>
-  <div style="background-color: #f8f9fa; border-left: 3px solid #388e3c; padding: 0.8em 1em; margin: 0.5em 0 1em 1.5em; font-size: 0.85em; color: #555; line-height: 1.5;">
-  <strong style="color: #388e3c;">✓ Key Contribution:</strong> We introduce a benchmark for evaluating LLM reasoning across business knowledge and application scenarios.
-  </div>
+<div class="publication-showcase" aria-label="Selected corpora and benchmark publications">
+  <article class="publication-card">
+    <figure class="publication-card__media">
+      <a href="https://aclanthology.org/2026.findings-acl.1198/" target="_blank" rel="noopener">
+        <img src="{{ '/static/publication-figures/bizcompass.webp' | relative_url }}" alt="BizCompass benchmark construction pipeline" loading="lazy">
+      </a>
+      <figcaption>Figure 1. BizCompass turns business documents into validated, high-quality reasoning questions.</figcaption>
+    </figure>
+    <div class="publication-card__body">
+      <div class="publication-card__tags">
+        <span class="publication-tag publication-tag--published">ACL 2026</span>
+        <span class="publication-tag publication-tag--rank">CCF A · CORE A*</span>
+      </div>
+      <h3>BizCompass: Benchmarking the Reasoning Capabilities of LLMs in Business Knowledge and Applications</h3>
+      <p class="publication-card__authors"><strong>Yuanjian Xu</strong>, et al.</p>
+      <p class="publication-card__summary">BizCompass provides a construction and validation pipeline for evaluating LLM reasoning across business knowledge and application scenarios.</p>
+      <div class="publication-card__links">
+        <a href="https://aclanthology.org/2026.findings-acl.1198/" target="_blank" rel="noopener"><i class="fas fa-file-pdf"></i> Paper</a>
+        <a href="https://github.com/CatherineHao/BizCompass" target="_blank" rel="noopener"><i class="fab fa-github"></i> Code</a>
+      </div>
+    </div>
+  </article>
 
-- [<span style="background-color: #ffebee; color: #c62828; padding: 2px 8px; border-radius: 4px; font-weight: bold;">ACL 2025</span>] **Yuanjian Xu**, et al. *FinRipple: Aligning Large Language Models with Financial Market for Event Ripple Effect Awareness* [<a href="https://aclanthology.org/2025.findings-acl.489/" style="color: #1976d2;"><i class="fas fa-file-pdf"></i> Paper</a>] [<a href="https://github.com/CatherineHao/FinRipple" style="color: #1976d2;"><i class="fab fa-github"></i> Code</a>]. <span style="color: #d32f2f; font-weight: bold;">[CCF A]</span> <span style="color: #d32f2f; font-weight: bold;">[CORE A*]</span>
-  <div style="background-color: #f8f9fa; border-left: 3px solid #388e3c; padding: 0.8em 1em; margin: 0.5em 0 1em 1.5em; font-size: 0.85em; color: #555; line-height: 1.5;">
-  <strong style="color: #388e3c;">✓ Key Contribution:</strong> We define a standardized evaluation task for measuring whether LLMs understand how financial events propagate across related entities.
-  </div>
+  <article class="publication-card">
+    <figure class="publication-card__media">
+      <a href="https://aclanthology.org/2025.findings-acl.489/" target="_blank" rel="noopener">
+        <img src="{{ '/static/publication-figures/finripple.webp' | relative_url }}" alt="FinRipple knowledge graph construction, injection, and market alignment framework" loading="lazy">
+      </a>
+      <figcaption>Figure 2. FinRipple connects time-varying knowledge graphs, instruction tuning, and market alignment.</figcaption>
+    </figure>
+    <div class="publication-card__body">
+      <div class="publication-card__tags">
+        <span class="publication-tag publication-tag--published">ACL 2025</span>
+        <span class="publication-tag publication-tag--rank">CCF A · CORE A*</span>
+      </div>
+      <h3>FinRipple: Aligning Large Language Models with Financial Market for Event Ripple Effect Awareness</h3>
+      <p class="publication-card__authors"><strong>Yuanjian Xu</strong>, et al.</p>
+      <p class="publication-card__summary">FinRipple defines event ripple effect prediction and aligns LLMs with dynamic market structure through knowledge graph injection and market-feedback optimization.</p>
+      <div class="publication-card__links">
+        <a href="https://aclanthology.org/2025.findings-acl.489/" target="_blank" rel="noopener"><i class="fas fa-file-pdf"></i> Paper</a>
+        <a href="https://github.com/CatherineHao/FinRipple" target="_blank" rel="noopener"><i class="fab fa-github"></i> Code</a>
+      </div>
+    </div>
+  </article>
 
-- [<span style="background-color: #e3f2fd; color: #1565c0; padding: 2px 8px; border-radius: 4px; font-weight: bold;">Under Review at ACL 2027</span>] Jinyi Han*, **Yuanjian Xu***, et al. *Skill-Use: Can LLMs Actually Use Skills in Agentic Harnesses?* [<a href="https://arxiv.org/abs/2608.04828" style="color: #1976d2;"><i class="fas fa-file-pdf"></i> Paper</a>] [<a href="https://github.com/JinyiHan99/Skill-Use-Bench" style="color: #1976d2;"><i class="fab fa-github"></i> Code</a>]. <span style="color: #d32f2f; font-weight: bold;">[CCF A]</span> <span style="color: #d32f2f; font-weight: bold;">[CORE A*]</span> <span style="color: #7b7b7b; font-style: italic;">(equal contribution)</span>
-  <div style="background-color: #f8f9fa; border-left: 3px solid #388e3c; padding: 0.8em 1em; margin: 0.5em 0 1em 1.5em; font-size: 0.85em; color: #555; line-height: 1.5;">
-  <strong style="color: #388e3c;">✓ Key Contribution:</strong> We build an evaluation benchmark to test whether LLMs can effectively use reusable skills inside agentic harnesses.
-  </div>
+  <article class="publication-card">
+    <figure class="publication-card__media">
+      <a href="https://arxiv.org/abs/2608.04828" target="_blank" rel="noopener">
+        <img src="{{ '/static/publication-figures/skilluse.webp' | relative_url }}" alt="Composition and domain coverage of the Skill-Use benchmark" loading="lazy">
+      </a>
+      <figcaption>Figure 1. Skill-Use covers 79 skills across nine domains with rubric-based agent evaluation.</figcaption>
+    </figure>
+    <div class="publication-card__body">
+      <div class="publication-card__tags">
+        <span class="publication-tag publication-tag--review">Under Review at ACL 2027</span>
+        <span class="publication-tag publication-tag--rank">CCF A · CORE A*</span>
+      </div>
+      <h3>Skill-Use: Can LLMs Actually Use Skills in Agentic Harnesses?</h3>
+      <p class="publication-card__authors">Jinyi Han*, <strong>Yuanjian Xu*</strong>, et al. · Equal contribution · Tencent Hunyuan</p>
+      <p class="publication-card__summary">Skill-Use evaluates whether LLM agents can recognize, invoke, and correctly apply reusable skills, rather than merely solving tasks from parametric knowledge.</p>
+      <div class="publication-card__links">
+        <a href="https://arxiv.org/abs/2608.04828" target="_blank" rel="noopener"><i class="fas fa-file-pdf"></i> Paper</a>
+        <a href="https://github.com/JinyiHan99/Skill-Use-Bench" target="_blank" rel="noopener"><i class="fab fa-github"></i> Code</a>
+      </div>
+    </div>
+  </article>
+</div>
 
-- [<span style="background-color: #e3f2fd; color: #1565c0; padding: 2px 8px; border-radius: 4px; font-weight: bold;">Under Review at ACL 2027</span>] **Yuanjian Xu**, et al. *Can LLMs Stay Robust in Noisy Agentic Environments?* <span style="color: #d32f2f; font-weight: bold;">[CCF A]</span> <span style="color: #d32f2f; font-weight: bold;">[CORE A*]</span>
-  <div style="background-color: #f8f9fa; border-left: 3px solid #388e3c; padding: 0.8em 1em; margin: 0.5em 0 1em 1.5em; font-size: 0.85em; color: #555; line-height: 1.5;">
-  <strong style="color: #388e3c;">✓ Key Contribution:</strong> We evaluate the robustness of LLM agents under noisy environments and interaction signals.
-  </div>
-
-- [<span style="background-color: #e3f2fd; color: #1565c0; padding: 2px 8px; border-radius: 4px; font-weight: bold;">Under Review at ACL 2027</span>] Wei Guo, **Yuanjian Xu**, et al. *Bridging Foundational and Agentic Capabilities of LLMs*. <span style="color: #d32f2f; font-weight: bold;">[CCF A]</span> <span style="color: #d32f2f; font-weight: bold;">[CORE A*]</span>
-  <div style="background-color: #f8f9fa; border-left: 3px solid #388e3c; padding: 0.8em 1em; margin: 0.5em 0 1em 1.5em; font-size: 0.85em; color: #555; line-height: 1.5;">
-  <strong style="color: #388e3c;">✓ Key Contribution:</strong> We study how foundational language capabilities relate to performance on agentic tasks.
-  </div>
+<div class="publication-notes" aria-label="Additional selected benchmark publications">
+  <article class="publication-note">
+    <span class="publication-tag publication-tag--review">Under Review at ACL 2027</span>
+    <h3>Can LLMs Stay Robust in Noisy Agentic Environments?</h3>
+    <p><strong>Yuanjian Xu</strong>, et al. We evaluate how agentic systems behave when observations and interaction signals are noisy.</p>
+  </article>
+  <article class="publication-note">
+    <span class="publication-tag publication-tag--review">Under Review at ACL 2027</span>
+    <h3>Bridging Foundational and Agentic Capabilities of LLMs</h3>
+    <p>Wei Guo, <strong>Yuanjian Xu</strong>, et al. We study how foundational language capabilities relate to performance on agentic tasks.</p>
+  </article>
+</div>
 
 </div>
 </div>
@@ -313,13 +625,11 @@ My work has been published at venues including **NeurIPS 2026**, **ICML 2026** (
 
 
 
-## Other Publications
+## Other Papers
 
 - [<span style="background-color: #ffebee; color: #c62828; padding: 2px 8px; border-radius: 4px; font-weight: bold;">ICASSP 2026 Oral 🏆</span>] **Yuanjian Xu**, et al. *HGAN-SDEs: Learning Neural Stochastic Differential Equations with Hermite-Guided Adversarial Training* [<a href="https://arxiv.org/abs/2512.20272" style="color: #1976d2;"><i class="fas fa-file-pdf"></i> Paper</a>]. <span style="color: #d32f2f; font-weight: bold;">[CCF B]</span> <span style="color: #d32f2f; font-weight: bold;">[CORE A]</span>
 
 - [<span style="background-color: #ffebee; color: #c62828; padding: 2px 8px; border-radius: 4px; font-weight: bold;">ICAIF 2025</span>] **Yuanjian Xu**, et al. *LENS: Large Pre-trained Transformer for Exploring Financial Time Series Regularities* [<a href="https://arxiv.org/abs/2408.10111" style="color: #1976d2;"><i class="fas fa-file-pdf"></i> Paper</a>]. <span style="color: #7b7b7b; font-style: italic;">(Leading conference for AI in Finance)</span>
-
-## Under Review
 
 - [<span style="background-color: #e3f2fd; color: #1565c0; padding: 2px 8px; border-radius: 4px; font-weight: bold;">Under Review at AAAI 2027</span>] **Yuanjian Xu**, et al. *Rethinking Neural SDEs under Shifting Data-Generating Processes*. <span style="color: #d32f2f; font-weight: bold;">[CCF A]</span>
 </div>

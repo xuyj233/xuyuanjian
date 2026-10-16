@@ -306,6 +306,11 @@ My work has been published at venues including **NeurIPS 2026**, **ICML 2026** (
   color: #175cd3;
   background: #eaf2ff;
 }
+.publication-tag--published,
+.publication-tag--review {
+  font-size: 0.75em;
+  font-weight: 800;
+}
 .publication-tag--rank {
   color: #475467;
   background: #f2f4f7;
@@ -366,7 +371,7 @@ My work has been published at venues including **NeurIPS 2026**, **ICML 2026** (
       <a href="https://arxiv.org/abs/2605.31164" target="_blank" rel="noopener">
         <img src="{{ '/static/publication-figures/d3.webp' | relative_url }}" alt="D3 influence-aware data scheduling framework" loading="lazy">
       </a>
-      <figcaption>Figure 1. Influence-aware scheduling from pairwise batch interactions to a learned training order.</figcaption>
+      <figcaption>Scheduling overview. Influence-aware ordering from pairwise batch interactions to a learned training trajectory.</figcaption>
     </figure>
     <div class="publication-card__body">
       <div class="publication-card__tags">
@@ -388,7 +393,7 @@ My work has been published at venues including **NeurIPS 2026**, **ICML 2026** (
       <a href="https://arxiv.org/abs/2605.31175" target="_blank" rel="noopener">
         <img src="{{ '/static/publication-figures/direct.webp' | relative_url }}" alt="Geometric comparison of stable training and annealing" loading="lazy">
       </a>
-      <figcaption>Figure 1. Annealing suppresses transverse noise while preserving the useful descent signal.</figcaption>
+      <figcaption>Annealing geometry. Transverse noise is suppressed while the useful descent signal is preserved.</figcaption>
     </figure>
     <div class="publication-card__body">
       <div class="publication-card__tags">
@@ -410,7 +415,7 @@ My work has been published at venues including **NeurIPS 2026**, **ICML 2026** (
       <a href="https://aclanthology.org/2026.acl-short.28/" target="_blank" rel="noopener">
         <img src="{{ '/static/publication-figures/dograph.webp' | relative_url }}" alt="PCA projections of domain gradients across training epochs" loading="lazy">
       </a>
-      <figcaption>Figure 1. Domain-specific gradient clusters gradually overlap as training proceeds.</figcaption>
+      <figcaption>Training dynamics. Domain-specific gradient clusters gradually overlap as training proceeds.</figcaption>
     </figure>
     <div class="publication-card__body">
       <div class="publication-card__tags">
@@ -431,7 +436,7 @@ My work has been published at venues including **NeurIPS 2026**, **ICML 2026** (
       <a href="https://aclanthology.org/2023.acl-long.690/" target="_blank" rel="noopener">
         <img src="{{ '/static/publication-figures/hardpt.webp' | relative_url }}" alt="HardPT sample stratification and adaptive contrastive learning architecture" loading="lazy">
       </a>
-      <figcaption>Figure 1. HardPT separates easy, hard, and misleading samples, then constructs contrastive supervision.</figcaption>
+      <figcaption>Method overview. HardPT separates easy, hard, and misleading samples, then constructs contrastive supervision.</figcaption>
     </figure>
     <div class="publication-card__body">
       <div class="publication-card__tags">
@@ -536,7 +541,7 @@ My work has been published at venues including **NeurIPS 2026**, **ICML 2026** (
       <a href="https://aclanthology.org/2026.findings-acl.1198/" target="_blank" rel="noopener">
         <img src="{{ '/static/publication-figures/bizcompass.webp' | relative_url }}" alt="BizCompass benchmark construction pipeline" loading="lazy">
       </a>
-      <figcaption>Figure 1. BizCompass turns business documents into validated, high-quality reasoning questions.</figcaption>
+      <figcaption>Benchmark construction. BizCompass turns business documents into validated, high-quality reasoning questions.</figcaption>
     </figure>
     <div class="publication-card__body">
       <div class="publication-card__tags">
@@ -558,7 +563,7 @@ My work has been published at venues including **NeurIPS 2026**, **ICML 2026** (
       <a href="https://aclanthology.org/2025.findings-acl.489/" target="_blank" rel="noopener">
         <img src="{{ '/static/publication-figures/finripple.webp' | relative_url }}" alt="FinRipple knowledge graph construction, injection, and market alignment framework" loading="lazy">
       </a>
-      <figcaption>Figure 2. FinRipple connects time-varying knowledge graphs, instruction tuning, and market alignment.</figcaption>
+      <figcaption>Framework overview. FinRipple connects time-varying knowledge graphs, instruction tuning, and market alignment.</figcaption>
     </figure>
     <div class="publication-card__body">
       <div class="publication-card__tags">
@@ -580,7 +585,7 @@ My work has been published at venues including **NeurIPS 2026**, **ICML 2026** (
       <a href="https://arxiv.org/abs/2608.04828" target="_blank" rel="noopener">
         <img src="{{ '/static/publication-figures/skilluse.webp' | relative_url }}" alt="Composition and domain coverage of the Skill-Use benchmark" loading="lazy">
       </a>
-      <figcaption>Figure 1. Skill-Use covers 79 skills across nine domains with rubric-based agent evaluation.</figcaption>
+      <figcaption>Benchmark composition. Skill-Use covers 79 skills across nine domains with rubric-based agent evaluation.</figcaption>
     </figure>
     <div class="publication-card__body">
       <div class="publication-card__tags">

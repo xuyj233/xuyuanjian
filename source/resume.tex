@@ -3,20 +3,45 @@
 % !TeX spellcheck = en_US
 
 \documentclass{resume}
-
 \usepackage{zh_CN-Adobefonts_external}
 \usepackage{linespacing_fix}
-\usepackage{cite}
-\usepackage{comment}
 \usepackage[colorlinks,linkcolor=blue]{hyperref}
 \usepackage[Chinese]{languageSelection}
-\usepackage[color=blue]{notePlus}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{graphicx}
+
+\definecolor{published}{RGB}{0, 0, 139}
+\definecolor{accepted}{RGB}{0, 100, 0}
+\definecolor{target}{RGB}{0, 70, 160}
+\definecolor{darkred}{RGB}{200, 0, 0}
+\definecolor{lightred}{RGB}{255, 230, 230}
+\definecolor{lightblue}{RGB}{225, 238, 255}
+\newcommand{\confbox}[1]{\colorbox{lightred}{\textcolor{darkred}{\textbf{#1}}}}
+\newcommand{\targetbox}[1]{\colorbox{lightblue}{\textcolor{target}{\textbf{#1}}}}
+\definecolor{lightgreen}{RGB}{226, 244, 230}
+\newcommand{\reviewbox}[1]{\colorbox{lightgreen}{\textcolor{accepted}{\textbf{#1}}}}
+\newcommand{\trophy}{\raisebox{-0.18em}{\includegraphics[height=1em]{icons/trophy.png}}}
+\newcommand{\companylogo}[1]{\raisebox{-0.15em}{\includegraphics[height=1.1em]{#1}}}
+
+\renewcommand{\info}[4]{
+  \centerline{\sffamily\normalsize{\ {#1}}
+    \ifthenelse{\isempty{#2}}%
+      { }
+      {\textperiodcentered\ \ {#2} }
+    \ifthenelse{\isempty{#3}}%
+      { }
+      {\textperiodcentered\ \ {#3} }
+    \ifthenelse{\isempty{#4}}%
+      { }
+      {\textperiodcentered\ \ {#4} }
+  }
+  \vspace{0.7ex}
+}
 
 \begin{document}
-
 \pagenumbering{gobble}
 
-% 姓名
 \CN{
   \name{Xu Yuanjian(徐元健)}
 }
@@ -24,9 +49,9 @@
   \name{Jianhong Fang}
 }
 
-% 联系方式 (必须写四个参数，即使为空)
 \CN{
-  \info{phone: (+86) 17637303503}{email: xuyuanjian233@gmail.com}{}{}
+  \centerline{\textbf{Tencent | MSRA | THU | HKUST | PKU | Nankai}}
+  \info{phone: (+86) 17637303503}{email: xuyuanjian233@gmail.com}{\href{https://xuyj233.github.io/xuyuanjian/}{homepage}}{}
 }
 \EN{
   \info{mobile: (+86) 1234567890}{email: test@test.test}{}{}
@@ -34,121 +59,132 @@
   \info{Origin: Fortress Besieged}{}{}{}
 }
 
-% 照片 (可选)
-\yourphoto{0.1}
-
-% 教育背景
 \section{EDUCATION}
-\datedsubsection{\textbf{Hong Kong University of Science and Technology}, Ph.D. in Fintech (Candidate)}{2023.09–Present}
-\datedsubsection{\textbf{Peking University}, Master in Computer Science}{2020.09–2023.06}
-\datedsubsection{\textbf{Nankai University}, Bachelor in Computer Science}{2014.09–2018.06}
+\datedsubsection{\companylogo{icons/hkust.png}\ \textbf{Hong Kong University of Science and Technology}, Ph.D. in Fintech}{2023.09--2027.04}
+\datedsubsection{\companylogo{icons/pku.png}\ \textbf{Peking University}, Master in Computer Science}{2020.09–2023.06}
+\datedsubsection{\companylogo{icons/nankai.png}\ \textbf{Nankai University}, Bachelor in Computer Science}{2014.09–2018.06}
 
-% 简介
 \section{A Brief Introduction}
-I am a Ph.D. candidate in Computer Science at the Hong Kong University of Science and Technology, Guangzhou campus.
-My research focuses on \textbf{Artificial Intelligence}, particularly on understanding the mechanisms of \textbf{large language models (LLMs)} and exploring their applications in domains such as finance.
+I am a Ph.D. candidate at the Hong Kong University of Science and Technology, Guangzhou campus, supervised by Prof. Guang Zhang from HKUST-GZ and Dr. Zhong Li from MSRA. My past research has focused on \textbf{sample selection and sample quality assessment across the full LLM training lifecycle}. Recently, I have been exploring two directions:
 
-I have published at venues including \textbf{ACL 2023}, \textbf{ACL 2025}, and \textbf{ICAIF}, with additional manuscripts under review at \textbf{ICLR}, \textbf{ACL Rolling Review (ARR)}, and \textbf{ICASSP}.
-I also serve as a reviewer for leading conferences such as \textbf{NeurIPS}, \textbf{ICLR}, and \textbf{AAAI}.
-
-% 已发表论文
-\CN{
-\section{Published Papers}
-\begin{itemize}\setlength\itemsep{0.8em}
-    \item \myemph{Yuanjian Xu}, Jianing Hao, and Guang Zhang.
-    ``FinRipple: Aligning Large Language Models with Financial Market for Event Ripple Effect Awareness''.
-    In \textbf{Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (ACL 2025)}.
-
-    \item \myemph{Yuanjian Xu}, Qi An, and Zaiqing Nie.
-    ``Hard Sample Aware Prompt-Tuning''.
-    In \textbf{Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (ACL 2023)}.
-
-    \item \myemph{Yuanjian Xu}, Jianing Hao, and Guang Zhang.
-    ``LENS: Large Pre-trained Transformer for Exploring Financial Time Series Regularities''.
-    In \textbf{Proceedings of the ACM International Conference on AI in Finance (ICAIF 2025)}.
+\begin{itemize}[leftmargin=1.5em, itemsep=0.5em]
+  \item \textbf{Multimodal Data Selection:} Studying how data selection strategies should adapt to multimodal corpora with extremely low signal-to-noise ratios.
+  \item \textbf{Specialized Text Data Selection:} Understanding what domain-specific data, such as agentic trajectories and long-context documents, contributes to LLM training, and developing principled criteria for selecting examples that provide useful capabilities and learning signals.
 \end{itemize}
 
-% 在投论文
-\section{Ongoing Papers}
-\begin{itemize}[parsep=0.5ex, itemsep=0.6ex]
-    \item \textbf{Yuanjian Xu}, Jianing Hao, Guang Zhang.
-    ``State Aware Neural Stochastic Differential Equations for Multi-Modal Dynamics.'' 
-    \textbf{Under review at ICLR 2026}.
+My work has been published at leading venues including \textbf{NeurIPS 2026}, \textbf{ICML 2026 ($\times$2)}, \textbf{ACL 2026 ($\times$2)}, \textbf{ACL 2025}, \textbf{ACL 2023}, \textbf{ICASSP 2026}, and \textbf{ACM ICAIF 2025}.
+I also serve as a reviewer for leading conferences such as \textbf{NeurIPS}, \textbf{ICLR}, and \textbf{ICML (\trophy Gold Reviewer Award)}. I was selected for top talent internship programs at \textbf{Tencent Hunyuan}, \textbf{MSRA}, and \textbf{Tsinghua AIR}.
 
-    \item \textbf{Yuanjian Xu}, Jianing Hao, Guang Zhang.
-    ``Mitigating Discretization Bias in Neural Stochastic Differential Equations via Inference-Time Dropout.''
-    \textbf{Under review at ICLR 2026}.
+\vspace{0.5em}
+\CN{
+\section{Selected Publications (Data Strategy)}
 
-    \item \textbf{Yuanjian Xu}, Yuan Shuai, Guang Zhang.
-    ``Hermite Discriminator for Neural SDEs.''
-    \textbf{Under review at ICASSP 2026 (Oral)}.
+\begin{itemize}[leftmargin=*, itemsep=0.6em]
 
-    \item Jianing Hao, \textbf{Yuanjian Xu}, Guang Zhang.
-    ``Latent Diffusion for Event Driven Asset Pricing.''
-    \textbf{Under review at ICASSP 2026}.
+    \item {[\confbox{ICML 2026 (Spotlight \trophy)}]} \textbf{Yuanjian Xu}, et al.
+    ``Towards Efficient LLMs Annealing with Principled Sample Selection.'' \textcolor{published}{\textbf{[CCF A] [CORE A*]}} \quad \textcolor{gray}{@ MSRA\,\companylogo{icons/microsoft.png}}
 
-    \item Jianing Hao, Yuhe Wu, \textbf{Yuanjian Xu}, Guang Zhang.
-    ``BizCompass: Benchmarking the Reasoning Capabilities of LLMs in Business Knowledge and Applications.''
-    \textbf{In preparation for submission to ACL Rolling Review (October 2025 cycle)}.
+    \item {[\confbox{ICML 2026}]} \textbf{Yuanjian Xu}, et al.
+    ``D$^3$: Dynamic Directional Graph-Constrained Data Scheduling for LLM Training.'' \textcolor{published}{\textbf{[CCF A] [CORE A*]}} \quad \textcolor{gray}{@ MSRA\,\companylogo{icons/microsoft.png}}
 
-    \item \textbf{Yuanjian Xu}, Jianing Hao, Guang Zhang,
-    ``DoGraph: Towards Domain-Aware LLM Training with Graph-Guided Weighting.''
-    \textbf{In preparation for submission to ACL Rolling Review (October 2025 cycle)}.
+    \item {[\confbox{ACL 2026}]} \textbf{Yuanjian Xu}, et al.
+    ``Rethinking Data Mixing from the Perspective of Large Language Model.'' \textcolor{published}{\textbf{[CCF A] [CORE A*]}}
+
+    \item {[\confbox{NeurIPS 2026}]} Yuxuan Sun, \textbf{Yuanjian Xu}, et al.
+    ``Rethinking Knowledge Distillation for Diffusion Language Models.'' \textcolor{published}{\textbf{[CCF A] [CORE A*]}} \quad \textcolor{gray}{@ MSRA\,\companylogo{icons/microsoft.png}}
+
+    \item {[\confbox{ACL 2023}]} \textbf{Yuanjian Xu}, et al.
+    ``Hard Sample Aware Prompt-Tuning.'' \textcolor{published}{\textbf{[CCF A] [CORE A*]}}
+
+    \item {[\reviewbox{Under Review @ ACL 2027}]} \textbf{Yuanjian Xu}, et al.
+    ``Data Strategy in Action: Identifying High-Quality Corpora Across the LLM Training Lifecycle.'' \textcolor{published}{\textbf{[CCF A]}}
+
+    \item {[\reviewbox{Under Review @ ICLR 2027}]} \textbf{Yuanjian Xu}, et al.
+    ``CUBE: Benchmarking Sample Reasoning Quality from Internal Geometric Dynamics in LLMs.'' \textcolor{published}{\textbf{[CCF A]}} \quad \textcolor{gray}{@ Tencent Hunyuan\,\companylogo{icons/hunyuan.png}}
+
+    \item {[\reviewbox{Under Review @ ICLR 2027}]} Jinyi Han, Zixiang Di, Zishang Jiang, Ying Liao, Jianing Hao, \textbf{Yuanjian Xu}, and Yanghua Xiao.
+    ``Structured Reasoning for Large Language Models.'' \textcolor{published}{\textbf{[CCF A]}}
+\end{itemize}
+
+\newpage
+\section{Selected Publications (Corpora \& Benchmarks)}
+\begin{itemize}[leftmargin=*, itemsep=0.3em]
+
+    \item {[\confbox{ACL 2026}]} \textbf{Yuanjian Xu}, et al.
+    ``BizCompass: Benchmarking the Reasoning Capabilities of LLMs in Business Knowledge and Applications.'' \textcolor{published}{\textbf{[CCF A] [CORE A*]}}
+
+    \item {[\confbox{ACL 2025}]} \textbf{Yuanjian Xu}, et al.
+    ``FinRipple: Aligning Large Language Models with Financial Market for Event Ripple Effect Awareness.'' \textcolor{published}{\textbf{[CCF A] [CORE A*]}}
+
+    \item {[\reviewbox{Under Review @ ACL 2027}]} Jinyi Han*, \textbf{Yuanjian Xu*}, et al.
+    ``Skill-Use: Can LLMs Actually Use Skills in Agentic Harnesses?'' \textcolor{published}{\textbf{[CCF A]}} \quad \textcolor{gray}{Equal contribution; @ Tencent Hunyuan\,\companylogo{icons/hunyuan.png}}
+
+    \item {[\reviewbox{Under Review @ ACL 2027}]} \textbf{Yuanjian Xu}, et al.
+    ``Can LLMs Stay Robust in Noisy Agentic Environments?'' \textcolor{published}{\textbf{[CCF A]}} \quad \textcolor{gray}{@ Tencent Hunyuan\,\companylogo{icons/hunyuan.png}}
+
+    \item {[\reviewbox{Under Review @ ACL 2027}]} Wei Guo, \textbf{Yuanjian Xu}, et al.
+    ``Bridging Foundational and Agentic Capabilities of LLMs.'' \textcolor{published}{\textbf{[CCF A]}}
+\end{itemize}
+
+\section{Other Papers}
+\begin{itemize}[leftmargin=*, itemsep=0.3em]
+
+    \item {[\confbox{ICASSP 2026 (Oral \trophy)}]} \textbf{Yuanjian Xu}, et al.
+    ``HGAN-SDEs: Learning Neural Stochastic Differential Equations with Hermite-Guided Adversarial Training.'' \textcolor{published}{\textbf{[CCF B] [CORE A]}}
+
+    \item {[\confbox{ICAIF 2025}]} \textbf{Yuanjian Xu}, et al.
+    ``LENS: Large Pre-trained Transformer for Exploring Financial Time Series Regularities.'' \quad (Leading conference for AI in finance)
+
+    \item {[\reviewbox{Under Review @ AAAI 2027}]} \textbf{Yuanjian Xu}, et al.
+    ``Rethinking Neural SDEs under Shifting Data-Generating Processes.'' \textcolor{published}{\textbf{[CCF A]}}
 \end{itemize}
 }
 
-% 科研经历
-\section{Research Experience}
-\datedsubsection{\textbf{Hong Kong University of Science and Technology, Society Hub,} Research Assistant}{2023.04--2023.09}
-\begin{itemize}[parsep=0.5ex]
-  \item Developed asset pricing models based on large-scale patent data.
-\end{itemize}
-
-\datedsubsection{\textbf{Tsinghua University, Institute for AI Industry Research (AIR),} Visiting Student}{2021.04--2022.06}
-\begin{itemize}[parsep=0.5ex]
-  \item Built the large-scale medical knowledge graph \textbf{NutritionKG} with \textbf{Meituan} and \textbf{Zhiyuan}; publicly released in \textnormal{May 2022} at \href{http://health.baai.ac.cn/thudair/}{health.baai.ac.cn/thudair}.
-\end{itemize}
-
-\datedsubsection{\textbf{Peking University}, Supervised by Prof. Xuanming Ni}{2020.09--2021.04}
-\begin{itemize}[parsep=0.5ex]
-  \item Studied probability of informed trading (PIN) and VPIN in collaboration with Huatai Securities.
-  \item Modeled high-frequency financial time series using deep sequential learning models.
-\end{itemize}
-
-\datedsubsection{\textbf{Nankai University}, Supervised by Prof. Jie Liu}{2017.10--2018.06}
-\begin{itemize}[parsep=0.5ex]
-  \item Built a complete object detection system from image annotation to model implementation.
-  \item Graduation thesis received the highest score in cohort.
-\end{itemize}
-
-% 实习经历
 \CN{
   \section{INTERNSHIP EXPERIENCE}
-  \datedsubsection{\textbf{HuaTai Securities}, Finance Engineering Department}{2021.1-2022.3}
+
+  \datedsubsection{\companylogo{icons/hunyuan.png}\ \textbf{Tencent Hunyuan}}{QingYun Program Research Intern | 2026.05--Present}
+
+  \noindent Focused on reasoning and agentic data quality assessment for large language models.
+
+  \datedsubsection{\companylogo{icons/joinquant.png}\ \textbf{Joinquant} (Billion-scale quantitative fund)}{Research Intern | 2026.02--2026.05}
+
+  \noindent Worked under the supervision of PM Ruixiao. Developed tick-level generative and representation models for high-frequency trading. Addressed key challenges including non-equally spaced data and market randomness.
+
+  \datedsubsection{\companylogo{icons/microsoft.png}\ \textbf{Microsoft Research Asia (MSRA)}}{Tomorrow Star Research Intern | 2025.10--2026.02}
+
+  \noindent Worked under the supervision of Dr. Zhong Li. Focused on data selection and training order optimization for large language models. Proposed the D$^3$ and DiReCT methods, \underline{both accepted at ICML 2026}.
+
+  \datedsubsection{\companylogo{icons/tsinghua-air.png}\ \textbf{AIR, Tsinghua University}}{Research Intern | 2022.03--2023.03}
+
+  \noindent Worked under the supervision of Prof. Zaiqing Nie. Contributed to the Meituan Nutrition Knowledge Graph construction. Investigated hard sample problems in NLP and proposed HardPT, \underline{published at ACL 2023}.
 }
 
-% 技能
+\section{Academic Service}
+
+\datedline{\textbf{Reviewer:} ICML (2025, 2026), NeurIPS (2024, 2025, 2026), ICLR (2025, 2026), AAAI 2026, COLM 2026}{}
+
+\datedsubsection{\textbf{Hong Kong University of Science and Technology}, Teaching Assistant, Advanced Statistics}{}
+
 \CN{
-\section{Interests and Skills}
-   \begin{itemize}
-        \item[--] \textit{Machine Learning:} Deep Learning, Reinforcement Learning, Contrastive Learning
-        \item[--] \textit{Models:} CNNs, RNNs, LLMs, Diffusion Models
-        \item[--] \textit{Applications:} Quantitative Investment
-        \item[--] \textit{Programming:} Python (NumPy, Pandas, PyTorch)
-        \item[--] \textit{Languages:} English (TOEFL 103, CET-6)
-    \end{itemize}
+\section{Skills}
+
+\textbf{Machine Learning:} I am well-versed in modern generative models, LLMs, and machine learning.
+
+\textbf{Mathematical Foundation:} I have a relative solid mathematical foundation. During my Ph.D. studies, I passed the qualifying exam in optimization, advanced probability theory, advanced statistics, and stochastic analysis.
+
+\textbf{Financial Theory:} I also have exposure to financial theory, having passed FRM Level 1 and studied advanced microeconomics and advanced asset pricing.
 }
 
-% 奖项
 \CN{
 \section{Honors \& Awards}
-\begin{itemize}[parsep=0.5ex, itemsep=0.6ex]
-  \item Award for Excellent Academic Excellence, Peking University \hfill 2021
-        Certificate No.: H2021000170320
-
-  \item Air Star Plan, Tsinghua University, Institute for AI Industry Research (AIR) \hfill 2021
-
-  \item Full Ph.D. Scholarship, Hong Kong University of Science and Technology \hfill 2023--Present
+\begin{itemize}[parsep=0ex, itemsep=0.2ex]
+  \item \trophy\ ICML Gold Reviewer Award \hfill 2026
+  \item \trophy\ QingYun Program (Top Talent Internship Program), Tencent Hunyuan \hfill 2026
+  \item \trophy\ Tomorrow Star Plan (Top 10\% Internship Program), Microsoft Research Asia \hfill 2025
+  \item \trophy\ Full Ph.D. Scholarship, Hong Kong University of Science and Technology \hfill 2023--Present
+  \item \trophy\ Award for Excellent Academic Excellence, Peking University \hfill 2021
+  \item \trophy\ AIR Star Plan, Tsinghua University \hfill 2021
 \end{itemize}
 }
 

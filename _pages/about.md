@@ -343,34 +343,6 @@ My work has been published at venues including **NeurIPS 2026**, **ICML 2026** (
 .publication-card__links a:hover {
   text-decoration: underline;
 }
-.publication-notes {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 0.75rem;
-  margin: 0.9rem 0 1.7rem;
-}
-.publication-note {
-  padding: 0.9rem 1rem;
-  background: #f8fafc;
-  border: 1px solid #e2e8f0;
-  border-left: 3px solid #93c5fd;
-  border-radius: 10px;
-}
-.publication-note h3 {
-  margin: 0.48rem 0 0.34rem;
-  color: #27364b;
-  font-size: 0.84em;
-  line-height: 1.4;
-}
-.publication-note p {
-  margin: 0;
-  color: #667085;
-  font-size: 0.73em;
-  line-height: 1.5;
-}
-.publication-note .publication-card__links {
-  margin-top: 0.5rem;
-}
 @media (max-width: 760px) {
   .publication-card {
     grid-template-columns: 1fr;
@@ -382,9 +354,6 @@ My work has been published at venues including **NeurIPS 2026**, **ICML 2026** (
   }
   .publication-card__media img {
     max-height: 230px;
-  }
-  .publication-notes {
-    grid-template-columns: 1fr;
   }
 }
 </style>
@@ -514,21 +483,48 @@ My work has been published at venues including **NeurIPS 2026**, **ICML 2026** (
       <p class="publication-card__summary">CUBE evaluates reasoning samples through layerwise geometric dynamics, measuring whether internal trajectories are direct, substantive, and convergent.</p>
     </div>
   </article>
-</div>
 
-<div class="publication-notes" aria-label="Additional selected data strategy publications">
-  <article class="publication-note">
-    <span class="publication-tag publication-tag--published">NeurIPS 2026</span>
-    <h3>Rethinking Knowledge Distillation for Diffusion Language Models</h3>
-    <p>Yuxuan Sun, <strong>Yuanjian Xu</strong>, et al. We study why classical distillation fails for diffusion language models and develop a more effective off-policy and on-policy framework.</p>
-    <div class="publication-card__links">
-      <a href="https://neurips.cc/virtual/2026/poster/152596" target="_blank" rel="noopener"><i class="fas fa-file-alt"></i> Abstract</a>
+  <article class="publication-card">
+    <figure class="publication-card__media">
+      <a href="https://openreview.net/forum?id=RwFzh7uPPD" target="_blank" rel="noopener">
+        <img src="{{ '/static/publication-figures/dllm-kd.webp' | relative_url }}" alt="Two-stage knowledge distillation framework for diffusion language models" loading="lazy">
+      </a>
+      <figcaption>Method overview. Static off-policy distillation is followed by on-policy learning from the student's own diffusion trajectories.</figcaption>
+    </figure>
+    <div class="publication-card__body">
+      <div class="publication-card__tags">
+        <span class="publication-tag publication-tag--published">NeurIPS 2026</span>
+        <span class="publication-tag publication-tag--rank">CCF A · CORE A*</span>
+      </div>
+      <h3>Rethinking Knowledge Distillation for Diffusion Language Models</h3>
+      <p class="publication-card__authors">Yuxuan Sun, <strong>Yuanjian Xu</strong>, et al.</p>
+      <p class="publication-card__summary">We identify the distribution mismatch behind classical distillation for diffusion language models and combine a stable off-policy foundation with on-policy trajectory learning.</p>
+      <div class="publication-card__links">
+        <a href="https://openreview.net/forum?id=RwFzh7uPPD" target="_blank" rel="noopener"><i class="fas fa-file-pdf"></i> Paper</a>
+        <a href="https://neurips.cc/virtual/2026/poster/152596" target="_blank" rel="noopener"><i class="fas fa-file-alt"></i> Abstract</a>
+      </div>
     </div>
   </article>
-  <article class="publication-note">
-    <span class="publication-tag publication-tag--review">Under Review at ICLR 2027</span>
-    <h3>Structured Reasoning for Large Language Models</h3>
-    <p>Jinyi Han, Zixiang Di, Zishang Jiang, Ying Liao, Jianing Hao, <strong>Yuanjian Xu</strong>, Yanghua Xiao. We study quality assessment for structured chain-of-thought supervision.</p>
+
+  <article class="publication-card">
+    <figure class="publication-card__media">
+      <a href="https://arxiv.org/abs/2601.07180" target="_blank" rel="noopener">
+        <img src="{{ '/static/publication-figures/structured-reasoning.webp' | relative_url }}" alt="Structured reasoning training framework with targeted SFT and staged reinforcement learning" loading="lazy">
+      </a>
+      <figcaption>Framework overview. Generation, verification, and revision provide targeted signals for structured reasoning supervision.</figcaption>
+    </figure>
+    <div class="publication-card__body">
+      <div class="publication-card__tags">
+        <span class="publication-tag publication-tag--review">Under Review at ICLR 2027</span>
+        <span class="publication-tag publication-tag--rank">CCF A · CORE A*</span>
+      </div>
+      <h3>Structured Reasoning for Large Language Models</h3>
+      <p class="publication-card__authors">Jinyi Han, Zixiang Di, Zishang Jiang, Ying Liao, Jianing Hao, <strong>Yuanjian Xu</strong>, Yanghua Xiao</p>
+      <p class="publication-card__summary">We structure chain-of-thought trajectories into generation, verification, and revision components to assess reasoning quality and provide targeted supervision.</p>
+      <div class="publication-card__links">
+        <a href="https://arxiv.org/abs/2601.07180" target="_blank" rel="noopener"><i class="fas fa-file-pdf"></i> Earlier Version</a>
+      </div>
+    </div>
   </article>
 </div>
 
@@ -600,18 +596,37 @@ My work has been published at venues including **NeurIPS 2026**, **ICML 2026** (
       </div>
     </div>
   </article>
-</div>
 
-<div class="publication-notes" aria-label="Additional selected benchmark publications">
-  <article class="publication-note">
-    <span class="publication-tag publication-tag--review">Under Review at ACL 2027</span>
-    <h3>Can LLMs Stay Robust in Noisy Agentic Environments?</h3>
-    <p><strong>Yuanjian Xu</strong>, et al. We evaluate how agentic systems behave when observations and interaction signals are noisy.</p>
+  <article class="publication-card">
+    <figure class="publication-card__media">
+      <img src="{{ '/static/publication-figures/noisy-agentic.webp' | relative_url }}" alt="NoiseBench perturbation targets and perturbation types for agentic environments" loading="lazy">
+      <figcaption>Perturbation design. Four interaction targets are crossed with missing, redundant, and incorrect information to create 12 noise families.</figcaption>
+    </figure>
+    <div class="publication-card__body">
+      <div class="publication-card__tags">
+        <span class="publication-tag publication-tag--review">Under Review at ACL 2027</span>
+        <span class="publication-tag publication-tag--rank">CCF A · CORE A*</span>
+      </div>
+      <h3>Can LLMs Stay Robust in Noisy Agentic Environments?</h3>
+      <p class="publication-card__authors"><strong>Yuanjian Xu</strong>, et al. · Tencent Hunyuan</p>
+      <p class="publication-card__summary">NoiseBench evaluates agent robustness across four interaction targets and three perturbation types, revealing whether models recover from missing, redundant, and incorrect information during interaction.</p>
+    </div>
   </article>
-  <article class="publication-note">
-    <span class="publication-tag publication-tag--review">Under Review at ACL 2027</span>
-    <h3>Bridging Foundational and Agentic Capabilities of LLMs</h3>
-    <p>Wei Guo, <strong>Yuanjian Xu</strong>, et al. We study how foundational language capabilities relate to performance on agentic tasks.</p>
+
+  <article class="publication-card">
+    <figure class="publication-card__media">
+      <img src="{{ '/static/publication-figures/bridging-agentic.webp' | relative_url }}" alt="Evaluation pipeline connecting foundational capability profiles with agentic operations and deployment gaps" loading="lazy">
+      <figcaption>Study design. Foundational capability profiles are mapped to controlled agentic operations, deployment gaps, and long-horizon validation.</figcaption>
+    </figure>
+    <div class="publication-card__body">
+      <div class="publication-card__tags">
+        <span class="publication-tag publication-tag--review">Under Review at ACL 2027</span>
+        <span class="publication-tag publication-tag--rank">CCF A · CORE A*</span>
+      </div>
+      <h3>Bridging Foundational and Agentic Capabilities of LLMs</h3>
+      <p class="publication-card__authors">Wei Guo, <strong>Yuanjian Xu</strong>, et al.</p>
+      <p class="publication-card__summary">We profile foundational capabilities and controlled agentic operations separately, then measure where models fail to translate static capabilities into reliable long-horizon behavior.</p>
+    </div>
   </article>
 </div>
 

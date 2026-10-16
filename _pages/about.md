@@ -615,8 +615,8 @@ My work has been published at venues including **NeurIPS 2026**, **ICML 2026** (
 
   <article class="publication-card">
     <figure class="publication-card__media">
-      <img src="{{ '/static/publication-figures/bridging-agentic.webp' | relative_url }}" alt="Evaluation pipeline connecting foundational capability profiles with agentic operations and deployment gaps" loading="lazy">
-      <figcaption>Study design. Foundational capability profiles are mapped to controlled agentic operations, deployment gaps, and long-horizon validation.</figcaption>
+      <img src="{{ '/static/publication-figures/bridging-agentic.webp' | relative_url }}" alt="Framework linking foundational capability profiles, agentic operation profiles, and task outcomes" loading="lazy">
+      <figcaption>Framework overview. Foundational capability profiles are linked to agentic operation profiles and task outcomes.</figcaption>
     </figure>
     <div class="publication-card__body">
       <div class="publication-card__tags">
@@ -625,7 +625,7 @@ My work has been published at venues including **NeurIPS 2026**, **ICML 2026** (
       </div>
       <h3>Bridging Foundational and Agentic Capabilities of LLMs</h3>
       <p class="publication-card__authors">Wei Guo, <strong>Yuanjian Xu</strong>, et al.</p>
-      <p class="publication-card__summary">We profile foundational capabilities and controlled agentic operations separately, then measure where models fail to translate static capabilities into reliable long-horizon behavior.</p>
+      <p class="publication-card__summary">We connect benchmark-derived foundational profiles with trajectory-derived operation profiles, exposing capability realization gaps and improving prediction of agent task outcomes.</p>
     </div>
   </article>
 </div>

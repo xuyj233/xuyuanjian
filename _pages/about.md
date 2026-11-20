@@ -212,7 +212,7 @@ My past research has focused on **sample selection and sample quality assessment
           <div class="stage-paper"><strong>CUBE</strong> · Reasoning quality assessment</div>
         </div>
       </div>
-      <div class="stage-venue">ACL 2023 · ICLR 2027 Under Review</div>
+      <div class="stage-venue">ACL 2023 · ICLR 2027 (All Positive)</div>
     </div>
     <div class="stage-card active">
       <div>
@@ -306,8 +306,13 @@ My work has been published at venues including **NeurIPS 2026**, **ICML 2026** (
   color: #175cd3;
   background: #eaf2ff;
 }
+.publication-tag--positive {
+  color: #067647;
+  background: #e6f7ed;
+}
 .publication-tag--published,
-.publication-tag--review {
+.publication-tag--review,
+.publication-tag--positive {
   font-size: 0.75em;
   font-weight: 800;
 }
@@ -481,6 +486,7 @@ My work has been published at venues including **NeurIPS 2026**, **ICML 2026** (
     <div class="publication-card__body">
       <div class="publication-card__tags">
         <span class="publication-tag publication-tag--review">Under Review at ICLR 2027</span>
+        <span class="publication-tag publication-tag--positive">✓ All Positive Reviews</span>
         <span class="publication-tag publication-tag--rank">CCF A · CORE A*</span>
       </div>
       <h3>CUBE: Benchmarking Sample Reasoning Quality from Internal Geometric Dynamics in LLMs</h3>

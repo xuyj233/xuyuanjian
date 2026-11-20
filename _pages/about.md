@@ -485,7 +485,7 @@ My work has been published at venues including **NeurIPS 2026**, **ICML 2026** (
     </figure>
     <div class="publication-card__body">
       <div class="publication-card__tags">
-        <span class="publication-tag publication-tag--review">Under Review at ICLR 2027</span>
+        <span class="publication-tag publication-tag--review">ICLR 2027</span>
         <span class="publication-tag publication-tag--positive">✓ All Positive Reviews</span>
         <span class="publication-tag publication-tag--rank">CCF A · CORE A*</span>
       </div>
